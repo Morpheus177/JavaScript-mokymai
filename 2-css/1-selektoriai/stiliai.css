@@ -1,0 +1,95 @@
+body 
+	
+
+
+h1 {
+	background: darkgrey
+}
+
+h2 { text transform: uppercase
+	;
+	font-size: 12px;
+}
+li {
+	color: chocolate;
+}
+
+ul {
+	border: 2px solid red;
+}
+ ol {
+	background-color: bisque;
+ }
+
+ #paryskintas {
+    color: red;
+    text-decoration: underline;
+    font-size: 16px;
+}
+
+#kitoks-sarasas {
+    background-color: #8ada68;
+}
+
+.raudona {
+	color:red;
+}
+
+.melyna {
+	color: blue;
+}
+
+.pakreiptas {
+	font-style: italic;
+
+}
+
+.pastorintas {font-weight: bold;}
+
+.paragrafelis {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+.h1,h2,h3{
+	border: left 5px; solid black ;
+}
+
+p,li{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+#paslaugos {
+    background-color: crimson;
+    color: white;
+}
+#paslaugos h2 {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#paslaugos p {
+	text-align: center;
+}
+
+ol li {
+	list-style-type: lower-alpha;
+}
+
+ul li {
+	list-style-type: square;
+}
+
+a{
+	font-size: 20px;
+	background-color: bisque;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #eec899;
+}

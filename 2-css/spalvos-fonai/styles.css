@@ -1,0 +1,123 @@
+<body>
+	background: orange;
+
+h1 {
+	background-color: darkcyan;
+
+}
+
+.fonas-raudonas {
+	background-color: red;
+}
+ .fonas-melynas {
+	background-color: royalblue;
+ }
+
+ h1 {
+    background-color: darkcyan;
+    color: white;
+}
+
+.fonas-raudonas {
+    background-color: red;
+}
+
+.fonas-melynas {
+    background-color: royalblue;
+}
+
+
+#pirmas {
+	background-color: rgba(rgb(237, 226, 226), green, blue, alpha);
+}
+
+#antras {
+	background-color: rgba(rgb(43, 230, 214), green, blue, alpha);
+}
+
+#antras {
+    background-color: beige;
+}
+
+#antras h2 {
+    background-color: cadetblue;
+    
+}
+
+
+#trecias {
+	background-color: blue
+
+}
+
+#trecias {
+    background-color: cornflowerblue;
+}
+
+#trecias h2 {
+    background: black;
+    color: white;
+}
+
+#trecias p {
+    color: white;
+}
+
+#trecias a {
+    background: red;
+    color: white;
+}
+
+#ketvirtas {
+    background-image: url(images/image\ 2.jpg);top:
+    background-size: cover;
+    background-position:center;
+
+    #penktas{
+        background-image: url(images/image\ 1.jpg);top
+
+        
+    }
+
+
+    #penktas {
+        background: url('images/foto2.jpg')top: ;
+    }
+}
+
+
+.foto-blokas {
+    background-color: #f8f8f8;
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+}
+
+.pirmas-foto {
+    background: url('images/image\ 1.jpg');
+    background-size: cover;
+
+
+.antras-foto {
+    background: url('images/image\ 2.jpg');
+    background-size: cover;
+}
+
+.foto-su-img {
+    border: 1px solid red;
+    width: fit-content;
+}
+
+.foto-su-img img {
+    width: 100px;
+}
+.foto-su-img {
+    border: 1px solid red;
+    width: fit-content;
+}
+
+.foto-su-img img {
+    width: 100px;
+    display: block;
+}
+

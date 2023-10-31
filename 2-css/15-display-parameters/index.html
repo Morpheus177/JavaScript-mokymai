@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display parametras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="pirmas">
+        <h1>Pirma</h1>
+        <h2>Antra</h2>
+    </div>
+
+    <div id="antras">
+        <form>
+            <!-- input*3 -->
+            <input type="text" placeholder="Vardas">
+            <input type="password" placeholder="Slaptažodis">
+            <input type="submit" value="Prisijungti">
+        </form>
+    </div>
+
+    <!-- #navigacija>(.brand>a[href=#]{Puslapis})+(ul.nuorodos>li*5.nuoroda>a[href=#]{Nuoroda $}) -->
+    <div id="navigacija">
+        <div class="brand">
+            <a href="#">Puslapis</a>
+        </div>
+        <ul class="nuorodos">
+            <li class="nuoroda">
+                <a href="#">Nuoroda 1</a>
+            </li>
+            <li class="nuoroda">
+                <a href="#">Nuoroda 2</a>
+            </li>
+            <li class="nuoroda">
+                <a href="#">Nuoroda 3</a>
+            </li>
+            <li class="nuoroda">
+                <a href="#">Nuoroda 4</a>
+            </li>
+            <li class="nuoroda">
+                <a href="#">Nuoroda 5</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- #header>h1{Tekstas}+a[href=#]{Mygtukas} -->
+    <div id="header">
+        <h1>Tekstas</h1>
+        <a href="#">Mygtukas</a>
+    </div>
+
+    <!-- #nuotraukos>img*5[src='https://placehold.co/200x200'] -->
+    <div id="nuotraukos">
+        <img src="https://placehold.co/200x200" alt="">
+        <img src="https://placehold.co/200x200" alt="">
+        <img src="https://placehold.co/200x200" alt="">
+        <img src="https://placehold.co/200x200" alt="">
+        <img src="https://placehold.co/200x200" alt="">
+    </div>
+
+    <!-- #nuotr-blokas>(.nuotrauka>img[src='https://placehold.co/200x200'])+(.turinys>p>lorem) -->
+    <div id="nuotr-blokas">
+        <div class="nuotrauka">
+            <img src="https://placehold.co/200x300" alt="">
+        </div>
+        <div class="turinys">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse nesciunt ad dolor rerum error maiores maxime amet porro dolorem nulla, recusandae dolores animi sed at fuga dolorum voluptate iusto voluptas?
+            </p>
+        </div>
+    </div>
+
+</body>
+</html>

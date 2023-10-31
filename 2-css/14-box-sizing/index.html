@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box sizing</title>
+    <style>
+        body {
+            background: #6dd344;
+        }
+
+        h2, p {
+            margin: 0;
+        }
+
+        .blokas {
+            background: white;
+            margin: 50px auto;
+        }
+
+        #blokas-1 {
+            width: 300px;
+            padding: 30px;
+        }
+
+        #blokas-2 {
+            width: 300px;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- .blokas*2#blokas-$>h2{Antraste}+p>lorem -->
+
+    <div class="blokas" id="blokas-1">
+        <h2>Antraste</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore ratione blanditiis repellendus amet! Aliquid laboriosam labore ducimus repudiandae sapiente eum hic, consectetur doloremque fugit possimus praesentium accusamus cum, sint aperiam?
+        </p>
+    </div>
+
+    <div class="blokas" id="blokas-2">
+        <h2>Antraste</h2>
+        <p>
+            Eum, dolorem? Reprehenderit porro deleniti blanditiis, voluptatem dolores temporibus perspiciatis id odit optio doloremque tenetur laborum animi excepturi atque? Illum quibusdam architecto culpa sed quia quae ipsam mollitia ea saepe?
+        </p>
+    </div>
+    
+</body>
+</html>

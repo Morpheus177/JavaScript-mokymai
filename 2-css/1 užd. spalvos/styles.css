@@ -1,0 +1,83 @@
+body {
+	background-color:azure;}
+
+	body 
+
+
+		
+	
+	h1 { 
+	   
+	    
+		background-color:black;
+		color: white;}
+		
+
+
+	
+	
+	h2 {
+		background-color:blue;
+		color: white;
+	}
+	p{background-color: white;
+	color: black;}p
+
+	skaityti daugiau { color: red;}
+	.skaityti daugiau {
+		background: rgba(rgb(212, 170, 151), green, blue, alpha);
+	}
+
+	.pakreiptas {
+		font-style: italic;
+	}
+	
+	.pastorintas {
+		font-weight: bold;
+	}
+	
+	Paslauga1{skai
+		font-size: 20px;
+		font-weight: bold;
+		color: green;
+	}
+	
+	h1, h2, h3 {
+		border-left: px solid black;
+	}
+	
+	p, li {
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	
+	
+	
+	
+	
+	#paslaugos p {
+		text-align: center;
+	}
+	
+	.blokas {
+		background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+		url('fonas.jpg');
+	}
+
+Kazimieras Šimkevičius  to  Everyone 9:06 AM
+o jei css file parasai tokia eilute, kodel neveike?
+taip
+
+
+<hr>
+<div class="linija"></div>
+.linija {
+width: 80px;
+height: 2px;
+background: grey;
+}
+
+.blokas {
+	background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+	url('fonas.jpg');
+}

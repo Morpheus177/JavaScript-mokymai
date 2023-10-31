@@ -1,4 +1,4 @@
-<body>
+ <body>
 	background: orange;
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 .fonas-melynas {
     background-color: royalblue;
 }
-
+.fonas-raudonas{}
 
 #pirmas {
 	background-color: rgba(rgb(237, 226, 226), green, blue, alpha);

@@ -1,0 +1,83 @@
+/* Style for the div blocks */
+#first {
+  background-color:white; /* Example background color */
+  color:black; /* Text color */
+  padding: 10px; /* Padding to create space around text */
+}
+
+#second {
+  background-color:white; /* Example background color */
+  color:black; /* Text color */
+  padding: 10px; /* Padding to create space around text */
+}
+
+#third {
+  background-color: white /* Example background color */
+  color: black; /* Text color */
+  padding: 10px; /* Padding to create space around text */
+}
+
+#fourth {
+  background-color: white; /* Example background color */
+  color: black; /* Text color */
+  padding: 10px; /* Padding to create space around text */
+}
+
+#fifth {
+  background-color: white; /* Example background color */
+  color: black; /* Text color */
+  padding: 10px; /* Padding to create space around text */
+}
+/* Apply a green background color to the entire page */
+body {
+  background-color: #879887; /* Green background color */
+}
+
+/* Style for the div blocks */
+div {
+  background-color: #fff; /* White background color for div blocks */
+  max-width: 80%;
+  margin: 5em auto; /* Top and bottom margin 5em, sides auto */
+  padding: 20px; /* Optional: Add padding to create space within the div */
+  color: #000; /* Text color inside the div (black by default) */
+}
+#first {
+border: 12px solid #FF5733; /* 12px solid border with the desired color */
+box-shadow: 5px 5px 15px black; /* 5px x-offset, 5px y-offset, 15px blur, black color */
+
+}
+#second {
+  padding: 5em; /* 5em padding on all sides */
+  border-radius: 150px; /* Uniform border rounding applied to all sides */
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); /* 0 x-offset, 0 y-offset, 50px blur, rgba color */
+  
+}
+
+#third {
+  padding: 5em 0; /* 5em padding on top and bottom, 0 on sides */
+  border-bottom: 10px solid #33FF57; /* 10px solid border at the bottom with the desired color */
+  border-right: 15px dashed #FF5733; /* 15px dashed border on the right with the desired color */
+}
+
+#fourth {
+  padding: 0 5em 1em; /* 0 on top, 5em on sides, 1em on the bottom */
+  border-top-left-radius: 20px; /* 20px border rounding for the top left corner */
+  border-bottom-right-radius: 50px; /* 50px border rounding for the bottom right corner */
+}
+
+#fifth {
+  padding:
+   0 0 5em; /* 5em padding on the bottom, 0 on all other sides */
+   border-left: 10px dashed #5733FF; /* 10px dashed left border with the desired color */
+}
+/* Apply specific border styles and roundings to individual div blocks */
+
+/* Apply specific box shadows to individual div blocks */
+#first {
+  #first {
+}
+
+  #second {
+}
+
+

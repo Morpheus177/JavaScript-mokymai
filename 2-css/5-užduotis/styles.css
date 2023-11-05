@@ -1,0 +1,160 @@
+
+
+
+body {
+    background-color: #f2e9d8; 
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+table {
+    background-image: url('paveiksliukai/pexels-.jpeg'); 
+    background-size: cover; 
+    background-attachment: fixed; 
+}
+td{background-color: rgba(255, 255, 255, 0.6);}
+
+
+
+td.cells {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white; 
+}
+
+
+#first-paragraph {
+    color: grey; 
+}
+
+
+a {
+    color: #ed0a3f; 
+    text-decoration: none; 
+}
+
+
+a:hover {
+    color: #2d383a;
+}
+
+#first-paragraph {
+    color: grey;
+}
+
+.cells {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+h2{color: aquamarine;}
+
+a {
+    color: selected; 
+    text-decoration: none; 
+}
+
+
+a:hover {
+    color: #2d383a; 
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#first-paragraph {
+    color: grey;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+p {
+    text-align: justify;
+}
+
+
+#first-paragraph {
+    color: grey;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+p {
+    text-align: justify;
+}
+
+#first-paragraph {
+    color: grey;
+    font-size: 1.5em;
+    text-align: right;
+    font-family: Verdana, Geneva, sans-serif;
+    font-style: italic;
+}
+
+
+a {
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+table {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+
+li {
+    text-transform: lowercase;
+}
+
+img {
+    height: 200px;
+}
+
+
+table {
+    width: 500px;
+    height: 200px;
+}
+
+
+table, td {
+    border: 2px solid red;
+    border-collapse: collapse;
+}
+
+
+#first-table td {
+    vertical-align: top;
+}
+ul li {
+    list-style-type: square;
+}
+
+
+ol li {
+    list-style-type: upper-roman;
+
+	.saraso-elementai {
+		list-style-type: none;
+		border-bottom: 2px solid silver;
+	}

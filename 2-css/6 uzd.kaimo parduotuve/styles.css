@@ -1,0 +1,40 @@
+/* Apply a background color to the body element */
+body {
+    background-color: #f2e9d8; /* You can use your preferred color */
+}
+
+/* Apply background color to all h2 elements */
+h2 {
+    background-color: rgba(0, 0, 0, 0.2);
+	font-family: Roboto;
+font-size: 20px;
+font-weight: 900;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+/* Style the paragraph text within h2 elements */
+ p {
+    margin-top: 0;
+	font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+/* Add additional styling for the entire page, including margins and padding */
+body, h1, p {
+    margin: 20px;
+    padding: 10px;
+}
+
+/* Style the gallery section (assuming you have image elements) */
+h2 + p + h2 {
+    /* Add styles for your image gallery section here */
+}

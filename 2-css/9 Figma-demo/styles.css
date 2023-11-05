@@ -1,13 +1,23 @@
 body {
-	/* background-color: orange; */
-	background-image: url('fonas.jpg');
+    /* background: orange; */
+    background-image: url('fonas.jpg');
+    background-size: cover;
+    background-position: top center;
 }
 
 .turinys {
-	background: rgba(rgb(212, 170, 151), green, blue, alpha);
-	 width:100%;
-	 max-width:651px;
-	 height: 348px;
+    background: rgba(255, 255, 255, 0.5);
+
+    width: 651px;
+
+    /* width: 51%; */
+
+    width: 100%;
+    max-width: 651px;
+
+    height: 348px;
+
+    padding: 10px 0;
 }
 
 .turinys h1 {
@@ -19,5 +29,10 @@ body {
     word-wrap: break-word;
 }
 
-.turinys p {}
-
+.turinys p {
+    color: black;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word 
+}

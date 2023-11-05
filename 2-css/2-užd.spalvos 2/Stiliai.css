@@ -1,32 +1,83 @@
-/* Style the container */
-.container {
-	width: 80%; /* Adjust the width as needed */
-	margin: 0 auto; /* Center the container horizontally */
-  }
-  
-  /* Style the child div elements */
-  .container > div {
-	padding: 10px;
-	border: 1px solid #ccc;
-	margin: 5px;
-	text-align: center;
-	background-color: #f0f0f0;
-	font-size: 16px;
-	font-weight: bold;
-  }
-  
-  /* Example individual styles for each child element */
-  #one {
-	background-color: #ff9999;
-  }
-  
-  #two {
-	background-color: #99ff99;
-  }
-  
-  #three {
-	background-color: #9999ff;
-  }
-  
-  /* Add similar styles for the remaining child elements */
-  
+body {
+	background-color:black;}
+
+	body 
+
+
+		
+	
+	h1 { 
+	   
+	    
+		background-color:white;
+		color: black;}
+		
+
+  {
+	background-color: white;color: bisque;}
+	
+	
+	h2 {
+		background-color:darkgrey;
+		color: black;
+
+
+	}
+
+	
+        
+        .block {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            display: inline-block;
+			background-color: white; 
+			
+        }
+
+		
+
+        .block1 {
+            background-color: #dde3e7;
+			color: white;
+        }
+
+        .block2 {
+            background-color: #dde3e7;
+			color: white;
+        }
+
+        .block3 {
+            background-color: #dde3e7;
+			color: white;
+        }
+    
+	p{background-color: rgb(rgb(238, 244, 243), rgb(227, 234, 227), rgb(255, 0, 0));
+	color: rgb(255, 170, 0);}p
+	
+
+
+	
+	.pakreiptas {
+		font-style: italic;
+	}
+	
+	.pastorintas {
+		font-weight: bold;
+	}
+	
+	#Naujiena 1{
+		font-size: 20px;
+		font-weight: bold;
+		color: green;
+	}
+
+	
+	
+	p{background-color:darkseagreen ;}
+	
+	h3{color: red;}
+
+	#Skaityti daugiau{background-color: rgb(153, 51, 51);}
+	
+	

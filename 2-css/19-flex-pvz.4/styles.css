@@ -1,0 +1,92 @@
+/* body {
+    background: orange;
+} */
+
+/* ===========================
+NAVIGACIJA
+=========================== */
+
+nav {
+    background: #222;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+nav ul.nuorodos {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav .nuorodos li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* ===========================
+HEADER
+=========================== */
+
+header {
+    background-color: green;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .turinys {
+    width: 50%;
+}
+
+/* ===========================
+PASLAUGOS
+=========================== */
+
+.paslaugu-skiltis {
+    padding: 30px;
+    background: #d5d5d5;
+}
+
+.paslaugu-skiltis h2 {
+    text-align: center;
+}
+
+.paslaugu-skiltis .paslaugos {
+    display: flex;
+    gap: 20px;
+}
+
+.paslaugu-skiltis .paslaugos .paslauga {
+    background: white;
+    padding: 30px;
+    flex: 1;
+}
+
+/* ===========================
+FOOTER
+=========================== */
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 0;
+}

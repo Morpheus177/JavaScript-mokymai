@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS flex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- nav>(.brand>a[href=#]{Pavadinimas})+(ul.nuorodos>li*4>a[href=#]{Nuoroda$}) -->
+    <nav>
+        <div class="brand">
+            <a href="#">Pavadinimas</a>
+        </div>
+        <ul class="nuorodos">
+            <li><a href="#">Nuoroda1</a></li>
+            <li><a href="#">Nuoroda2</a></li>
+            <li><a href="#">Nuoroda3</a></li>
+            <li><a href="#">Nuoroda4</a></li>
+        </ul>
+    </nav>
+
+    <!-- header>.turinys>h1{Puslapis}+p>lorem10 -->
+    <header>
+        <div class="turinys">
+            <h1>Puslapis</h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, provident?
+            </p>
+        </div>
+    </header>
+
+    <div class="paslaugu-skiltis">
+        <h2>Paslaugos</h2>
+        <div class="paslaugos">
+            <!-- .paslauga*3>h3{Paslauga $}+p>lorem10^a[href=#]{Placiau} -->
+            <div class="paslauga">
+                <h3>Paslauga 1</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, fuga.
+                </p>
+                <a href="#">Placiau</a>
+            </div>
+            <div class="paslauga">
+                <h3>Paslauga 2</h3>
+                <p>
+                    Error similique recusandae quidem quam tempore fugit, eius dolor rerum.
+                </p>
+                <a href="#">Placiau</a>
+            </div>
+            <div class="paslauga">
+                <h3>Paslauga 3</h3>
+                <p>
+                    Vel cupiditate ducimus illum, saepe blanditiis sit. Numquam, soluta laborum.
+                </p>
+                <a href="#">Placiau</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer>p*3>lorem3 -->
+    <footer>
+        <p>
+            Lorem, ipsum dolor.
+        </p>
+        <p>
+            Eaque, accusantium adipisci.
+        </p>
+        <p>
+            Quasi, ut temporibus.
+        </p>
+    </footer>
+    
+</body>
+</html>

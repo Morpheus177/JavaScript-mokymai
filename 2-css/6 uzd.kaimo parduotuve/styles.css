@@ -1,40 +1,85 @@
-/* Apply a background color to the body element */
+
 body {
-    background-color: #f2e9d8; /* You can use your preferred color */
+    background-color: rgb(153, 150, 143); /* You can use your preferred color */
 }
 
-/* Apply background color to all h2 elements */
-h2 {
-    background-color: rgba(0, 0, 0, 0.2);
-	font-family: Roboto;
-font-size: 20px;
+
+h1 {
+    background: #fff;;
+	color: #2222222;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
 font-weight: 900;
-line-height: 23px;
-letter-spacing: 0em;
-text-align: left;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+word-wrap:break word;
 
 
 }
+h2{
+    color: #222;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal; 
+}
+h3
+{color: #222;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+    margin: top 2%;;
+    padding-bottom: ;
 
-/* Style the paragraph text within h2 elements */
- p {
-    margin-top: 0;
-	font-family: Open Sans;
+}
+#main{
+    width: 100%;
+height:100% ;
+flex-shrink: 0;
+background: #fff;
+}
+
+p{
+    color: #222;
+font-family: Open Sans;
 font-size: 14px;
+font-style: normal;
 font-weight: 400;
-line-height: 19px;
-letter-spacing: 0em;
-text-align: left;
+line-height: normal;
+width: 800px;
+height: 81px;
+flex-shrink: 0;
+ margin-top: auto;
+ letter-spacing: 0em;
+text-align: :left;
 
 }
 
-/* Add additional styling for the entire page, including margins and padding */
+#galerija{
+    width: 100%;
+height: 300px;
+flex-shrink: 0;
+background: #fff;
+}
+img{
+    width: 200px;
+height: 200px;
+flex-shrink: 0;
+object-fit: cover;
+
+}
+
+
+
 body, h1, p {
-    margin: 20px;
-    padding: 10px;
+    margin: px;
+    padding: px;
 }
 
-/* Style the gallery section (assuming you have image elements) */
-h2 + p + h2 {
-    /* Add styles for your image gallery section here */
-}
+

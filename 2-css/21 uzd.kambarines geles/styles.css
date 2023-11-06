@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 4rem 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.gallery {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.item {
+  max-width: 376px;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.15);
+  /* border: 1px solid transparent; */
+}
+
+.item:hover {
+  border: 1px solid #7d9458;
+  margin: -1px;
+}
+
+.item:hover a {
+  background-color: #84ad40;
+  padding: 12px 2rem;
+  color: white;
+}
+
+.item img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.9rem 0.9rem 0 0;
+}
+
+.item-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features a {
+  border: 1px solid #84ad40;
+  padding: 12px 2rem;
+  color: #84ad40;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  align-self: center;
+}
+
+.colors {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.colors p {
+  color: #7d9458;
+  font-size: 14px;
+}
+
+.color-selection {
+  display: flex;
+  gap: 5px;
+}
+
+.color {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 99px;
+}
+
+.black {
+  background-color: #39362e;
+}
+
+.pink {
+  background-color: #f3a195;
+}
+
+.gray {
+  background-color: #efeae6;
+}
+
+.sand {
+  background-color: #c38364;
+}
+
+.image {
+  background-image: url("Responsive užduotys/photo.png");
+  width: 100%;
+  height: 430px;
+  border-radius: 1rem 1rem 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .item {
+    max-width: 347px;
+  }
+
+  .gallery {
+    flex-wrap: wrap;
+  }
+}

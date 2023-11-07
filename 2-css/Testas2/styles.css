@@ -1,0 +1,63 @@
+/* Add this CSS to your styles.css file */
+
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .person-card {
+	position: relative; /* Make the container relative */
+	border: 1px solid #ccc;
+	width: 100px;
+	margin: 10px;
+  }
+  
+  .person-image {
+	position: ; /* Make the image absolute */
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+  }
+  
+  .person-image img {
+	max-width: %;
+	height: auto;
+  }
+  
+  .name {
+	background: #3498db;
+	color: #fff;
+	padding: 5px;
+	border-radius: 5px;
+	font-weight: bold;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+  }
+  
+  .person-info {
+	padding: 10px;
+  }
+  
+  h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+  }
+  
+  p {
+	font-size: 16px;
+	margin: 5px 0;
+  }
+  
+  

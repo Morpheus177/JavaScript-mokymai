@@ -1,0 +1,153 @@
+
+body, h1, h2, h3, h4, p {
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Set a background color for the entire page */
+  body {
+	background-color: #f2f2f2;
+	font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  #blokas1 {
+	background-color: #3498db;
+	text-align: center;
+	padding: px;
+	width: Fixed (49%)
+    height: hug (70)
+    padding: 16px, 160px, 16px, 160px:
+	flex 5;
+  
+  }
+
+  
+  #blokas1 h2 {
+	color: #fff;
+	font-size: 10px;
+	margin: 10px;
+	flex: 1;
+  }
+  
+  #blokas1 img {
+	max-width: 100px;
+  }
+  
+  #blokas2 {
+	padding: 20px;
+  }
+  
+  h1 {
+	font-size: 36px;
+  }
+  
+  h2 {
+	font-size: 24px;
+	margin: 10px 0;
+  }
+  
+  .stulpas {
+	display: flex;
+	flex-wrap: wrap;
+  }
+  
+  .stulpelis {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	flex: 1;
+  }
+  
+  .foto1, .foto2, .foto3 {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  .linija {
+	background-color: #3498db;
+	height: 3px;
+	margin: 10px auto;
+	width: 50px;
+  }
+  
+  h3 {
+	font-size: 24px;
+	margin: 10px 0;
+  }
+  
+  p {
+	font-size: 18px;
+	margin: 10px 0;
+  }
+  
+  h4 {
+	font-size: 16px;
+	color: #3498db;
+	text-decoration: underline;
+	cursor: pointer;
+  }
+  
+  /* Style links */
+  a {
+	color: #3498db;
+	text-decoration: none;
+  }
+  
+  /* Change link color on hover */
+  a:hover {
+	color: #23689b;
+  }
+  /* Add this CSS to your styles.css file */
+
+/* Style the three columns */
+.stulpas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  }
+  
+  .stulpelis {
+	flex: 1;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+	max-width: calc(33.33% - 30px);
+	box-sizing: border-box; /* To account for margin and padding */
+  }
+  
+  .foto1, .foto2, .foto3 {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  .linija {
+	background-color: #3498db;
+	height: 3px;
+	margin: 10px auto;
+	width: 50px;
+  }
+  
+  h3 {
+	font-size: 24px;
+	margin: 10px 0;
+  }
+  
+  p {
+	font-size: 18px;
+	margin: 10px 0;
+  }
+  
+  h4 {
+	font-size: 16px;
+	color: #3498db;
+	text-decoration: underline;
+	cursor: pointer;
+  }
+  

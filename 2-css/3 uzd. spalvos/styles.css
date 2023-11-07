@@ -1,8 +1,11 @@
 .bullet-list {
-    list-style-type: disc; /* Use disc style for bullet points (•) */
-    padding-left: 20px;
-background-color: aquamarine;
-color: brown;}
+  list-style-type: disc; /* Use disc style for bullet points (•) */
+  padding-left: 20px;
+  background-color: aquamarine;
+  color: brown;
+}
 
-	h2{background-color: bisque;
-	color: blue;}
+h2 {
+  background-color: bisque;
+  color: blue;
+}

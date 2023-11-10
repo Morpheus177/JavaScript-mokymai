@@ -1,0 +1,28 @@
+.navigacija {
+    background-color: rgba(34, 34, 34, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    height: 60px;
+    box-sizing: border-box;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    /* arba vietoj right: width: 100%; */
+}
+.navigacija a {
+    color: white;
+    text-decoration: none;
+}
+.navigacija .nuorodos {
+    margin: 0;
+    padding: 0;
+}
+.navigacija .nuorodos li {
+    display: inline-block;
+}
+.tekstas {
+    padding-top: 60px;

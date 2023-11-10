@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+  }
+  
+  .outer-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex: auto;
+    position: relative ;
+   
+    align-content: flex-end ;
+    
+  }
+.logo{}
+  
+  .card-container {
+    width: 600px;
+    margin: 40px;
+    background: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+  
+   
+  }
+  
+  .card-image {
+    background-position: 100px;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  
+  
+  .card-content {
+    padding: 15px;
+  }
+  
+  .event-type {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .event-title {
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
+  
+  .rating-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .rating-icons div {
+    width: 30px;
+    height: 30px;
+    background: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .rating-icons div:hover {
+    background: #ccc;
+  }
+  
+  .special-card {
+    border: 3px solid #3E7FE1;
+    box-shadow: 8px 13px 23px 9px rgba(62, 127, 225, 0.3);
+  }
+  
+  /* Add any additional styles for the special card here */
+  

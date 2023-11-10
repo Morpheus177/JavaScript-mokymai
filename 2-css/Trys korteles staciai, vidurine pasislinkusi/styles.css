@@ -1,0 +1,20 @@
+#antras {
+    background-color: bisque;
+    padding: 50px;
+}
+#antras .blokelis {
+    background: white;
+    margin: 20px auto;
+    width: 200px;
+}
+#antras .nr1 {
+    position: relative;
+    left: 15px;
+}
+#antras .nr2 {
+    position: relative;
+    right: 15px;
+}
+#antras .nr3 {
+    position: relative;
+    left: 15px;

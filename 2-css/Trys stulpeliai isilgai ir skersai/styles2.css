@@ -1,0 +1,16 @@
+#pirmas {
+    background-color: aquamarine;
+    padding: 50px;
+    display: flex;
+    gap: 20px;
+}
+#pirmas .blokelis {
+    background: white;
+    position: relative;
+}
+#pirmas .antras {
+    top: 15px;
+}
+#pirmas .trecias {
+    top: 30px;
+}

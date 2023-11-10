@@ -1,0 +1,152 @@
+/* Styling for the outermost container */
+div#outer-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #131417;
+}
+
+
+/* Styling for the first inner container */
+div#inner-container {
+  padding-top: 65px;
+  padding-bottom: 66px;
+  padding-left: 72px;
+  padding-right: 72px;
+  left: 350px;
+  top: 106px;
+  position: absolute;
+  background: rgba(11, 11, 12, 0.7);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: %;
+}
+
+/* Styling for the text container */
+div#text-container {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 17px;
+  display: flex;
+}
+
+/* Styling for the heading */
+div#heading {
+  width: 531px;
+  color: white;
+  font-size: 48px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.42px;
+  word-wrap: break-word;
+}
+
+/* Styling for the subheading */
+div#subheading {
+  width: 525px;
+  color: white;
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+/* Styling for the button container */
+div#button-container {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 12px;
+  border: 2px #F17965 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Styling for the button text */
+div#button-text {
+  color: #F17965;
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+/* Styling for the blue circle */
+div#blue-circle {
+  width: 114px;
+  height: 114px;
+  left: 634px;
+  top: 392px;
+  position: absolute;
+  background: #3E7FE1;
+  border-radius: 9999px;
+}
+
+/* Styling for the orange circle */
+div#orange-circle {
+  width: 62px;
+  height: 62px;
+  left: 698px;
+  top: 369px;
+  position: absolute;
+  background: #F0755F;
+  border-radius: 9999px;
+}
+
+/* Styling for the rotated image container */
+div#rotated-image-container {
+  width: 195px;
+  height: 195px;
+  left: 49.01px;
+  top: -3.86px;
+  position: absolute;
+  transform: rotate(20.68deg);
+  transform-origin: 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for the rotated image */
+img#rotated-image {
+  width: 195px;
+  height: 195px;
+  transform: rotate(-11.79deg);
+  transform-origin: 0 0;
+}
+/* Additional styling for the button container to move it to the bottom left */
+div#button-container {
+  position: absolute;
+  bottom: 16px; /* Adjust this value as needed */
+  left: 16px; /* Adjust this value as needed */
+  padding: 8px;
+  border-radius: 12px;
+  border: 2px #F17965 solid;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Styling for the button text */
+div#button-text {
+  color: #F17965;
+  font-size: 15px;
+  font-family: Inter;
+  font-weight: 600;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+
+

@@ -1,0 +1,21 @@
+#pirmas {
+    /* Styles for the container div */
+}
+
+.blokelis {
+    border: 1px solid #ddd; /* Just an example border */
+    padding: 10px; /* Adding some padding for readability */
+    margin-bottom: 15px; /* Creating space between the divs */
+}
+
+.pirmas {
+    background-color: #f0f0f0; /* Example background color for the first div */
+}
+
+.antras {
+    font-style: italic; /* Example italic text for the second div */
+}
+
+.trecias {
+    color: #007bff; /* Example blue text color for the third div */
+}

@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0%;
+}
+a, h1, p {
+    margin: 0;
+}
+.konteineris {
+    
+    
+}
+.blokai {
+
+}
+
+.blokai h1 {
+    color: black;
+    font-size: 128px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 128px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    text-align: center;
+    
+}
+.blokai h2 {
+    color: #E41111;
+    font-size: 128px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 128px;
+    letter-spacing: 0.20px;
+    word-wrap: break-word;
+    text-align: center;
+}
+.blokas-pirmas {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.blokas-antras {
+    background-color: #51CB65;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.blokas-trecias {
+    background-color: #816EF5;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.blokas-ketvirtas {
+    background-color: #EA7B7B;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.blokas-penktas {
+    background-color: #D9D9D9;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.blokas-fixed {
+  
+
+}
+
+.blokai .fixed {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    position: fixed;
+    top: 200px;
+    
+
+    
+}
+.section {
+    background-color: #F5F3F3;
+    padding: 8px;
+    border-radius: 12px;
+    position: fixed;
+    bottom: 5%;
+    right:50%;
+    transform: translate(50%, 5%);
+}
+.section li  {
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+    margin: 4px;
+    
+}
+.section li a {
+    color: #F17965;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 26px;
+    word-wrap: break-word;
+    padding: 8px 16px;
+    border: solid 2px #F17965;
+    border-radius: 12px;
+    text-decoration: none;
+
+    
+}
+
+
+.up {
+    background-image: url(up.svg);
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    
+}
+
+

@@ -1,38 +1,56 @@
-/* Creator */
-.creator {
-    color: #121212;
-    font-size: 128px;
-    font-weight: 700;
-    line-height: 128px;
-    word-wrap: break-word;
-  }
-  
-  /* DESIGN */
-  .design {
-    color: #959393;
-    font-size: 20px;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0.20px;
-    word-wrap: break-word;
-  }
-  
-  /* Active creators in your country */
-  .active-creators {
-    color: #373636;
-    font-size: 20px;
-    font-family: Inter;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0.20px;
-    word-wrap: break-word;
-  }
-  
-  .custom-element {
-    width: 77.052px;
-    height: 73.763px;
-    transform: rotate(18.505deg);
-    flex-shrink: 0;
-  }
-  
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            background: #E2E1E1;
+        }
+
+        .heading {
+            width: 476px;
+            height: 128px;
+            left: 160px;
+            top: 94px;
+            position: absolute;
+            text-align: center;
+            color: #121212;
+            font-size: 128px;
+            font-family: Inter;
+            font-weight: 700;
+            line-height: 128px;
+            word-wrap: break-word;
+        }
+
+        .sub-heading {
+            left: 360px;
+            top: 91px;
+            position: absolute;
+            text-align: center;
+            color: #959393;
+            font-size: 20px;
+            font-family: Inter;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0.20px;
+            word-wrap: break-word;
+        }
+
+        .description {
+            left: 247px;
+            top: 261px;
+            position: absolute;
+            text-align: center;
+            color: #373636;
+            font-size: 20px;
+            font-family: Inter;
+            font-weight: 400;
+            line-height: 22px;
+            letter-spacing: 0.20px;
+            word-wrap: break-word;
+        }
+    </style>

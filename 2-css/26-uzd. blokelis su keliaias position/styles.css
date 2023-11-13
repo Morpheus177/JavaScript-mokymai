@@ -1,70 +1,112 @@
-body{
-    background-color:black:#121212
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Reset some default styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Inter', sans-serif;
-  }
-  
-  .blokas {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f2f2f2;
-  }
-  
-  .antras {
-    text-align: center;
-    background-color: white;
-    padding: 20px;
-    border-radius: 12px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .trecias {
-    padding: 20px;
-  }
-  
-  h1 {
-    font-size: 24px;
-    font-weight: 600;
-    color: #121212;
-  }
-  
-  p {
-    font-size: 16px;
-    font-weight: 400;
-    color: #959393;
-    margin: 20px 0;
-  }
-  
-  a {
-    text-decoration: none;
-    color: #3E7FE1;
-    font-weight: 600;
-    font-size: 16px;
-    display: block;
-    margin-top: 10px;
-  }
-  
-  .logo1,
-  .logo2,
-  .logo3,
-  .logo4 {
-    width: 50px;
-    height: 50px;
-    background-color: #3E7FE1;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 5px;
-  }
-  
+.viewport {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #131417;
+  width: 100%;
+  height: 100vh;
+}
+
+.tekstas {
+  display: flex;
+  padding: 65px 72px 66px 72px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius: 12px;
+  background: rgba(34, 34, 37, 0.70);
+  gap: 17px;
+}
+
+.tekstas h1 {
+  width: 531px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.42px;
+}
+
+.tekstas p {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  width: 525px;
+}
+
+.tekstas a {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 12px;
+  border: 2px solid #F17965;
+  color: #F17965;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.75px;
+  text-decoration: none;
+}
+
+.tekstas a:hover {
+  background: #F79090;
+  color: white;
+}
+
+.img {
+  width: 0;
+  height: 0;
+}
+
+#img1 {
+  position: relative;
+  width: 195px;
+  height: 195px;
+  rotate: calc(11.5deg);
+  flex-shrink: 0;
+  left: -130px;
+  top: -130px;
+}
+
+#img2 {
+  z-index: 1;
+  position: relative;
+  width: 160px;
+  height: 167px;
+  flex-shrink: 0;
+  top: -80px;
+  left: 470px;
+}
+
+#img3 {
+  position: relative;
+  width: 114px;
+  height: 114px;
+  flex-shrink: 0;
+  bottom: 170px;
+  left: 492px;
+}
+
+#img4 {
+  position: relative;
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
+  bottom: 315px;
+  left: 560px;
+}

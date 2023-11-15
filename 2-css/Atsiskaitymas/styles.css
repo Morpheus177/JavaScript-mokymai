@@ -1,0 +1,55 @@
+/* NAVIGACIJA */
+
+
+body{
+    margin: o;
+    padding: 0;
+    background :white ;
+     box-sizing: border-box;
+        }
+    {
+       background colorwidth: 1366px;
+        height: 80px;
+
+       
+               position: relative;
+       
+           }
+   
+   
+
+.navbar ul{
+    list-style: none;
+    background: yellow;
+    margin: o;
+    padding: 0;
+
+}
+
+.navbar li{
+    display: inline-block;
+
+    justify-content: space-between;
+    margin-right: auto;
+    padding-inline-end: ;
+
+}
+.logo{
+     
+        box-sizing: border-box;
+        width: 200;
+        }
+   .logo {
+       color: var(--black, #000000);
+       text-align: left;
+       font: var(--logo, 700 32px/44px 'HindMadurai-Bold', sans-serif);
+       
+               position: relative;
+       
+           }
+           .navbar a{
+            
+           }
+   
+   
+}

@@ -1,0 +1,1756 @@
+.icecream-webpage, .icecream-webpage * {
+    box-sizing: border-box;
+    }
+.icecream-webpage {
+   background: #ffffff;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 0px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       width: 1920px;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.navigation {
+   flex-shrink: 0;
+   width: 1920px;
+    height: 88px;
+   
+           position: static;
+   
+       }
+
+.frame-6 {
+   background: #f95738;
+   padding: 16px 300px 16px 300px;
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           
+           align-items: center;
+   
+           justify-content: space-between;
+   
+           
+       width: 1920px;
+   
+           position: absolute;
+    left: 0px;
+   top: 0px;
+   
+       }
+
+.logo {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           gap: 15px;
+   
+           align-items: center;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.group-1 {
+   flex-shrink: 0;
+   width: 56px;
+    height: 56px;
+   
+           position: relative;
+   
+       overflow: visible;
+   }
+
+.ice-cream-co {
+   color: #ffffff;
+   text-align: left;
+   
+           position: relative;
+   
+       }
+
+.ice-cream-co-span {
+   
+           color: #ffffff;
+   
+           font: 700 24px/100% 'Manrope-Bold', sans-serif;
+   
+           
+           
+       }
+
+.ice-cream-co-span2 {
+   
+           color: #ffffff;
+   
+           font: 700 15px/100% 'Manrope-Bold', sans-serif;
+   
+           
+           
+       }
+
+.nav-menu {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           gap: 36px;
+   
+           align-items: center;
+   
+           justify-content: flex-end;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.frame-7 {
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 8px;
+   
+           align-items: center;
+   
+           justify-content: center;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.home {
+   color: #efbe10;
+   text-align: left;
+   font: 600 20px/24px 'Manrope-SemiBold', sans-serif;
+   
+           position: relative;
+   
+       }
+
+.line-1 {
+   
+   border-style: solid;
+    
+   border-color: #efbe10;
+   
+   border-width: 3px 0 0 0;
+   
+   flex-shrink: 0;
+   width: 65px;
+    height: 0px;
+   
+           position: relative;
+   
+       }
+
+.about {
+   color: #ffffff;
+   text-align: left;
+   font: 600 20px/24px 'Manrope-SemiBold', sans-serif;
+   
+           position: relative;
+   
+       }
+
+.products {
+   color: #ffffff;
+   text-align: left;
+   font: 600 20px/24px 'Manrope-SemiBold', sans-serif;
+   
+           position: relative;
+   
+       }
+
+.blog {
+   color: #ffffff;
+   text-align: left;
+   font: 600 20px/24px 'Manrope-SemiBold', sans-serif;
+   
+           position: relative;
+   
+       }
+
+.contact {
+   color: #ffffff;
+   text-align: left;
+   font: 600 20px/24px 'Manrope-SemiBold', sans-serif;
+   
+           position: relative;
+   
+       }
+
+.header {
+   background: #f95738;
+   flex-shrink: 0;
+   width: 1920px;
+    height: 800px;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.image-2 {
+   background: radial-gradient(closest-side, rgba(249, 87, 56, 0.00) 0%,rgba(249, 87, 56, 1.00) 100%);
+   opacity: 0.800000011920929;
+   width: 950px;
+    height: 800px;
+   
+           position: absolute;
+    left: 970px;
+   top: 0px;
+   
+       }
+
+.scoop-up-happiness-with-every-bite {
+   text-align: left;
+   font: 400 120px/85% 'SigmarOne-Regular', sans-serif;
+   
+           position: absolute;
+    left: calc(50% - 660px);
+   top: calc(50% - 255px);
+   
+       width: 1023px;
+    height: 510px;
+   display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.scoop-up-happiness-with-every-bite-span {
+   
+           color: #ffffff;
+   
+           font: 400 120px/85% 'SigmarOne-Regular', sans-serif;
+   
+           
+           
+       }
+
+.scoop-up-happiness-with-every-bite-span2 {
+   
+           color: #efbe10;
+   
+           font: 400 120px/85% 'SigmarOne-Regular', sans-serif;
+   
+           
+           
+       }
+
+.scoop-up-happiness-with-every-bite-span3 {
+   
+           color: #ffffff;
+   
+           font: 400 120px/85% 'SigmarOne-Regular', sans-serif;
+   
+           
+           
+       }
+
+.gallery-section {
+   flex-shrink: 0;
+   width: 1920px;
+    height: 1373px;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.our-ice-creams {
+   color: #000000;
+   text-align: left;
+   font: 400 48px/57.6px 'SigmarOne-Regular', sans-serif;
+   
+           position: absolute;
+    left: 434px;
+   top: 100px;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.blue-ice-cream-on-the-stick-turned-to-the-right-upscaled-1 {
+   width: 579px;
+    height: 570px;
+   
+           position: absolute;
+    left: 0px;
+   bottom: 0px;
+   
+       }
+
+.gallery {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           
+           align-items: flex-start;
+   
+           justify-content: space-between;
+   
+           
+       width: 1052px;
+   
+           position: absolute;
+    left: calc(50% - 526px);
+   top: 218px;
+   
+       }
+
+.frame-3 {
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 25px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.unsplash-r-e-ev-bp-zf-4-cq {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 340px;
+    height: 357px;
+   
+           position: relative;
+   
+       }
+
+.unsplash-r-e-ev-bp-zf-4-cq2 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 340px;
+    height: 542px;
+   
+           position: relative;
+   
+       }
+
+.frame-4 {
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 25px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.unsplash-r-e-ev-bp-zf-4-cq3 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 340px;
+    height: 523px;
+   
+           position: relative;
+   
+       }
+
+.unsplash-r-e-ev-bp-zf-4-cq4 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 340px;
+    height: 503px;
+   
+           position: relative;
+   
+       }
+
+.frame-5 {
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 25px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.unsplash-r-e-ev-bp-zf-4-cq5 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 340px;
+    height: 268px;
+   
+           position: relative;
+   
+       }
+
+.unsplash-r-e-ev-bp-zf-4-cq6 {
+   border-radius: 20px;
+   flex-shrink: 0;
+   width: 340px;
+    height: 437px;
+   
+           position: relative;
+   
+       }
+
+.products2 {
+   background: #164780;
+   padding: 100px 300px 100px 300px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 60px;
+   
+           align-items: flex-start;
+   
+           justify-content: center;
+   
+           
+       flex-shrink: 0;
+   width: 1920px;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.frame-9 {
+   padding: 0px 0px 0px 140px;
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           gap: 8px;
+   
+           align-items: flex-start;
+   
+           justify-content: center;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.our-products {
+   color: #efbe10;
+   text-align: left;
+   font: 400 48px/57.6px 'SigmarOne-Regular', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.frame-8 {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           gap: 45px;
+   
+           align-items: center;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   width: 1320px;
+   
+           position: relative;
+   
+       }
+
+.caret-circle-right {
+   flex-shrink: 0;
+   width: 80px;
+    height: 80px;
+   
+           position: relative;
+   
+       
+           transform: translate(-80px, 0px);
+   
+       overflow: visible;
+   }
+
+.products3 {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           gap: 34px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.product {
+   border-radius: 40px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           
+           align-items: flex-start;
+   
+           justify-content: flex-end;
+   
+           
+       flex-shrink: 0;
+   width: 334px;
+    height: 505px;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.photo {
+   background: linear-gradient(to left, #ffffff, #ffffff);
+   align-self: stretch;
+   flex: 1;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.info {
+   margin: -50px 0 0 0;
+   background: #ffffff;
+   padding: 0px 11px 0px 11px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 8px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-end;
+   
+           
+       align-self: stretch;
+   flex-shrink: 0;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.text {
+   padding: 80px 32px 32px 32px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 16px;
+   
+           align-items: center;
+   
+           justify-content: center;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.vanilla-ice-cream {
+   color: #000000;
+   text-align: center;
+   font: 400 24px/24px 'SigmarOne-Regular', sans-serif;
+   
+           position: relative;
+   
+       width: 249px;
+   display: flex;
+   
+align-items: center;
+   justify-content: center}
+
+.line-12 {
+   
+   border-style: solid;
+    
+   border-color: #000000;
+   
+   border-width: 3px 0 0 0;
+   
+   flex-shrink: 0;
+   width: 23px;
+    height: 0px;
+   
+           position: relative;
+   
+       }
+
+.creamy-sweet-and-classic-it-s-a-timeless-favorite {
+   color: #000000;
+   text-align: center;
+   font: 500 18px/25px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       width: 227px;
+    height: 76.36px;
+   }
+
+.button {
+   border-radius: 8px;
+   
+   border-style: solid;
+    
+   border-color: #164780;
+   
+   border-width: 2px;
+   
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           gap: 0px;
+   
+           align-items: center;
+   
+           justify-content: center;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.read-more {
+   color: #164780;
+   text-align: center;
+   font: 600 19px 'Manrope-SemiBold', sans-serif;
+   
+           position: relative;
+   
+       width: 159px;
+    height: 50px;
+   display: flex;
+   
+align-items: center;
+   justify-content: center}
+
+.caret-circle-right2 {
+   flex-shrink: 0;
+   width: 80px;
+    height: 80px;
+   
+           position: relative;
+   
+       overflow: visible;
+   }
+
+.about-us {
+   background: #fcf6de;
+   flex-shrink: 0;
+   width: 1920px;
+    height: 649px;
+   
+           position: relative;
+   
+       }
+
+.content {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           
+           align-items: flex-start;
+   
+           justify-content: space-between;
+   
+           
+       width: 1314px;
+   
+           position: absolute;
+    left: calc(50% - 659px);
+   top: 100px;
+   
+       }
+
+.text2 {
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 40px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   max-width: 1000px;
+   
+           position: relative;
+   
+       }
+
+.about-us2 {
+   color: #164780;
+   text-align: left;
+   font: 400 48px/57.6px 'SigmarOne-Regular', sans-serif;
+   
+           position: relative;
+   
+       max-width: 1000px;
+   max-height: 57.6px;
+   display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.at-ice-cream-co-we-re-on-a-mission-to-spread-joy-by-crafting-delicious-out-of-this-world-ice-cream-experiences-our-playful-cartoon-shop-is-the-home-of-scrumptious-flavors-smiling-faces-and-unending-fun {
+   color: #000000;
+   text-align: left;
+   font: 700 32px/41.6px 'Manrope-Bold', sans-serif;
+   
+           position: relative;
+   
+       max-width: 600px;
+   display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.photo2 {
+   border-radius: 40px;
+   opacity: 0.800000011920929;
+   flex-shrink: 0;
+   width: 511px;
+    height: 481px;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.testimonials-section {
+   background: #164780;
+   flex-shrink: 0;
+   width: 1920px;
+    height: 611px;
+   
+           position: relative;
+   
+       }
+
+.happy-girl-v-sign-upscaled-1 {
+   width: 327px;
+    height: 671px;
+   
+           position: absolute;
+    left: 1506px;
+   top: -47px;
+   
+       }
+
+.group-12 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.frame-12 {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           
+           align-items: center;
+   
+           justify-content: space-between;
+   
+           
+       width: 1319px;
+   
+           position: absolute;
+    left: 300px;
+   top: 105px;
+   
+       }
+
+.caret-circle-right3 {
+   flex-shrink: 0;
+   width: 80px;
+    height: 80px;
+   
+           position: relative;
+   
+       
+           transform: translate(-80px, 0px);
+   
+       overflow: visible;
+   }
+
+.testimonials {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           
+           align-items: flex-start;
+   
+           justify-content: space-between;
+   
+           
+       flex-shrink: 0;
+   width: 1052px;
+   
+           position: relative;
+   
+       }
+
+.card {
+   background: #1a5498;
+   border-radius: 20px;
+   padding: 40px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 40px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   width: 320px;
+    height: 400px;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.h-3-d-4-e-23-vr-kz-pnpff-2-fy-r-80-ezc-jpg {
+   border-radius: 100px;
+   flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.tetxt {
+   align-self: stretch;
+   flex: 1;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.message {
+   padding: 0px 0px 130px 0px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 0px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       height: 189px;
+   
+           position: absolute;
+    right: 0px;
+    left: 0px;
+   top: -1px;
+   
+       }
+
+.the-flavors-are-out-of-this-world-i-can-t-get-enough {
+   color: #ffffff;
+   text-align: left;
+   font: 700 20px/30px 'Manrope-Bold', sans-serif;
+   
+           position: relative;
+   
+       max-width: 240px;
+   display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.full-name {
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 0px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       
+           position: absolute;
+    left: -0.3px;
+   top: 209px;
+   
+       }
+
+.samantha-jones {
+   color: #ffffff;
+   text-align: center;
+   font: 500 14px/21px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: center}
+
+.caret-circle-right4 {
+   flex-shrink: 0;
+   width: 80px;
+    height: 80px;
+   
+           position: relative;
+   
+       overflow: visible;
+   }
+
+.blog2 {
+   background: #fcf6de;
+   padding: 100px 460px 100px 460px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 0px;
+   
+           align-items: center;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   width: 1920px;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.frame-11 {
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 40px;
+   
+           align-items: center;
+   
+           justify-content: center;
+   
+           
+       flex-shrink: 0;
+   width: 1052px;
+   
+           position: relative;
+   
+       }
+
+.text3 {
+   padding: 0px 384px 0px 0px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 8px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       align-self: stretch;
+   flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.ice-cream-cone-mo-kup-upscaled-1 {
+   flex-shrink: 0;
+   width: 352.48px;
+    height: 881.2px;
+   
+           position: absolute;
+    left: 111.71px;
+   top: -0.18px;
+   
+       
+       transform-origin: 0 0;
+   
+       transform: rotate(-27.146deg) scale(-1, 1);
+   
+   }
+
+.blog3 {
+   color: #164780;
+   text-align: left;
+   font: 400 48px/57.6px 'SigmarOne-Regular', sans-serif;
+   
+           position: relative;
+   
+       max-width: 480px;
+   max-height: 57.6px;
+   display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.stay-up-to-date-with-our-tasty-adventures-and-learn-amazing-ice-cream-facts-from-the-experts-at-our-whimsical-ice-cream-wonderland-blog {
+   color: #000000;
+   text-align: left;
+   font: 500 20px/30px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       max-width: 480px;
+   display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.blog-posts {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           
+           align-items: flex-start;
+   
+           justify-content: space-between;
+   
+           
+       align-self: stretch;
+   flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.blog-card {
+   background: var(--white-fill, #ffffff);
+   border-radius: 12px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 0px;
+   
+           align-items: center;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       box-shadow: var(--elevation-light-bottom-02-box-shadow,  0px 2px 4px 0px rgba(96, 97, 112, 0.16),  0px 0px 1px 0px rgba(40, 41, 61, 0.04));
+   overflow: hidden;
+   }
+
+.image-badge {
+   flex-shrink: 0;
+   width: 241px;
+    height: 196px;
+   
+           position: relative;
+   
+       }
+
+.image {
+   height: 181px;
+   
+           position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+   top: 0px;
+   
+       overflow: hidden;
+   }
+
+.image2 {
+   
+           position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+   bottom: 0%;
+    top: 0%;
+    height: 100%;
+   
+       }
+
+.overlay {
+   background: linear-gradient(to left, rgba(216, 216, 216, 0.00), rgba(216, 216, 216, 0.00));
+   
+           position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+   bottom: 0%;
+    top: 0%;
+    height: 100%;
+   
+       }
+
+.button2 {
+   width: 32px;
+    height: 32px;
+   
+           position: absolute;
+    right: 16px;
+   top: 164px;
+   
+       }
+
+.background {
+   height: auto;
+   
+           position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+   bottom: 0%;
+    top: 0%;
+    height: 100%;
+   
+       overflow: visible;
+   }
+
+.bookmark-simple {
+   width: 16px;
+    height: 16px;
+   
+           position: absolute;
+    left: calc(50% - 8px);
+   top: calc(50% - 8px);
+   
+       overflow: visible;
+   }
+
+.title {
+   padding: 16px 0px 16px 0px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 4px;
+   
+           align-items: center;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.title2 {
+   color: var(--black-700-black, #121212);
+   text-align: left;
+   font: 600 16px/150% 'Manrope-SemiBold', sans-serif;
+   
+           position: relative;
+   
+       }
+
+.background2 {
+   height: auto;
+   
+           position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+   bottom: 0%;
+    top: 0%;
+    height: 100%;
+   
+       overflow: visible;
+   }
+
+.bookmark-simple2 {
+   width: 16px;
+    height: 16px;
+   
+           position: absolute;
+    left: calc(50% - 8px);
+   top: calc(50% - 8px);
+   
+       overflow: visible;
+   }
+
+.background3 {
+   height: auto;
+   
+           position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+   bottom: 0%;
+    top: 0%;
+    height: 100%;
+   
+       overflow: visible;
+   }
+
+.bookmark-simple3 {
+   width: 16px;
+    height: 16px;
+   
+           position: absolute;
+    left: calc(50% - 8px);
+   top: calc(50% - 8px);
+   
+       overflow: visible;
+   }
+
+.background4 {
+   height: auto;
+   
+           position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+   bottom: 0%;
+    top: 0%;
+    height: 100%;
+   
+       overflow: visible;
+   }
+
+.bookmark-simple4 {
+   width: 16px;
+    height: 16px;
+   
+           position: absolute;
+    left: calc(50% - 8px);
+   top: calc(50% - 8px);
+   
+       overflow: visible;
+   }
+
+.footer {
+   background: #000000;
+   padding: 100px 460px 100px 460px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 80px;
+   
+           align-items: center;
+   
+           justify-content: center;
+   
+           
+       flex-shrink: 0;
+   width: 1920px;
+   
+           position: relative;
+   
+       }
+
+.links-groups {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           gap: 40px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           flex-wrap: wrap;
+   
+       flex-shrink: 0;
+   width: 1000px;
+   max-width: 1000px;
+   
+           position: relative;
+   
+       }
+
+.links-group-1 {
+   padding: 0px 204px 0px 0px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 15px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   width: 300px;
+   
+           position: relative;
+   
+       }
+
+.links {
+   color: #efbe10;
+   text-align: left;
+   font: 700 16px/24px 'Manrope-Bold', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.links2 {
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 10px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.gallery2 {
+   color: #ffffff;
+   text-align: left;
+   font: 500 16px/24px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.testimonials2 {
+   color: #ffffff;
+   text-align: left;
+   font: 500 16px/24px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.blog4 {
+   color: #ffffff;
+   text-align: left;
+   font: 500 16px/24px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.links-group-2 {
+   padding: 0px 238px 0px 0px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 15px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   width: 300px;
+   
+           position: relative;
+   
+       }
+
+.info2 {
+   color: #efbe10;
+   text-align: left;
+   font: 700 16px/24px 'Manrope-Bold', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.about2 {
+   color: #ffffff;
+   text-align: left;
+   font: 500 16px/24px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.contact2 {
+   color: #ffffff;
+   text-align: left;
+   font: 500 16px/24px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.pricing {
+   color: #ffffff;
+   text-align: left;
+   font: 500 16px/24px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.links-group-3 {
+   padding: 0px 224px 0px 0px;
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 15px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   width: 300px;
+   
+           position: relative;
+   
+       }
+
+.connect {
+   color: #efbe10;
+   text-align: left;
+   font: 700 16px/24px 'Manrope-Bold', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.facebook {
+   color: #ffffff;
+   text-align: left;
+   font: 500 16px/24px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.instagram {
+   color: #ffffff;
+   text-align: left;
+   font: 500 16px/24px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.tik-tok {
+   color: #ffffff;
+   text-align: left;
+   font: 500 16px/24px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.copy-and-media {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           
+           align-items: center;
+   
+           justify-content: space-between;
+   
+           
+       flex-shrink: 0;
+   width: 1000px;
+   max-width: 1000px;
+   
+           position: relative;
+   
+       }
+
+.copyright {
+   
+           display: flex;
+   
+           flex-direction: column;
+   
+           gap: 0px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       align-self: stretch;
+   flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+._2023-ice-cream-co-all-rights-reserved {
+   color: #ffffff;
+   text-align: left;
+   font: 500 16px/24px 'Manrope-Medium', sans-serif;
+   
+           position: relative;
+   
+       display: flex;
+   
+align-items: center;
+   justify-content: flex-start}
+
+.social-media {
+   
+           display: flex;
+   
+           flex-direction: row;
+   
+           gap: 10px;
+   
+           align-items: flex-start;
+   
+           justify-content: flex-start;
+   
+           
+       flex-shrink: 0;
+   
+           position: relative;
+   
+       }
+
+.facebook-logo {
+   flex-shrink: 0;
+   width: 20px;
+    height: 20px;
+   
+           position: relative;
+   
+       overflow: visible;
+   }
+
+.instagram-logo {
+   flex-shrink: 0;
+   width: 20px;
+    height: 20px;
+   
+           position: relative;
+   
+       overflow: visible;
+   }
+
+.tiktok-logo {
+   flex-shrink: 0;
+   width: 20px;
+    height: 20px;
+   
+           position: relative;
+   
+       overflow: visible;
+   }
+
+.pseudo {
+   
+   border-style: solid;
+    
+   border-color: rgba(0, 0, 0, 0.05);
+   
+   border-width: 1px 0px 0px 0px;
+   
+   flex-shrink: 0;
+   width: 1920px;
+    height: 435px;
+   
+           position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+   bottom: 0%;
+    top: 0%;
+    height: 100%;
+   
+       }
+
+.chocolate-ice-cream-cone-mo-kup-upscaled-1 {
+   flex-shrink: 0;
+   width: 234.72px;
+    height: 584.45px;
+   
+           position: absolute;
+    left: 1496.78px;
+   top: 2942.64px;
+   
+       
+       transform-origin: 0 0;
+   
+       transform: rotate(-24.638deg) scale(1, 1);
+   
+   }
+

@@ -1,0 +1,332 @@
+h1, h2, h3, h4, h5, h6, p, li, a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+h2 {
+    color: #404445;
+    font-size: 40px;
+    font-weight: 700;
+    word-wrap: break-word;
+    }
+h2.white {
+    color: white;
+}
+
+@media only screen and (max-width: 575px){
+    h2 {
+        color: #404445;
+        font-size: 34px;
+        font-family: Roboto;
+        font-weight: 700;
+        word-wrap: break-word;
+    }
+}
+p.sub-heading {
+    color: #5F6B81;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22.89px;
+    word-wrap: break-word;
+    
+}
+p.sub-heading.white {
+    color: white;
+}
+.btn-primary {
+    background:#43C45F;
+    border: #43C45F;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+
+}
+.btn-primary:hover,
+.btn-primary:active, 
+.btn-primary:focus {
+    background:#50b165;
+    border: #4cb362;
+}
+.btn :{
+    padding: 14px 50px;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+}
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+}
+
+/*===============================
+SKILČIŲ BENDRI STILIAI
+=============================*/
+.page-section {
+    padding: 112px 0;
+}
+
+.page-section .page-section-header-row {
+    text-align: center;
+}
+.page-section .page-section-header-row h2 {
+    margin-bottom: 25px;
+}
+.page-section .page-section-header-row p.sub-heading {
+    width: 100%;
+    max-width: 648px;
+    margin: 0 auto;
+}
+
+/*===============================
+NAVIGACIJOS STILIAI
+=============================*/
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar .navbar-brand {
+    color: #878B9B;
+    font-size: 26px;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:active,
+.navbar .navbar-brand:focus {
+    color: #43C45F;
+}
+.navbar .navbar-toggler {
+    border: none;
+}
+@media only screen and (max-width:991px){
+    .navbar .navbar-nav  {
+        text-align: center;
+    }
+}
+@media only screen and (min-width:992px){
+
+.navbar .navbar-nav .nav-item:not(:first-child) {
+    margin-left: 37px;
+}
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #404445;
+    font-size: 16px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width:991px) {
+    .navbar .navbar-nav .nav-item .nav-link {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+    color: #43C45F;
+    font-weight: 900;
+    
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #43C45F;
+}
+
+/*========================================
+               Header stiliai
+    ======================================
+*/
+.home-page header {
+    background:linear-gradient(rgba(97, 99, 112, 0.5),rgba(97, 99, 112, 0.5)), url(nuotraukos/image.jpg);
+    height: 800px;
+    background-size: cover;
+    background-position:center;
+    text-align: center;
+
+}
+.home-page header .container,
+.home-page header .container .row {
+    height: 100%;
+}
+.home-page header h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 575px){
+    .home-page header h1 {
+        font-size: 54px;
+        line-height:63px ;
+    }
+}
+.home-page header p {
+    color: #D5D7D8;
+    font-size: 26px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+    max-width:681px ;
+    margin: 33px auto 49px;
+    width: 100%;
+}
+@media only screen and (min-width:768px)and (max-width:991px){
+    .home-page .general-information .container #info {
+        margin-bottom: 52px;
+    }
+}
+@media only screen and (min-width:768px){
+    .home-page .general-information .container #info:nth-child(-n+2) {
+        margin-bottom: 52px;
+    }
+}
+
+@media only screen and (max-width:767px){
+    .home-page .general-information #info {
+        margin-bottom: 49px;
+        text-align: center;
+    }
+}
+
+
+.home-page .general-information .container .row {
+    align-items: center;
+}
+.home-page .general-information .container .row h3 {
+    color: #404445;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin-top: 18px;
+    margin-bottom: 10px;
+}
+.home-page .general-information .container .row p {
+    color: #5F6B81;
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 20.35px;
+    word-wrap: break-word;
+    
+}
+
+/*======================
+VIDEO SECTION STILIAI
+=======================*/
+.home-page .video-section {
+    background: #F1F8FF;
+}
+.home-page .video-section .video-col {
+    margin-top: 54px ;
+}
+
+/*====================
+BLOKAS 5
+===================*/
+
+
+.blokas5 .virsus {
+    max-width:672px ;
+}
+.blokas5 .virsus p {
+    color: #404445;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 50.88px;
+    word-wrap: break-word;
+    margin: 28px 0 53px 0;
+    
+}
+.blokas5 .virsus h4 {
+    color: #404445;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 27.98px;
+    word-wrap: break-word;
+}
+
+.blokas5 .apacia {
+    border-top: 1px solid #D8D8D8;
+}
+.blokas5 .apacia .col {
+    margin-top: 52px;
+}
+@media only screen and (max-width: 575px) {
+    .blokas5 .virsus p {
+        font-size: 34px;
+        line-height: 43.24px;
+    }
+}
+
+/*====================
+BLOKAS 6
+===================*/
+.blokas6 {
+    background: #F1F8FF;
+}
+.blokas6 .galerija {
+    text-align: center;
+    max-width: 648px;
+    margin: 0 auto;
+}
+.blokas6 .galerija h2 {
+    color: #404445;
+    font-size: 40px;
+    font-family: Roboto;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-bottom: 25px;
+}
+.blokas6 .galerija p {
+    color: #5F6B81;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22.89px;
+    word-wrap: break-word; 
+    margin-bottom: 69px;
+}
+
+.blokas6 .row img {
+    width: 424px;
+    height: 262px;
+    object-fit: cover;
+}
+.blokas6 .row h4 {
+    color: #404445;
+    font-size: 22px;
+    font-family: Roboto;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin: 33px 0 18px 0;
+}
+.blokas6 .row p {
+    color: #5F6B81;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+@media only screen and (max-width:767px) {
+    .blokas6 .row img {
+        width: 343px;  
+    }
+}

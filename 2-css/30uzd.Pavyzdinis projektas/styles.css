@@ -1,1 +1,1385 @@
+.pradinis-puslapis, .pradinis-puslapis * {
+    box-sizing: border-box;
+    }
+.pradinis-puslapis {
+   background: #f8f8f8;
+   width: 1920px;
+    height: 5536px;
+   
+           position: relative;
+   
+       overflow: hidden;
+   }
+
+.rectangle-1 {
+   background: #ffffff;
+   width: 1920px;
+    height: 120px;
+   
+           position: absolute;
+    left: 0px;
+   top: 0px;
+   
+       }
+
+.rectangle-2 {
+   width: 1920px;
+    height: 880px;
+   
+           position: absolute;
+    left: 0px;
+   top: 120px;
+   
+       }
+
+.rectangle-3 {
+   background: #eb5757;
+   width: 1920px;
+    height: 132px;
+   
+           position: absolute;
+    left: 0px;
+   top: 1000px;
+   
+       }
+
+.festivalis-abc {
+   color: #222222;
+   text-align: left;
+   font: 700 22px 'Raleway-Bold', sans-serif;
+   
+           position: absolute;
+    left: 72px;
+   top: 47px;
+   
+       }
+
+.atlik-jai {
+   color: #222222;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1233px;
+   top: 50px;
+   
+       }
+
+.kaip-rasti {
+   color: #222222;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1365px;
+   top: 50px;
+   
+       }
+
+.galerija {
+   color: #222222;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1515px;
+   top: 50px;
+   
+       }
+
+.bilietai {
+   color: #222222;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1645px;
+   top: 50px;
+   
+       }
+
+.susisiekti {
+   color: #222222;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1768px;
+   top: 50px;
+   
+       }
+
+.festivalis-abc2 {
+   color: #ffffff;
+   text-align: center;
+   font: 700 80px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 639px;
+   top: 392px;
+   
+       }
+
+.atlik-jai2 {
+   color: #222222;
+   text-align: center;
+   font: 700 50px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 832px;
+   top: 1225px;
+   
+       }
+
+.bilietai2 {
+   color: #222222;
+   text-align: center;
+   font: 700 50px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 854px;
+   top: 3698px;
+   
+       }
+
+.prad-ia {
+   color: #eb5757;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1107px;
+   top: 50px;
+   
+       }
+
+.iais-metais-festivalis-abc-vyks-trakuose {
+   color: #ffffff;
+   text-align: center;
+   font: 400 40px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 576px;
+   top: 502px;
+   
+       }
+
+.in-felis-ultricies-vitae-morbi-elementum-hendrerit-lectus-laoreet-gravida-urna-nunc-a-elementum-donec-nisi-vel-scelerisque-dignissim-cursus-auctor-vel-elementum-quis-mi-sed-in-nec-tincidunt-facilisis-dolor-mattis-congue-viverra-fermentum-ipsum {
+   color: #ffffff;
+   text-align: center;
+   font: 400 20px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 351px;
+   top: 1039px;
+   
+       width: 1218px;
+   }
+
+.in-felis-ultricies-vitae-morbi-elementum-hendrerit-lectus-laoreet-gravida-urna-nunc-a-elementum-donec-nisi-vel-scelerisque-dignissim-cursus-auctor {
+   color: #222222;
+   text-align: center;
+   font: 400 20px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 592px;
+   top: 1327px;
+   
+       width: 735px;
+    height: 62px;
+   }
+
+.atae-morbi-elementum-hendrerit-lectus-laoreet-gravida-urna-nunc-a-elementum-donec-nisi-vel-scelerisque-cursus-auctor {
+   color: #222222;
+   text-align: center;
+   font: 400 20px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 592px;
+   top: 3800px;
+   
+       width: 735px;
+    height: 62px;
+   }
+
+.group-10 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.rectangle-4 {
+   background: #eb5757;
+   width: 232px;
+    height: 52px;
+   
+           position: absolute;
+    left: 717px;
+   top: 599px;
+   
+       }
+
+.pirkti-biliet {
+   color: #ffffff;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 783px;
+   top: 614px;
+   
+       }
+
+.group-11 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.rectangle-5 {
+   background: #ffffff;
+   width: 232px;
+    height: 52px;
+   
+           position: absolute;
+    left: 970px;
+   top: 599px;
+   
+       }
+
+.i-r-ti-atlik-jus {
+   color: #eb5757;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 1021px;
+   top: 614px;
+   
+       }
+
+.rectangle-6 {
+   background: #eb5757;
+   width: 31px;
+    height: 5px;
+   
+           position: absolute;
+    left: 944px;
+   top: 1303px;
+   
+       }
+
+.rectangle-24 {
+   background: #eb5757;
+   width: 31px;
+    height: 5px;
+   
+           position: absolute;
+    left: 944px;
+   top: 3776px;
+   
+       }
+
+.group-1 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.t-omke {
+   color: #222222;
+   text-align: center;
+   font: 700 24px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 423px;
+   top: 1734px;
+   
+       }
+
+.elementum-hendrerit-lectus-laoreet-gravida {
+   color: #222222;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 366px;
+   top: 1770px;
+   
+       width: 206px;
+   }
+
+.ellipse-1 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   border-radius: 50%;
+   
+   border-style: solid;
+    
+   border-color: #ffffff;
+   
+   border-width: 2px;
+   
+   width: 238px;
+    height: 238px;
+   
+           position: absolute;
+    left: 350px;
+   top: 1460px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.group-5 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.p-ugr {
+   color: #222222;
+   text-align: center;
+   font: 700 24px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 597px;
+   top: 2144px;
+   
+       }
+
+.elementum-hendrerit-gravida {
+   color: #222222;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 530px;
+   top: 2180px;
+   
+       width: 206px;
+   }
+
+.ellipse-5 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   border-radius: 50%;
+   
+   border-style: solid;
+    
+   border-color: #ffffff;
+   
+   border-width: 2px;
+   
+   width: 238px;
+    height: 238px;
+   
+           position: absolute;
+    left: 514px;
+   top: 1870px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.group-2 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.u-pce {
+   color: #222222;
+   text-align: center;
+   font: 700 24px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 761px;
+   top: 1734px;
+   
+       }
+
+.elementum-hendrerit-lectus-gravida {
+   color: #222222;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 693px;
+   top: 1770px;
+   
+       width: 206px;
+   }
+
+.ellipse-2 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   border-radius: 50%;
+   
+   border-style: solid;
+    
+   border-color: #ffffff;
+   
+   border-width: 2px;
+   
+   width: 238px;
+    height: 238px;
+   
+           position: absolute;
+    left: 677px;
+   top: 1460px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.group-6 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.l-ajs {
+   color: #222222;
+   text-align: center;
+   font: 700 24px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 929px;
+   top: 2144px;
+   
+       }
+
+.hendrerit-laoreet-gravida {
+   color: #222222;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 857px;
+   top: 2180px;
+   
+       width: 206px;
+   }
+
+.ellipse-6 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   border-radius: 50%;
+   
+   border-style: solid;
+    
+   border-color: #ffffff;
+   
+   border-width: 2px;
+   
+   width: 238px;
+    height: 238px;
+   
+           position: absolute;
+    left: 841px;
+   top: 1870px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.group-3 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.h-endrei {
+   color: #222222;
+   text-align: center;
+   font: 700 24px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1064px;
+   top: 1734px;
+   
+       }
+
+.hendrerit-lectus-laoreet-gravida {
+   color: #222222;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 1020px;
+   top: 1770px;
+   
+       width: 206px;
+   }
+
+.ellipse-3 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   border-radius: 50%;
+   
+   border-style: solid;
+    
+   border-color: #ffffff;
+   
+   border-width: 2px;
+   
+   width: 238px;
+    height: 238px;
+   
+           position: absolute;
+    left: 1004px;
+   top: 1460px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.group-7 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.l-awew {
+   color: #222222;
+   text-align: center;
+   font: 700 24px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1236px;
+   top: 2144px;
+   
+       }
+
+.elementum-hendrerit-lectus-laoreet {
+   color: #222222;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 1184px;
+   top: 2180px;
+   
+       width: 206px;
+   }
+
+.ellipse-7 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   border-radius: 50%;
+   
+   border-style: solid;
+    
+   border-color: #ffffff;
+   
+   border-width: 2px;
+   
+   width: 238px;
+    height: 238px;
+   
+           position: absolute;
+    left: 1168px;
+   top: 1870px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.group-4 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.p-olvek {
+   color: #222222;
+   text-align: center;
+   font: 700 24px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1399px;
+   top: 1734px;
+   
+       }
+
+.elementum-hendrerit-lectus-laoreet2 {
+   color: #222222;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 1347px;
+   top: 1770px;
+   
+       width: 206px;
+   }
+
+.ellipse-4 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   border-radius: 50%;
+   
+   border-style: solid;
+    
+   border-color: #ffffff;
+   
+   border-width: 2px;
+   
+   width: 238px;
+    height: 238px;
+   
+           position: absolute;
+    left: 1331px;
+   top: 1460px;
+   
+       box-shadow:  0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   }
+
+.rectangle-23 {
+   background: rgba(235, 87, 87, 0.10);
+   width: 1920px;
+    height: 1254px;
+   
+           position: absolute;
+    left: 0px;
+   top: 2327px;
+   
+       }
+
+.rectangle-25 {
+   background: rgba(235, 87, 87, 0.10);
+   width: 1920px;
+    height: 916px;
+   
+           position: absolute;
+    left: 0px;
+   top: 4468px;
+   
+       }
+
+.galerija2 {
+   color: #222222;
+   text-align: center;
+   font: 700 50px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 836px;
+   top: 2428px;
+   
+       }
+
+.kaip-rasti2 {
+   color: #222222;
+   text-align: center;
+   font: 700 50px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 805px;
+   top: 4587px;
+   
+       }
+
+.in-felis-ultricies-vitae-morbirna-nunc-a-elementum-donec-nisi-vel-scelerisque-dignissim-cursus-auctor {
+   color: #222222;
+   text-align: center;
+   font: 400 20px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 592px;
+   top: 2530px;
+   
+       width: 735px;
+    height: 62px;
+   }
+
+.nibh-habitant-sed-id-tellus-sem-turpis-commodo-nulla-sed-eget-arcu-convallis-facilisi-ac-vitae-facilisi-sit-nisl-diam {
+   color: #222222;
+   text-align: center;
+   font: 400 20px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 592px;
+   top: 4689px;
+   
+       width: 735px;
+    height: 62px;
+   }
+
+.rectangle-7 {
+   background: #eb5757;
+   width: 31px;
+    height: 5px;
+   
+           position: absolute;
+    left: 944px;
+   top: 2506px;
+   
+       }
+
+.rectangle-26 {
+   background: #eb5757;
+   width: 31px;
+    height: 5px;
+   
+           position: absolute;
+    left: 944px;
+   top: 4665px;
+   
+       }
+
+.rectangle-8 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 248px;
+    height: 248px;
+   
+           position: absolute;
+    left: 291px;
+   top: 2650px;
+   
+       }
+
+.rectangle-13 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 248px;
+    height: 248px;
+   
+           position: absolute;
+    left: 291px;
+   top: 2924px;
+   
+       }
+
+.rectangle-18 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 248px;
+    height: 248px;
+   
+           position: absolute;
+    left: 291px;
+   top: 3198px;
+   
+       }
+
+.rectangle-9 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 249px;
+    height: 248px;
+   
+           position: absolute;
+    left: 563px;
+   top: 2650px;
+   
+       }
+
+.rectangle-14 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 249px;
+    height: 248px;
+   
+           position: absolute;
+    left: 563px;
+   top: 2924px;
+   
+       }
+
+.rectangle-19 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 249px;
+    height: 248px;
+   
+           position: absolute;
+    left: 563px;
+   top: 3198px;
+   
+       }
+
+.rectangle-10 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 248px;
+    height: 248px;
+   
+           position: absolute;
+    left: 836px;
+   top: 2650px;
+   
+       }
+
+.rectangle-15 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 248px;
+    height: 248px;
+   
+           position: absolute;
+    left: 836px;
+   top: 2924px;
+   
+       }
+
+.rectangle-20 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 248px;
+    height: 248px;
+   
+           position: absolute;
+    left: 836px;
+   top: 3198px;
+   
+       }
+
+.rectangle-11 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 249px;
+    height: 248px;
+   
+           position: absolute;
+    left: 1108px;
+   top: 2650px;
+   
+       }
+
+.rectangle-16 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 249px;
+    height: 248px;
+   
+           position: absolute;
+    left: 1108px;
+   top: 2924px;
+   
+       }
+
+.rectangle-21 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 249px;
+    height: 248px;
+   
+           position: absolute;
+    left: 1108px;
+   top: 3198px;
+   
+       }
+
+.rectangle-12 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 248px;
+    height: 248px;
+   
+           position: absolute;
+    left: 1381px;
+   top: 2650px;
+   
+       }
+
+.rectangle-17 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 248px;
+    height: 248px;
+   
+           position: absolute;
+    left: 1381px;
+   top: 2924px;
+   
+       }
+
+.rectangle-22 {
+   background: linear-gradient(to left, #c4c4c4, #c4c4c4);
+   width: 248px;
+    height: 248px;
+   
+           position: absolute;
+    left: 1381px;
+   top: 3198px;
+   
+       }
+
+.group-12 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.rectangle-252 {
+   background: #ffffff;
+   width: 447px;
+    height: 375px;
+   
+           position: absolute;
+    left: 214px;
+   top: 3939px;
+   
+       box-shadow:  0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+   }
+
+._1-os-dienos-bilietas {
+   color: #222222;
+   text-align: center;
+   font: 700 22px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 300px;
+   top: 3971.47px;
+   
+       width: 275px;
+    height: 27.23px;
+   }
+
+.group-9 {
+   width: 181px;
+    height: 32.47px;
+   
+           position: static;
+   
+       }
+
+.kaina {
+   color: #222222;
+   text-align: center;
+   font: 700 24px 'Raleway-Bold', sans-serif;
+   
+           position: absolute;
+    left: 348px;
+   top: 4180.97px;
+   
+       width: 81px;
+    height: 29.33px;
+   }
+
+._200 {
+   color: #eb5757;
+   text-align: center;
+   font: 700 26px 'Raleway-Bold', sans-serif;
+   
+           position: absolute;
+    left: 447px;
+   top: 4178.87px;
+   
+       width: 82px;
+    height: 32.47px;
+   }
+
+.neque-cursus-metus-volutpat-nulla-euismod-eu-phasellus-nisl-ultricies-nibh-at-odio-lacus-pulvinar-fermentum-neque-tincidunt-mattis-magna {
+   color: #222222;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 287px;
+   top: 4059.46px;
+   
+       width: 301px;
+    height: 92.18px;
+   }
+
+.group-8 {
+   width: 216px;
+    height: 41.9px;
+   
+           position: static;
+   
+       }
+
+.rectangle-262 {
+   background: #eb5757;
+   width: 216px;
+    height: 41.9px;
+   
+           position: absolute;
+    left: 329px;
+   top: 4233.15px;
+   
+       }
+
+.pirkti-biliet2 {
+   color: #ffffff;
+   text-align: center;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 392px;
+   top: 4243.63px;
+   
+       width: 90px;
+    height: 19.9px;
+   }
+
+.line-1 {
+   
+   border-style: solid;
+    
+   border-color: rgba(0, 0, 0, 0.10);
+   
+   border-width: 1px 0 0 0;
+   
+   width: 447px;
+    height: 0px;
+   
+           position: absolute;
+    left: 214px;
+   top: 4028.04px;
+   
+       
+       transform-origin: 0 0;
+   
+       transform: rotate(0deg) scale(1, 1);
+   
+   }
+
+.group-13 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.rectangle-253 {
+   background: #ffffff;
+   width: 447px;
+    height: 375px;
+   
+           position: absolute;
+    left: 736px;
+   top: 3939px;
+   
+       box-shadow:  0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+   }
+
+._2-dien-bilietas {
+   color: #222222;
+   text-align: center;
+   font: 700 22px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 837px;
+   top: 3971.47px;
+   
+       width: 246px;
+    height: 27.23px;
+   }
+
+.kaina2 {
+   color: #222222;
+   text-align: center;
+   font: 700 24px 'Raleway-Bold', sans-serif;
+   
+           position: absolute;
+    left: 870px;
+   top: 4180.97px;
+   
+       width: 81px;
+    height: 29.33px;
+   }
+
+._300 {
+   color: #eb5757;
+   text-align: center;
+   font: 700 26px 'Raleway-Bold', sans-serif;
+   
+           position: absolute;
+    left: 969px;
+   top: 4178.87px;
+   
+       width: 82px;
+    height: 32.47px;
+   }
+
+.neque-cursus-metus-volutpat-nulla-euismod-eu-phasellus-nisl-ultricies-nibh-at-odio-lacus-pulvinar-fermentum-neque-tincidunt-mattis-magna2 {
+   color: #222222;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 809px;
+   top: 4059.46px;
+   
+       width: 301px;
+    height: 92.18px;
+   }
+
+.rectangle-263 {
+   background: #eb5757;
+   width: 216px;
+    height: 41.9px;
+   
+           position: absolute;
+    left: 851px;
+   top: 4233.15px;
+   
+       }
+
+.pirkti-biliet3 {
+   color: #ffffff;
+   text-align: center;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 914px;
+   top: 4243.63px;
+   
+       width: 90px;
+    height: 19.9px;
+   }
+
+.line-12 {
+   
+   border-style: solid;
+    
+   border-color: rgba(0, 0, 0, 0.10);
+   
+   border-width: 1px 0 0 0;
+   
+   width: 447px;
+    height: 0px;
+   
+           position: absolute;
+    left: 736px;
+   top: 4028.04px;
+   
+       
+       transform-origin: 0 0;
+   
+       transform: rotate(0deg) scale(1, 1);
+   
+   }
+
+.group-14 {
+   
+           position: absolute;
+    inset: 0;
+   
+       }
+
+.rectangle-254 {
+   background: #ffffff;
+   width: 447px;
+    height: 375px;
+   
+           position: absolute;
+    left: 1258px;
+   top: 3939px;
+   
+       box-shadow:  0px 0px 40px 0px rgba(0, 0, 0, 0.05);
+   }
+
+._3-dien-bilietas {
+   color: #222222;
+   text-align: center;
+   font: 700 22px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1358px;
+   top: 3971.47px;
+   
+       width: 245px;
+    height: 27.23px;
+   }
+
+.kaina3 {
+   color: #222222;
+   text-align: center;
+   font: 700 24px 'Raleway-Bold', sans-serif;
+   
+           position: absolute;
+    left: 1392px;
+   top: 4180.97px;
+   
+       width: 81px;
+    height: 29.33px;
+   }
+
+._400 {
+   color: #eb5757;
+   text-align: center;
+   font: 700 26px 'Raleway-Bold', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1491px;
+   top: 4178.87px;
+   
+       width: 82px;
+    height: 32.47px;
+   }
+
+.neque-cursus-metus-volutpat-nulla-euismod-eu-phasellus-nisl-ultricies-nibh-at-odio-lacus-pulvinar-fermentum-neque-tincidunt-mattis-magna3 {
+   color: #222222;
+   text-align: center;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 1331px;
+   top: 4059.46px;
+   
+       width: 301px;
+    height: 92.18px;
+   }
+
+.rectangle-264 {
+   background: #eb5757;
+   width: 216px;
+    height: 41.9px;
+   
+           position: absolute;
+    left: 1373px;
+   top: 4233.15px;
+   
+       }
+
+.pirkti-biliet4 {
+   color: #ffffff;
+   text-align: center;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 1436px;
+   top: 4243.63px;
+   
+       width: 90px;
+    height: 19.9px;
+   }
+
+.line-13 {
+   
+   border-style: solid;
+    
+   border-color: rgba(0, 0, 0, 0.10);
+   
+   border-width: 1px 0 0 0;
+   
+   width: 447px;
+    height: 0px;
+   
+           position: absolute;
+    left: 1258px;
+   top: 4028.04px;
+   
+       
+       transform-origin: 0 0;
+   
+       transform: rotate(0deg) scale(1, 1);
+   
+   }
+
+.rectangle-27 {
+   width: 1175px;
+    height: 443px;
+   
+           position: absolute;
+    left: 372px;
+   top: 4821px;
+   
+       }
+
+.rectangle-28 {
+   background: #ffffff;
+   width: 1920px;
+    height: 152px;
+   
+           position: absolute;
+    left: 0px;
+   top: 5384px;
+   
+       }
+
+.prad-ia2 {
+   color: #222222;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1116px;
+   top: 5451px;
+   
+       }
+
+.festivalis-abc-visos-teis-s-saugomos-2021 {
+   color: #222222;
+   text-align: left;
+   font: 400 16px 'OpenSans-Regular', sans-serif;
+   
+           position: absolute;
+    left: 115px;
+   top: 5449px;
+   
+       }
+
+.atlik-jai3 {
+   color: #222222;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1235px;
+   top: 5451px;
+   
+       }
+
+.kaip-rasti3 {
+   color: #222222;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1358px;
+   top: 5451px;
+   
+       }
+
+.galerija3 {
+   color: #222222;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1497px;
+   top: 5451px;
+   
+       }
+
+.bilietai3 {
+   color: #222222;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1619px;
+   top: 5451px;
+   
+       }
+
+.susisiekti2 {
+   color: #222222;
+   text-align: left;
+   font: 400 14px 'OpenSans-Regular', sans-serif;
+   text-transform: uppercase;
+   
+           position: absolute;
+    left: 1734px;
+   top: 5451px;
+   
+       }
+
 

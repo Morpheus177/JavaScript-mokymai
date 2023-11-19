@@ -1,0 +1,1349 @@
+.pradinispuslapis-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .pradinispuslapis-pradinispuslapis {
+    width: 100%;
+    height: 5536px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(248, 248, 248, 1);
+  }
+  .pradinispuslapis-rectangle1 {
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 120px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle2 {
+    top: 120px;
+    left: 0px;
+    width: 1920px;
+    height: 880px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle3 {
+    top: 1000px;
+    left: 0px;
+    width: 1920px;
+    height: 132px;
+    position: absolute;
+  }
+  .pradinispuslapis-text {
+    top: 47px;
+    left: 72px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 22px;
+    font-style: Bold;
+    text-align: left;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text002 {
+    top: 50px;
+    left: 1233px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text004 {
+    top: 50px;
+    left: 1365px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text006 {
+    top: 50px;
+    left: 1515px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text008 {
+    top: 50px;
+    left: 1645px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text010 {
+    top: 50px;
+    left: 1768px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text012 {
+    top: 392px;
+    left: 639px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 80px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text014 {
+    top: 1225px;
+    left: 832px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 50px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text016 {
+    top: 3698px;
+    left: 854px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 50px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text018 {
+    top: 50px;
+    left: 1107px;
+    color: rgba(235, 87, 87, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text020 {
+    top: 502px;
+    left: 576px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 40px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text022 {
+    top: 1039px;
+    left: 351px;
+    color: rgba(255, 255, 255, 1);
+    width: 1218px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text024 {
+    top: 1327px;
+    left: 592px;
+    color: rgba(34, 34, 34, 1);
+    width: 735px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text026 {
+    top: 3800px;
+    left: 592px;
+    color: rgba(34, 34, 34, 1);
+    width: 735px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-group10 {
+    top: 599px;
+    left: 717px;
+    width: 232px;
+    height: 52px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(235, 87, 87, 1);
+  }
+  .pradinispuslapis-text028 {
+    top: 15px;
+    left: 66px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-group11 {
+    top: 599px;
+    left: 970px;
+    width: 232px;
+    height: 52px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .pradinispuslapis-text030 {
+    top: 15px;
+    left: 51px;
+    color: rgba(235, 87, 87, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-rectangle6 {
+    top: 1303px;
+    left: 944px;
+    width: 31px;
+    height: 5px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle24 {
+    top: 3776px;
+    left: 944px;
+    width: 31px;
+    height: 5px;
+    position: absolute;
+  }
+  .pradinispuslapis-group1 {
+    top: 1460px;
+    left: 350px;
+    width: 238px;
+    height: 354px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .pradinispuslapis-text032 {
+    top: 274px;
+    left: 73px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text034 {
+    top: 310px;
+    left: 16px;
+    color: rgba(34, 34, 34, 1);
+    width: 206px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-ellipse1 {
+    top: 0px;
+    left: 0px;
+    width: 238px;
+    height: 238px;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 2px;
+  }
+  .pradinispuslapis-group5 {
+    top: 1870px;
+    left: 514px;
+    width: 238px;
+    height: 354px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .pradinispuslapis-text036 {
+    top: 274px;
+    left: 83px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text038 {
+    top: 310px;
+    left: 16px;
+    color: rgba(34, 34, 34, 1);
+    width: 206px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-ellipse5 {
+    top: 0px;
+    left: 0px;
+    width: 238px;
+    height: 238px;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 2px;
+  }
+  .pradinispuslapis-group2 {
+    top: 1460px;
+    left: 677px;
+    width: 238px;
+    height: 354px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .pradinispuslapis-text040 {
+    top: 274px;
+    left: 84px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text042 {
+    top: 310px;
+    left: 16px;
+    color: rgba(34, 34, 34, 1);
+    width: 206px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-ellipse2 {
+    top: 0px;
+    left: 0px;
+    width: 238px;
+    height: 238px;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 2px;
+  }
+  .pradinispuslapis-group6 {
+    top: 1870px;
+    left: 841px;
+    width: 238px;
+    height: 332px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .pradinispuslapis-text044 {
+    top: 274px;
+    left: 88px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text046 {
+    top: 310px;
+    left: 16px;
+    color: rgba(34, 34, 34, 1);
+    width: 206px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-ellipse6 {
+    top: 0px;
+    left: 0px;
+    width: 238px;
+    height: 238px;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 2px;
+  }
+  .pradinispuslapis-group3 {
+    top: 1460px;
+    left: 1004px;
+    width: 238px;
+    height: 354px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .pradinispuslapis-text048 {
+    top: 274px;
+    left: 60px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text050 {
+    top: 310px;
+    left: 16px;
+    color: rgba(34, 34, 34, 1);
+    width: 206px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-ellipse3 {
+    top: 0px;
+    left: 0px;
+    width: 238px;
+    height: 238px;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 2px;
+  }
+  .pradinispuslapis-group7 {
+    top: 1870px;
+    left: 1168px;
+    width: 238px;
+    height: 354px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .pradinispuslapis-text052 {
+    top: 274px;
+    left: 68px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text054 {
+    top: 310px;
+    left: 16px;
+    color: rgba(34, 34, 34, 1);
+    width: 206px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-ellipse7 {
+    top: 0px;
+    left: 0px;
+    width: 238px;
+    height: 238px;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 2px;
+  }
+  .pradinispuslapis-group4 {
+    top: 1460px;
+    left: 1331px;
+    width: 238px;
+    height: 354px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .pradinispuslapis-text056 {
+    top: 274px;
+    left: 68px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text058 {
+    top: 310px;
+    left: 16px;
+    color: rgba(34, 34, 34, 1);
+    width: 206px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-ellipse4 {
+    top: 0px;
+    left: 0px;
+    width: 238px;
+    height: 238px;
+    position: absolute;
+    box-sizing: content-box;
+    border-color: rgba(255, 255, 255, 1);
+    border-style: solid;
+    border-width: 2px;
+  }
+  .pradinispuslapis-rectangle23 {
+    top: 2327px;
+    left: 0px;
+    width: 1920px;
+    height: 1254px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle25 {
+    top: 4468px;
+    left: 0px;
+    width: 1920px;
+    height: 916px;
+    position: absolute;
+  }
+  .pradinispuslapis-text060 {
+    top: 2428px;
+    left: 836px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 50px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text062 {
+    top: 4587px;
+    left: 805px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 50px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text064 {
+    top: 2530px;
+    left: 592px;
+    color: rgba(34, 34, 34, 1);
+    width: 735px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text066 {
+    top: 4689px;
+    left: 592px;
+    color: rgba(34, 34, 34, 1);
+    width: 735px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-rectangle7 {
+    top: 2506px;
+    left: 944px;
+    width: 31px;
+    height: 5px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle26 {
+    top: 4665px;
+    left: 944px;
+    width: 31px;
+    height: 5px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle8 {
+    top: 2650px;
+    left: 291px;
+    width: 248px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle13 {
+    top: 2924px;
+    left: 291px;
+    width: 248px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle18 {
+    top: 3198px;
+    left: 291px;
+    width: 248px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle9 {
+    top: 2650px;
+    left: 563px;
+    width: 249px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle14 {
+    top: 2924px;
+    left: 563px;
+    width: 249px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle19 {
+    top: 3198px;
+    left: 563px;
+    width: 249px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle10 {
+    top: 2650px;
+    left: 836px;
+    width: 248px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle15 {
+    top: 2924px;
+    left: 836px;
+    width: 248px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle20 {
+    top: 3198px;
+    left: 836px;
+    width: 248px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle11 {
+    top: 2650px;
+    left: 1108px;
+    width: 249px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle16 {
+    top: 2924px;
+    left: 1108px;
+    width: 249px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle21 {
+    top: 3198px;
+    left: 1108px;
+    width: 249px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle12 {
+    top: 2650px;
+    left: 1381px;
+    width: 248px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle17 {
+    top: 2924px;
+    left: 1381px;
+    width: 248px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle22 {
+    top: 3198px;
+    left: 1381px;
+    width: 248px;
+    height: 248px;
+    position: absolute;
+  }
+  .pradinispuslapis-group12 {
+    top: 3939px;
+    left: 214px;
+    width: 447px;
+    height: 375px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .pradinispuslapis-text068 {
+    top: 32.472068786621094px;
+    left: 86px;
+    color: rgba(34, 34, 34, 1);
+    width: 275px;
+    height: auto;
+    position: absolute;
+    font-size: 22px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-group9 {
+    top: 239.87429809570312px;
+    left: 134px;
+    width: 181px;
+    height: 32.472068786621094px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .pradinispuslapis-text070 {
+    top: 2.095006227493286px;
+    left: 5.684341886080802e-14px;
+    color: rgba(34, 34, 34, 1);
+    width: 81px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text072 {
+    left: 99px;
+    color: rgba(235, 87, 87, 1);
+    width: 82px;
+    height: auto;
+    position: absolute;
+    font-size: 26px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text074 {
+    top: 120.46089172363281px;
+    left: 73px;
+    color: rgba(34, 34, 34, 1);
+    width: 301px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-group8 {
+    top: 294.153564453125px;
+    left: 115px;
+    width: 216px;
+    height: 41.89944076538086px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(235, 87, 87, 1);
+  }
+  .pradinispuslapis-text076 {
+    top: 10.474926948547363px;
+    left: 63px;
+    color: rgba(255, 255, 255, 1);
+    width: 90px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-line1 {
+    top: 89.03631591796875px;
+    left: 5.6843418860808015e-14px;
+    width: 447px;
+    height: 1px;
+    position: absolute;
+  }
+  .pradinispuslapis-group13 {
+    top: 3939px;
+    left: 736px;
+    width: 447px;
+    height: 375px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .pradinispuslapis-text078 {
+    top: 32.472068786621094px;
+    left: 101px;
+    color: rgba(34, 34, 34, 1);
+    width: 246px;
+    height: auto;
+    position: absolute;
+    font-size: 22px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-group91 {
+    top: 239.87429809570312px;
+    left: 134px;
+    width: 181px;
+    height: 32.472068786621094px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .pradinispuslapis-text080 {
+    top: 2.095006227493286px;
+    color: rgba(34, 34, 34, 1);
+    width: 81px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text082 {
+    left: 99px;
+    color: rgba(235, 87, 87, 1);
+    width: 82px;
+    height: auto;
+    position: absolute;
+    font-size: 26px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text084 {
+    top: 120.46089172363281px;
+    left: 73px;
+    color: rgba(34, 34, 34, 1);
+    width: 301px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-group81 {
+    top: 294.153564453125px;
+    left: 115px;
+    width: 216px;
+    height: 41.89944076538086px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(235, 87, 87, 1);
+  }
+  .pradinispuslapis-text086 {
+    top: 10.474926948547363px;
+    left: 63px;
+    color: rgba(255, 255, 255, 1);
+    width: 90px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-line11 {
+    top: 89.03631591796875px;
+    left: 0px;
+    width: 447px;
+    height: 1px;
+    position: absolute;
+  }
+  .pradinispuslapis-group14 {
+    top: 3939px;
+    left: 1258px;
+    width: 447px;
+    height: 375px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .pradinispuslapis-text088 {
+    top: 32.472068786621094px;
+    left: 100px;
+    color: rgba(34, 34, 34, 1);
+    width: 245px;
+    height: auto;
+    position: absolute;
+    font-size: 22px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-group92 {
+    top: 239.87429809570312px;
+    left: 134px;
+    width: 181px;
+    height: 32.472068786621094px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .pradinispuslapis-text090 {
+    top: 2.095006227493286px;
+    color: rgba(34, 34, 34, 1);
+    width: 81px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text092 {
+    left: 99px;
+    color: rgba(235, 87, 87, 1);
+    width: 82px;
+    height: auto;
+    position: absolute;
+    font-size: 26px;
+    font-style: Bold;
+    text-align: center;
+    font-family: Raleway;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text094 {
+    top: 120.46089172363281px;
+    left: 73px;
+    color: rgba(34, 34, 34, 1);
+    width: 301px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-group82 {
+    top: 294.153564453125px;
+    left: 115px;
+    width: 216px;
+    height: 41.89944076538086px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(235, 87, 87, 1);
+  }
+  .pradinispuslapis-text096 {
+    top: 10.474926948547363px;
+    left: 63px;
+    color: rgba(255, 255, 255, 1);
+    width: 90px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-line12 {
+    top: 89.03631591796875px;
+    left: 0px;
+    width: 447px;
+    height: 1px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle27 {
+    top: 4821px;
+    left: 372px;
+    width: 1175px;
+    height: 443px;
+    position: absolute;
+  }
+  .pradinispuslapis-rectangle28 {
+    top: 5384px;
+    left: 0px;
+    width: 1920px;
+    height: 152px;
+    position: absolute;
+  }
+  .pradinispuslapis-text098 {
+    top: 5451px;
+    left: 1116px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text100 {
+    top: 5449px;
+    left: 115px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text102 {
+    top: 5451px;
+    left: 1235px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text104 {
+    top: 5451px;
+    left: 1358px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text106 {
+    top: 5451px;
+    left: 1497px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text108 {
+    top: 5451px;
+    left: 1619px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .pradinispuslapis-text110 {
+    top: 5451px;
+    left: 1734px;
+    color: rgba(34, 34, 34, 1);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Regular;
+    text-align: left;
+    font-family: Open Sans;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  

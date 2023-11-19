@@ -1,0 +1,791 @@
+.home-page-desktop,
+.home-page-desktop * {
+    box-sizing: border-box;
+}
+
+.home-page-desktop {
+    background: #ffffff;
+    width: 1440px;
+    height: 3810px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.footer {
+    width: 1440px;
+    height: 236px;
+
+    position: absolute;
+    left: 0px;
+    top: 3574px;
+
+}
+
+.rectangle-44 {
+    background: var(--white, #ffffff);
+
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+
+}
+
+.vector-128 {
+    height: auto;
+
+    position: absolute;
+    right: 6.32%;
+    left: 5.62%;
+    width: 88.06%;
+    bottom: 25.42%;
+    top: 74.58%;
+    height: 0%;
+
+
+    transform: translate(0px, -0.5px);
+
+    overflow: visible;
+}
+
+.services {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 600 12px/18px 'Inter-SemiBold', sans-serif;
+    text-transform: uppercase;
+
+    position: absolute;
+    right: 57.71%;
+    left: 38.19%;
+    width: 4.1%;
+    bottom: 72.03%;
+    top: 20.34%;
+    height: 7.63%;
+
+}
+
+.interior {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 600 12px/18px 'Inter-SemiBold', sans-serif;
+    text-transform: uppercase;
+
+    position: absolute;
+    right: 75.49%;
+    left: 20.62%;
+    width: 3.89%;
+    bottom: 72.03%;
+    top: 20.34%;
+    height: 7.63%;
+
+}
+
+.exterior {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 600 12px/18px 'Inter-SemiBold', sans-serif;
+    text-transform: uppercase;
+
+    position: absolute;
+    right: 66.88%;
+    left: 29.03%;
+    width: 4.1%;
+    bottom: 72.03%;
+    top: 20.34%;
+    height: 7.63%;
+
+}
+
+.ideas {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 600 12px/18px 'Inter-SemiBold', sans-serif;
+    text-transform: uppercase;
+
+    position: absolute;
+    right: 50.56%;
+    left: 46.94%;
+    width: 2.5%;
+    bottom: 72.03%;
+    top: 20.34%;
+    height: 7.63%;
+
+}
+
+.contacts {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 600 12px/18px 'Inter-SemiBold', sans-serif;
+    text-transform: uppercase;
+
+    position: absolute;
+    right: 41.81%;
+    left: 53.54%;
+    width: 4.65%;
+    bottom: 72.11%;
+    top: 20.26%;
+    height: 7.63%;
+
+}
+
+.vector-118 {
+    height: auto;
+
+    position: absolute;
+    right: 5.69%;
+    left: 5.56%;
+    width: 88.75%;
+    bottom: 96.61%;
+    top: 3.39%;
+    height: 0%;
+
+
+    transform: translate(0px, -0.5px);
+
+    overflow: visible;
+}
+
+.all-rights-reserved-2021-shopping-center {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 300 11px/22px 'Inter-Light', sans-serif;
+
+    position: absolute;
+    right: 78.47%;
+    left: 5.62%;
+    width: 15.9%;
+    bottom: 9.24%;
+    top: 81.43%;
+    height: 9.32%;
+
+}
+
+.shopping-center-adress-line-tel-370-000-00000-info-shoppingcenter-com {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 300 12px/20px 'Inter-Light', sans-serif;
+
+    position: absolute;
+    right: 5.28%;
+    left: 82.5%;
+    width: 12.22%;
+    bottom: 45.76%;
+    top: 20.34%;
+    height: 33.9%;
+
+}
+
+.privacy-policy-cookie-policy {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 300 12px/20px 'Inter-Light', sans-serif;
+
+    position: absolute;
+    right: 21.81%;
+    left: 65.97%;
+    width: 12.22%;
+    bottom: 62.71%;
+    top: 20.34%;
+    height: 16.95%;
+
+}
+
+.company-logo {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 700 16px/24px 'Inter-Bold', sans-serif;
+
+    position: absolute;
+    right: 86.6%;
+    left: 5.56%;
+    width: 7.85%;
+    bottom: 73.31%;
+    top: 16.53%;
+    height: 10.17%;
+
+}
+
+.header {
+    width: 1440px;
+    height: 72px;
+
+    position: absolute;
+    left: 0px;
+    top: 0px;
+
+}
+
+.frame-83 {
+
+    display: flex;
+
+    flex-direction: row;
+
+    gap: 48px;
+
+    align-items: flex-start;
+
+    justify-content: flex-start;
+
+
+
+    position: absolute;
+    right: 5.56%;
+    left: 66.53%;
+    width: 27.92%;
+    bottom: 36.11%;
+    top: 36.11%;
+    height: 27.78%;
+
+}
+
+.frame-91 {
+
+    display: flex;
+
+    flex-direction: row;
+
+    gap: 0px;
+
+    align-items: center;
+
+    justify-content: flex-start;
+
+
+    flex-shrink: 0;
+
+    position: relative;
+
+}
+
+.products {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 600 12px/20px 'Inter-SemiBold', sans-serif;
+    text-transform: uppercase;
+
+    position: relative;
+
+}
+
+.main-menu-arrow {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+
+    position: relative;
+
+    overflow: visible;
+}
+
+.services2 {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 400 12px/20px 'Inter-Regular', sans-serif;
+    text-transform: uppercase;
+
+    position: relative;
+
+}
+
+.ideas2 {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 400 12px/20px 'Inter-Regular', sans-serif;
+    text-transform: uppercase;
+
+    position: relative;
+
+}
+
+.contacts2 {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 400 12px/20px 'Inter-Regular', sans-serif;
+    text-transform: uppercase;
+
+    position: relative;
+
+}
+
+.vector-131 {
+    height: auto;
+
+    position: absolute;
+    right: 27.64%;
+    left: 66.49%;
+    width: 5.87%;
+    bottom: 34.72%;
+    top: 65.28%;
+    height: 0%;
+
+    overflow: visible;
+}
+
+.search-icon {
+    height: auto;
+
+    position: absolute;
+    right: 37.5%;
+    left: 60.83%;
+    width: 1.67%;
+    bottom: 33.33%;
+    top: 33.33%;
+    height: 33.33%;
+
+    overflow: visible;
+}
+
+.rectangle-92 {
+
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    width: 100%;
+    bottom: 5.56%;
+    top: 0%;
+    height: 94.44%;
+
+}
+
+.company-logo2 {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: 700 16px/24px 'Inter-Bold', sans-serif;
+
+    position: absolute;
+    right: 86.6%;
+    left: 5.56%;
+    width: 7.85%;
+    bottom: 33.33%;
+    top: 33.33%;
+    height: 33.33%;
+
+}
+
+.bg {
+    background: var(--coffeeblack-5, #f6f4f5);
+    width: 822px;
+    height: 768px;
+
+    position: absolute;
+    left: 822px;
+    top: 68px;
+
+
+    transform-origin: 0 0;
+
+    transform: rotate(0deg) scale(-1, 1);
+
+}
+
+.lorem-ipsum-dolor-sit-amet {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: var(--mainslidertxt, 200 48px/56px 'Inter-ExtraLight', sans-serif);
+
+    position: absolute;
+    left: 80px;
+    top: 266px;
+
+    width: 432px;
+    height: 110px;
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-erat-condimentum-pretium-eget-magna-tellus-morbi-pellentesque-iaculis-vehicula-vel-pulvinar-sit-fames-imperdiet-ac {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: var(--body-medium, 300 14px/24px 'Inter-Light', sans-serif);
+
+    position: absolute;
+    left: 80px;
+    top: 392px;
+
+    width: 432px;
+    height: 68px;
+}
+
+.buttons {
+    background: var(--coffeeblack-100, #32292f);
+    padding: 12px 24px 12px 24px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    gap: 10px;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+
+    position: absolute;
+    left: 80px;
+    top: 484px;
+
+}
+
+.label {
+    color: var(--white, #ffffff);
+    text-align: center;
+    font: 400 16px/24px 'Inter-Regular', sans-serif;
+
+    position: relative;
+
+}
+
+.bullets {
+    width: 431px;
+    height: 24px;
+
+    position: absolute;
+    left: 929px;
+    top: 736px;
+
+}
+
+._1-3 {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: right;
+    font: 300 14px/24px 'Inter-Light', sans-serif;
+
+    position: absolute;
+    right: 0%;
+    left: 95.36%;
+    width: 4.64%;
+    bottom: 0%;
+    top: 0%;
+    height: 100%;
+
+}
+
+.vector-127 {
+    height: auto;
+
+    position: absolute;
+    right: 6.73%;
+    left: 0%;
+    width: 93.27%;
+    bottom: 25%;
+    top: 75%;
+    height: 0%;
+
+
+    transform: translate(0px, -1.48px);
+
+    overflow: visible;
+}
+
+.rectangle-86 {
+    background: var(--coffeeblack-100, #32292f);
+
+    position: absolute;
+    right: 71.69%;
+    left: 0%;
+    width: 28.31%;
+    bottom: 25%;
+    top: 66.67%;
+    height: 8.33%;
+
+}
+
+.pierre-chatel-innocenti-h-9-ek-6-qa-2-j-ou-unsplash-1 {
+    width: 737px;
+    height: 536px;
+
+    position: absolute;
+    left: 623px;
+    top: 168px;
+
+}
+
+.lorem-ipsum-dolor-sit-amet2 {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: center;
+    font: var(--h-1, 200 40px/48px 'Inter-ExtraLight', sans-serif);
+
+    position: absolute;
+    left: 438px;
+    top: 921px;
+
+}
+
+.frame-85 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 16px;
+
+    align-items: flex-start;
+
+    justify-content: flex-start;
+
+
+    width: 410px;
+
+    position: absolute;
+    left: 189px;
+    top: 1152px;
+
+}
+
+.lorem-ipsum-dolor {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: var(--h-2, 300 32px/40px 'Inter-Light', sans-serif);
+
+    position: relative;
+
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-erat-condimentum-pretium-eget-magna-tellus {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: var(--body-medium, 300 14px/24px 'Inter-Light', sans-serif);
+
+    position: relative;
+
+    width: 432px;
+}
+
+.buttons2 {
+
+    border-style: solid;
+
+    border-color: var(--coffeeblack-100, #32292f);
+
+    border-width: 1px;
+
+    padding: 12px 24px 12px 24px;
+
+    display: flex;
+
+    flex-direction: row;
+
+    gap: 10px;
+
+    align-items: center;
+
+    justify-content: center;
+
+
+    flex-shrink: 0;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.label2 {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: center;
+    font: 400 14px/24px 'Inter-Regular', sans-serif;
+
+    position: relative;
+
+}
+
+.frame-92 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 16px;
+
+    align-items: flex-start;
+
+    justify-content: flex-start;
+
+
+    width: 408px;
+
+    position: absolute;
+    left: 843px;
+    top: 1680px;
+
+}
+
+.malik-skydsgaard-v-fe-5-zqn-wwla-unsplash-1 {
+    width: 628px;
+    height: 424px;
+
+    position: absolute;
+    left: 732px;
+    top: 1024px;
+
+}
+
+.ilya-aki-frgr-8-o-zq-cka-unsplash-1 {
+    width: 628px;
+    height: 424px;
+
+    position: absolute;
+    left: 80px;
+    top: 1552px;
+
+}
+
+.lorem-ipsum-dolor-sit-amet3 {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: center;
+    font: var(--h-2, 300 32px/40px 'Inter-Light', sans-serif);
+
+    position: absolute;
+    left: 80px;
+    top: 2152px;
+
+}
+
+.group-104 {
+
+    position: absolute;
+    inset: 0;
+
+}
+
+.group-92 {
+    width: 339px;
+    height: 24px;
+
+    position: static;
+
+}
+
+.lorem-ipsum-dolor-sit-amet-consectetur {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: var(--h-5, 300 18px/24px 'Inter-Light', sans-serif);
+
+    position: absolute;
+    left: 80px;
+    top: 2785px;
+
+}
+
+.philip-stieber-ai-wcgo-zr-af-0-unsplash-1 {
+    width: 845px;
+    height: 529px;
+
+    position: absolute;
+    left: 80px;
+    top: 2240px;
+
+}
+
+.group-108 {
+
+    position: absolute;
+    inset: 0;
+
+}
+
+.scott-webb-f-gq-dx-2-e-pun-8-unsplash-1 {
+    width: 628px;
+    height: 527px;
+
+    position: absolute;
+    left: 80px;
+    top: 2873px;
+
+}
+
+.group-101 {
+    width: 108px;
+    height: 24px;
+
+    position: static;
+
+}
+
+.lorem-ipsum {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: var(--h-5, 300 18px/24px 'Inter-Light', sans-serif);
+
+    position: absolute;
+    left: 80px;
+    top: 3418px;
+
+}
+
+.group-105 {
+
+    position: absolute;
+    inset: 0;
+
+}
+
+.group-100 {
+    width: 156px;
+    height: 24px;
+
+    position: static;
+
+}
+
+.lorem-ipsum-dolor2 {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: var(--h-5, 300 18px/24px 'Inter-Light', sans-serif);
+
+    position: absolute;
+    left: 951px;
+    top: 2784px;
+
+}
+
+.christian-perner-vw-yqqarl-igw-unsplash-1 {
+    width: 411px;
+    height: 528px;
+
+    position: absolute;
+    left: 949px;
+    top: 2240px;
+
+}
+
+.group-107 {
+
+    position: absolute;
+    inset: 0;
+
+}
+
+.group-106 {
+    width: 108px;
+    height: 24px;
+
+    position: static;
+
+}
+
+.lorem-ipsum2 {
+    color: var(--coffeeblack-100, #32292f);
+    text-align: left;
+    font: var(--h-5, 300 18px/24px 'Inter-Light', sans-serif);
+
+    position: absolute;
+    left: 732px;
+    top: 3418px;
+
+}
+
+.pierre-chatel-innocenti-b-su-ajki-l-7-d-q-unsplash-1 {
+    width: 628px;
+    height: 528px;
+
+    position: absolute;
+    left: 732px;
+    top: 2872px;
+
+}

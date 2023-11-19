@@ -1,0 +1,336 @@
+/* GENERAL STYLES */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+nav,
+ul,
+li.p {
+    margin: 0;
+    padding: 0;
+}
+
+.general-section {
+    padding: 100px;
+}
+
+.general-section .container {
+    width: 100%;
+    max-width: 1300px;
+    margin: o auto;
+}
+
+.general-section .title-part {
+    text-align: center;
+    margin-bottom: 71px;
+}
+
+.general-section .title-part h2 {
+    color: #222;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.general-section .title-part .red-row {
+    width: 31px;
+    height: 5px;
+    flex-shrink: 0;
+    background: #EB5757;
+    margin: 19px auto;
+}
+
+.general-section .title-part p {
+    color: #222;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+
+}
+
+/* NAVIGATION */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 47px 72px;
+    box-sizing: border-box;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #222222;
+}
+
+nav h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 63px;
+
+}
+
+nav ul .active a,
+nav a:hover {
+    color: #EB5757;
+}
+
+/* HEADER */
+
+header {
+    height: calc(100vh-120px);
+    background: url('images/header2.png') center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header .content {
+    width: 100%;
+    max-width: 1000px;
+
+}
+
+
+header h1 {
+
+    color: white;
+    font-size: 80px;
+    font-family: Raleway;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-wrap: break-word
+}
+
+header p {
+
+    color: white;
+    font-size: 40px;
+    font-family: Open Sans;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 16px 0 66px;
+
+}
+
+header .buttons a {
+
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    text-decoration: none;
+    padding: 16px 66px;
+    display: inline-block;
+
+}
+
+header .buttons.primary-button {
+    color: white;
+    background: #EB5757;
+    margin-right: 21px;
+}
+
+
+header .buttons.secondary-button {
+    color: #EB5757;
+    background: white;
+
+}
+
+/* CITATION */
+
+
+.citation {
+    background: #EB5757;
+    padding: 39px 0;
+}
+
+.citation p {
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    max-width: 1200px;
+
+
+
+}
+
+/* ARTISTS SECTION */
+
+.artists-section {
+    background: #f8f8f8;
+}
+
+.artists-section .content-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.artists-section .content-part .artist-block {
+    width: 25%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 28px 40px;
+
+}
+
+.artists-section .content-part .artist-block .image.img {
+    width: 238px;
+    height: 238px;
+    object-fit: cover;
+    border: 2px solid white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0, 25);
+    border-radius: 50%;
+
+}
+
+/* GALLERY SECTION */
+
+.gallery-section {
+    background: rgba(235, 87, 87, 0.1);
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.gallery-section .content-part {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 56px;
+    padding-bottom: 76px;
+
+
+}
+
+
+/* TICKETS SECTION */
+.blokas6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 62px 0 62px;
+    top: 3939px;
+    left: 736px;
+    width: 447px;
+    height: 375px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.blokas6 .bilietai {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blokas6 .bilietai h1 {
+    font-size: 36px;
+    font-family: Lato;
+    font-weight: 700px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-wrap: break-word;
+
+}
+
+.blokas6 .redrow {
+    background-color: #EB5757;
+    width: 31px;
+    height: 5px;
+    margin-top: auto;
+    display: center;
+
+}
+
+.blokas6 .stulpeliai a {
+    color: white;
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 600;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    background: rgba(235, 87, 87, 1);
+    padding: 12px 63.2px 10.9px 62.69px;
+    display: inline-flexbox;
+    margin-bottom: 38.92px;
+
+}
+
+.blokas6 p {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 301px;
+    height: 92.18px;
+    top: 4059.46px;
+    left: 287px;
+
+
+}
+
+.blokas6 .container {
+    text-align: center;
+    display:
+
+}

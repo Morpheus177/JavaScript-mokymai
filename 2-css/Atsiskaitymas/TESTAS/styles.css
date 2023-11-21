@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
 }
 
-.h1 {
+h1 {
     width: 674px;
     color: var(--White, #FFF);
     font-family: Hind Madurai;
@@ -17,28 +17,25 @@ body {
     font-style: normal;
     font-weight: 600;
     line-height: 62px;
-    
+
     letter-spacing: -2.8px;
 }
 
 .background {
-    
+
     width: 1366px;
     height: 4148px;
-
     position: relative;
-
     overflow: hidden;
     width: 1366px;
     height: 4148px;
 }
 
-.andrea-cau-n-v-7-g-jm-sq-3-zc-unsplash-6 {
+.img5 {
     width: 1366px;
     height: 688px;
     opacity: 0.7;
     background: var(--Black, #000);
-
     position: absolute;
     left: 0px;
     top: 80px;
@@ -60,6 +57,8 @@ body {
     background: black opacity: 0.699999988079071;
     width: 1366px;
     height: 688px;
+    opacity: 0.7;
+    background: var(--Black, #000);
 
     position: absolute;
     left: 0px;
@@ -78,32 +77,37 @@ body {
 }
 
 .rectangle-6 {
-    background: var(--white, #ffffff);
+    width: 72px;
+    height: 44px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.1);
+    color: var(--Black, #070707);
+    justify-content: left;
 
-    position: absolute;
-    right: 0%;
-    left: 0%;
-    width: 100%;
-    bottom: 0%;
-    top: 0%;
-    height: 100%;
+    font-family: Hind Madurai;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 88px;
+    /* 137.5% */
+    padding: 1px;
+
+
+    background: var(--white, #ffffff);
+    opacity: 0.7;
+
+
+
 
 }
 
 .frame-1 {
 
     display: flex;
-
     flex-direction: row;
-
-    gap: 24px;
-
+    gap: 48px;
     align-items: center;
-
     justify-content: flex-start;
-
-
-
     position: absolute;
     right: 7.32%;
     left: 41.29%;
@@ -117,18 +121,11 @@ body {
 .frame-12 {
 
     display: flex;
-
     flex-direction: row;
-
     gap: 48px;
-
     align-items: center;
-
     justify-content: flex-start;
-
-
     flex-shrink: 0;
-
     position: relative;
 
 }
@@ -136,55 +133,48 @@ body {
 .frame-4 {
 
     display: flex;
-
     flex-direction: row;
-
     gap: 4px;
-
     align-items: center;
-
     justify-content: flex-start;
-
-
     flex-shrink: 0;
-
     position: relative;
 
 }
 
-.Products {
+.products {
     color: black;
     text-align: left;
     font: 400 16px/22px 'HindMadurai-Regular', sans-serif;
-
+    position: relative;
+    box-sizing: border-box;
+    color: var(--text-citationand-h-2, #333333);
+    text-align: left;
+    font: var(--link, 400 16px/22px 'HindMadurai-Regular', sans-serif);
     position: relative;
 
 }
+
+
+
+
 
 .frame-13 {
 
     display: flex;
-
     flex-direction: row;
-
     gap: 4px;
-
     align-items: center;
-
     justify-content: flex-start;
-
-
     flex-shrink: 0;
-
     position: relative;
 
 }
 
-.Services {
+.services {
     ccolor: var(--text-citationand-h-2, --black);
     text-align: left;
     font: var(--link, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-
     position: relative;
 
 }
@@ -192,18 +182,11 @@ body {
 .frame-5 {
 
     display: flex;
-
     flex-direction: row;
-
     gap: 4px;
-
     align-items: center;
-
     justify-content: flex-start;
-
-
     flex-shrink: 0;
-
     position: relative;
 
 }
@@ -212,7 +195,6 @@ body {
     color: var(--text-citationand-h-2, --black);
     text-align: left;
     font: var(--link, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-
     position: relative;
 
 }
@@ -220,18 +202,11 @@ body {
 .frame-2 {
 
     display: flex;
-
     flex-direction: row;
-
     gap: 4px;
-
     align-items: center;
-
     justify-content: flex-start;
-
-
     flex-shrink: 0;
-
     position: relative;
 
 }
@@ -240,26 +215,17 @@ body {
     color: var(--text-citationand-h-2, --black);
     text-align: left;
     font: var(--link, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-
     position: relative;
 
 }
 
 .frame-3 {
-
     display: flex;
-
     flex-direction: row;
-
     gap: 4px;
-
     align-items: center;
-
     justify-content: flex-start;
-
-
     flex-shrink: 0;
-
     position: relative;
 
 }
@@ -277,7 +243,6 @@ body {
     color: var(--text-citationand-h-2, #333333);
     text-align: left;
     font: var(--link, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-
     position: relative;
 
 }
@@ -286,22 +251,29 @@ body {
     background: var(--primary-100, #1289af);
     border-radius: 4px;
     padding: 5px 16px 5px 16px;
-
     display: flex;
-
     flex-direction: row;
-
     gap: 10px;
-
     align-items: center;
-
     justify-content: center;
-
-
     flex-shrink: 0;
-
     position: relative;
+    box-shadow: 0px 2px 10px 0px rgba(54, 1, 103, 0.30);
+}
 
+
+
+.primary-btn-m {
+    background: var(--primary-100, #1289af);
+    border-radius: 4px;
+    padding: 5px 16px 5px 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
     box-shadow: 0px 2px 10px 0px rgba(54, 1, 103, 0.30);
 }
 
@@ -309,25 +281,14 @@ body {
     color: var(--white, #ffffff);
     text-align: left;
     font: var(--button, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-
     position: relative;
 
 }
 
-.logo {
-    color: var(--black, #000000);
-    text-align: left;
-    font: var(--logo, 700 32px/44px 'HindMadurai-Bold', sans-serif);
 
-    position: absolute;
-    right: 87.41%;
-    left: 7.32%;
-    width: 5.27%;
-    bottom: 22.5%;
-    top: 22.5%;
-    height: 55%;
 
 }
+
 
 .frame-17 {
 
@@ -396,17 +357,7 @@ body {
 
 }
 
-#p {
-    color: var(--text-paragraph, #666666);
-    text-align: center;
-    font: 400 18px/32px 'HindMadurai-Regular', sans-serif;
-    padding: 298px, 0, 0, 298px;
 
-    position: absolute;
-
-    width: 770px;
-    height: 424px;
-}
 
 .group-191 {
     flex-shrink: 0;
@@ -528,23 +479,30 @@ body {
     color: var(--text-citationand-h-2, #333333);
     text-align: left;
     font: var(--citation, 300 28px/40px 'HindMadurai-Light', sans-serif);
-
+    width: 378px;
     position: absolute;
     left: 208px;
-    top: 345px;
-
+    top: 344px;
     width: 378px;
+    color: var(--text-citation-and-h-2, #333);
+    font-family: Hind Madurai;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+
 }
 
 .vector-10 {
-    width: 0px;
-    height: 162.5px;
 
+    height: 162.5px;
     position: absolute;
     left: 184px;
     top: 344px;
-
     overflow: visible;
+    flex-shrink: 0;
+
+
 }
 
 .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-eu-massa-et-nulla-cursus-vestibulum-euismod-diam-netus-morbi-tortor-elementum-habitant-id-aenean-mauris-consectetur-arcu-ipsum-proin-faucibus-nulla-sed-viverra-dolor-id-et-sagittis-auctor-ac-diam-tellus-dui-dictum-nam-purus-integer-sollicitudin-curabitur-imperdiet-diam-nisl-ac-egestas-euismod-nulla-aliquet-lectus-pharetra-praesent-aliquam-cursus-dignissim-ultricies-ac-risus-pharetra-cras-etiam-massa-quis-hendrerit-urna-felis-risus-consectetur-netus-urna-ut-a-volutpat-dignissim-tincidunt-cursus-quis-donec-varius-risus-integer-velit-tellus-malesuada-sed-turpis-tincidunt-bibendum-eu-lectus-vel-eget-quam-eu-sit-congue-risus-eget-at-volutpat-mauris-et-sed-fermentum-vel-lacus-vel-viverra-et-vitae-etiam-volutpat-ipsum-tincidunt-vel-enim-nisl-ullamcorper-sollicitudin-lacus-nibh-ultrices-mollis-vestibulum-ornare-velphaamet-dolor-magnis-morbi-arcu-phasellus-mattis-enim-praesent-enim-consequat-donec-id-lectus-venenatis-int-dapibus-commodo-viverra-sed-donec-adipiscing-ullamcorper-malesuada-mattis-urna-nisl-tortor {
@@ -662,16 +620,16 @@ body {
 
 .frame-19 {
 
-    display: flex;
+    color: var(--text-paragraph, #666);
 
-    flex-direction: column;
-
-    gap: 32px;
-
-    align-items: flex-start;
-
-    justify-content: flex-start;
-
+    /* Paragraph */
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
+    width: 373px;
 
 
     position: absolute;
@@ -702,18 +660,14 @@ body {
 
 .frame-20 {
 
-    display: flex;
+    color: var(--text-paragraph, #666);
 
-    flex-direction: column;
-
-    gap: 32px;
-
-    align-items: flex-start;
-
-    justify-content: flex-start;
-
-
-
+    width: 370px;
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
     position: absolute;
     left: 397px;
     top: 440.23px;
@@ -868,7 +822,18 @@ body {
 
 }
 
-.view-case,
+.view-case {
+    color: var(--White, #FFF);
+
+    /* Button */
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
 p {
     color: var(--text-paragraph, #666);
     text-align: left;
@@ -876,8 +841,24 @@ p {
 
     position: relative;
     width: 770px;
+    color: var(--text-paragraph, #666);
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
 
 }
 
+.logo {
 
-    
+
+    height: 300px;
+    width: 300px;
+    color: var(--black, #0e0d0d);
+    text-align: left;
+    font: var(--logo, 700 32px/44px 'HindMadurai-Bold', sans-serif);
+
+    position: relative;
+
+}

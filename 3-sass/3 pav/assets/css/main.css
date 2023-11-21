@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0; }
+  
+  nav {
+    padding: 20px 40px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    nav a {
+      color: white;
+      transition: 0.2s all;
+      text-decoration: none; }
+      nav a:hover, nav a.active {
+        color: greenyellow; }
+    nav ul {
+      margin: 0;
+      padding: 0; }
+      nav ul li {
+        display: inline-block;
+        list-style-type: none;
+        margin-left: 15px; }
+  
+  header {
+    background: greenyellow;
+    padding: 50px 0; }
+  
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto; }
+  
+  .home-page .about-us-section {
+    background: green; }
+  .home-page .services-section {
+    background: red; }
+  
+  /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,23 @@
+// Reset
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+// body {
+//     background: orange;
+// }
+
+// Shared
+
+@import 'shared/navbar';
+@import 'shared/header';
+@import 'shared/grid';
+@import 'shared/footer';
+
+// Pages
+
+@import 'pages/home';
+@import 'pages/about-us';
+@import 'pages/services';

@@ -1,0 +1,94 @@
+html, body {
+    padding: 0;
+    margin: 0; }
+  
+  nav {
+    background: #222;
+    padding: 20px 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    nav a {
+      color: #f8f8f8;
+      text-decoration: none;
+      -webkit-transition: 0.2s all;
+      transition: 0.2s all; }
+      nav a:hover {
+        color: orange; }
+    nav .brand {
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px; }
+    nav ul.links {
+      margin: 0;
+      padding: 0; }
+      nav ul.links .link {
+        display: inline-block;
+        list-style-type: none;
+        margin-left: 20px; }
+  
+  header {
+    height: 400px;
+    background: darkcyan;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center; }
+    header .content {
+      max-width: 400px; }
+      header .content h1 {
+        text-transform: uppercase; }
+      header .content .buttons .btn {
+        padding: 10px 15px;
+        display: inline-block;
+        text-decoration: none;
+        -webkit-transition: 0.2s all;
+        transition: 0.2s all; }
+        header .content .buttons .btn.btn-primary {
+          background: green;
+          color: white; }
+          header .content .buttons .btn.btn-primary:hover {
+            background: white;
+            color: green; }
+        header .content .buttons .btn.btn-secondary {
+          background: white;
+          color: green; }
+          header .content .buttons .btn.btn-secondary:hover {
+            background: green;
+            color: white; }
+  
+  .articles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background: #f8f8f8;
+    padding: 30px;
+    gap: 20px; }
+    .articles article {
+      width: calc((100% - 2 * 20px) / 3);
+      background: white;
+      padding: 25px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+      @media only screen and (max-width: 800px) {
+        .articles article {
+          width: calc((100% - 20px) / 2); } }
+      @media only screen and (max-width: 450px) {
+        .articles article {
+          width: 100%; } }
+  
+  /*# sourceMappingURL=styles.css.map */

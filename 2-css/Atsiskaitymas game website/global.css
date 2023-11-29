@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --navigacija: "Open Sans";
+  --h3: "Bebas Neue";
+
+  /* font sizes */
+  --navigacija-size: 14px;
+  --p1-size: 18px;
+  --font-size-base: 16px;
+  --h3-size: 24px;
+  --h1-size: 80px;
+  --h2-size: 36px;
+
+  /* Colors */
+  --color-gray-100: #1a1917;
+  --color-gray-200: rgba(255, 255, 255, 0.08);
+  --color-white: #fff;
+  --color-goldenrod: #ffb548;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+  --br-3xs: 10px;
+}

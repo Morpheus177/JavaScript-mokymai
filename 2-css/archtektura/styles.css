@@ -1,0 +1,490 @@
+.footer-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: #fff;
+}
+.footer-item {
+    position: absolute;
+    height: 0.42%;
+    width: 88.06%;
+    top: 74.36%;
+    right: 6.32%;
+    bottom: 25.21%;
+    left: 5.63%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.services {
+    position: absolute;
+    top: 20.34%;
+    left: 38.19%;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.interior {
+    position: absolute;
+    top: 20.34%;
+    left: 20.63%;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.exterior {
+    position: absolute;
+    top: 20.34%;
+    left: 29.03%;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.ideas {
+    position: absolute;
+    top: 20.34%;
+    left: 46.94%;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.contacts {
+    position: absolute;
+    top: 20.26%;
+    left: 53.54%;
+    line-height: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.footer-inner {
+    position: absolute;
+    height: 0.42%;
+    width: 88.75%;
+    top: 3.18%;
+    right: 5.69%;
+    bottom: 96.4%;
+    left: 5.56%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.all-rights-reserved {
+    position: absolute;
+    top: 81.43%;
+    left: 5.63%;
+    font-size: 11px;
+    line-height: 22px;
+    font-weight: 300;
+}
+.shopping-center {
+    margin: 0;
+}
+.shopping-center-adress-container {
+    position: absolute;
+    width: 12.22%;
+    top: 20.34%;
+    left: 82.5%;
+    line-height: 20px;
+    font-weight: 300;
+    display: inline-block;
+}
+.privacy-policy-cookie-container {
+    position: absolute;
+    width: 12.22%;
+    top: 20.34%;
+    left: 65.97%;
+    line-height: 20px;
+    font-weight: 300;
+    display: inline-block;
+}
+.company-logo {
+    position: absolute;
+    top: 16.53%;
+    left: 5.56%;
+    font-size: 16px;
+    line-height: 24px;
+}
+.footer {
+    position: absolute;
+    top: 3574px;
+    left: 0px;
+    width: 1440px;
+    height: 236px;
+    font-size: 12px;
+}
+.products {
+    position: relative;
+    letter-spacing: 0.05em;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.main-menu-arrow {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.products-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.services1 {
+    position: relative;
+    letter-spacing: 0.05em;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+.frame-parent {
+    position: absolute;
+    height: 27.78%;
+    width: 27.92%;
+    top: 36.11%;
+    right: 5.56%;
+    bottom: 36.11%;
+    left: 66.53%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 48px;
+}
+.header-child {
+    position: absolute;
+    height: 2.78%;
+    width: 5.87%;
+    top: 63.89%;
+    right: 27.64%;
+    bottom: 33.33%;
+    left: 66.49%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.search-icon {
+    position: absolute;
+    height: 33.33%;
+    width: 1.67%;
+    top: 33.33%;
+    right: 37.5%;
+    bottom: 33.33%;
+    left: 60.83%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.header-item {
+    position: absolute;
+    height: 94.44%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 5.56%;
+    left: 0%;
+}
+.company-logo1 {
+    position: absolute;
+    top: 33.33%;
+    left: 5.56%;
+    font-size: 16px;
+    line-height: 24px;
+}
+.header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 72px;
+    font-size: 12px;
+}
+.bg {
+    position: absolute;
+    top: 68px;
+    left: 822px;
+    background-color: #f6f4f5;
+    width: 822px;
+    height: 768px;
+    transform:  rotate(180deg);
+    transform-origin: 0 0;
+}
+.lorem-ipsum-dolor {
+    position: absolute;
+    top: 266px;
+    left: 80px;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 200;
+    display: inline-block;
+    width: 432px;
+    height: 110px;
+}
+.lorem-ipsum-dolor1 {
+    position: absolute;
+    top: 392px;
+    left: 80px;
+    line-height: 24px;
+    font-weight: 300;
+    display: inline-block;
+    width: 432px;
+    height: 68px;
+}
+.label {
+    position: relative;
+    line-height: 24px;
+}
+.buttons {
+    position: absolute;
+    top: 484px;
+    left: 80px;
+    background-color: #32292f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+}
+.div {
+    position: absolute;
+    top: 0%;
+    left: 95.36%;
+    line-height: 24px;
+    font-weight: 300;
+}
+.bullets-child {
+    position: absolute;
+    height: 8.24%;
+    width: 93.27%;
+    top: 68.84%;
+    right: 6.73%;
+    bottom: 22.92%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.bullets-item {
+    position: absolute;
+    height: 8.33%;
+    width: 28.31%;
+    top: 66.67%;
+    right: 71.69%;
+    bottom: 25%;
+    left: 0%;
+    background-color: #32292f;
+}
+.bullets {
+    position: absolute;
+    top: 736px;
+    left: 929px;
+    width: 431px;
+    height: 24px;
+    text-align: right;
+}
+.pierre-chatel-innocenti-h9ek6q-icon {
+    position: absolute;
+    top: 168px;
+    left: 623px;
+    width: 737px;
+    height: 536px;
+    object-fit: cover;
+}
+.lorem-ipsum-dolor2 {
+    position: absolute;
+    top: 921px;
+    left: 438px;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 200;
+    text-align: center;
+}
+.lorem-ipsum-dolor3 {
+    position: relative;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300;
+}
+.lorem-ipsum-dolor4 {
+    position: relative;
+    line-height: 24px;
+    font-weight: 300;
+    display: inline-block;
+    width: 432px;
+}
+.buttons1 {
+    border: 1px solid #32292f;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    text-align: center;
+}
+.lorem-ipsum-dolor-parent {
+    position: absolute;
+    top: 1152px;
+    left: 189px;
+    width: 410px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.lorem-ipsum-dolor-group {
+    position: absolute;
+    top: 1680px;
+    left: 843px;
+    width: 408px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.malik-skydsgaard-vfe5zqnwwla-u-icon {
+    position: absolute;
+    top: 1024px;
+    left: 732px;
+    width: 628px;
+    height: 424px;
+    object-fit: cover;
+}
+.ilya-aki-frgr8ozqcka-unsplash-icon {
+    position: absolute;
+    top: 1552px;
+    left: 80px;
+    width: 628px;
+    height: 424px;
+    object-fit: cover;
+}
+.lorem-ipsum-dolor7 {
+    position: absolute;
+    top: 2152px;
+    left: 80px;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300;
+    text-align: center;
+}
+.lorem-ipsum-dolor-sit-amet-co-wrapper {
+    position: absolute;
+    top: 545px;
+    left: 0px;
+    width: 339px;
+    height: 24px;
+}
+.philip-stieber-aiwcgozraf0-uns-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 845px;
+    height: 529px;
+    object-fit: cover;
+}
+.group-parent {
+    position: absolute;
+    top: 2240px;
+    left: 80px;
+    width: 845px;
+    height: 569px;
+    font-size: 18px;
+}
+.scott-webb-fgqdx2epun8-unsplas-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 628px;
+    height: 527px;
+    object-fit: cover;
+}
+.lorem-ipsum {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.lorem-ipsum-wrapper {
+    position: absolute;
+    top: 545px;
+    left: 0px;
+    width: 108px;
+    height: 24px;
+}
+.scott-webb-fgqdx2epun8-unsplas-parent {
+    position: absolute;
+    top: 2873px;
+    left: 80px;
+    width: 628px;
+    height: 569px;
+    font-size: 18px;
+}
+.lorem-ipsum-dolor-wrapper {
+    position: absolute;
+    top: 544px;
+    left: 2px;
+    width: 156px;
+    height: 24px;
+}
+.christian-perner-vwyqqarligw-u-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 411px;
+    height: 528px;
+    object-fit: cover;
+}
+.group-container {
+    position: absolute;
+    top: 2240px;
+    left: 949px;
+    width: 411px;
+    height: 568px;
+    font-size: 18px;
+}
+.lorem-ipsum-container {
+    position: absolute;
+    top: 546px;
+    left: 0px;
+    width: 108px;
+    height: 24px;
+}
+.pierre-chatel-innocenti-bsuajk-icon {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 628px;
+    height: 528px;
+    object-fit: cover;
+}
+.group-div {
+    position: absolute;
+    top: 2872px;
+    left: 732px;
+    width: 628px;
+    height: 570px;
+    font-size: 18px;
+}
+.home-page-desktop {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 3810px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 14px;
+    color: #32292f;
+    font-family: Inter;
+}
+

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Virtual Reality Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; /* Prevent horizontal scrolling */
+      }
+
+      .navbar {
+        background-color: #fff; /* Set the background color to white */
+        height: 80px;
+        position: absolute;
+        width: 100%;
+        z-index: 1000;
+      }
+      .display4 {
+        font-size: 90px;
+        font-family: Plus Jakarta Sans;
+        font-weight: 700;
+        word-wrap: break-word;
+      }
+      .navbar-brand {
+        color: #000; /* Set the text color to black */
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      .navbar-nav {
+        margin-left: auto;
+      }
+
+      .nav-link {
+        color: #000 !important;
+      }
+
+      .nav-link:hover {
+        color: #ffcc00 !important;
+      }
+
+      .active-icon {
+        color: #ffcc00 !important;
+      }
+
+      .navbar-nav .nav-item {
+        margin-left: 15px; /* Add space between navbar elements */
+      }
+
+      .navbar-nav .nav-item:first-child {
+        margin-left: auto; /* Align the first item to the right corner */
+      }
+      .overview {
+        width: px;
+        height: 20px;
+        max-height: ;
+      }
+
+      .jumbotron {
+        position: relative;
+        padding: 0; /* Remove padding */
+        margin-bottom: 0;
+        color: #fff;
+        text-align: center;
+        background: url("your-image.jpg") center/cover no-repeat;
+        height: 100vh; /* Full viewport height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover; /* Ensure the background covers the entire container */
+      }
+
+      .jumbotron-content {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+      }
+
+      .jumbotron h1,
+      .jumbotron p {
+        margin: 0;
+        color: #fff; /* Set text color to white */
+      }
+
+      .container img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+
+      .content {
+        padding: 20px;
+      }
+
+      /* Style for separate feature and application containers */
+      .feature-container {
+        background-color: #f0f0f0;
+        padding: 20px;
+        margin-top: px; /* Add space between containers */
+      }
+
+      .feature-block {
+        text-align: center;
+        margin-bottom: 20px;
+        margin:;
+
+      }
+
+      .feature-block img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      .feature-block h3 {
+        color: #000;
+      }
+
+      .feature-block h4 {
+        color: #555;
+      }
+
+      .application-container {
+        background-color: #e0e0e0;
+        padding: 20px;
+      }
+
+      /* Style for application blocks */
+      .application-block {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .application-block img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+
+      .application-block h2 {
+        color: #000;
+      }
+      h2 {
+        text-align: center;
+      }
+
+      .application-block p {
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          >VR <span style="color: black">World</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active-icon" href="#overview">Overview</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#applications">Applications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#extra">Extra</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Jumbotron with Image Containers -->
+    <div class="jumbotron">
+      <div class="jumbotron-content">
+        <h1 class="display-4">Explore Virtual Reality</h1>
+        <p class="lead">
+          Immerse yourself in the world of virtual reality and experience new
+          dimensions.
+        </p>
+        <img src="images/bg.png" alt="bg" />
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="content feature-container" id="features">
+      <h2>Features</h2>
+      <div class="row">
+        <!-- First Feature Block -->
+        <div class="col-md-6">
+          <div class="feature-block">
+            <img src="images/photo1.jpg" alt="Feature 1" />
+            <h3>Immersive Environments</h3>
+            <h4>Experience realistic and captivating virtual worlds.</h4>
+          </div>
+        </div>
+        <!-- Second Feature Block -->
+        <div class="col-md-6">
+          <div class="feature-block">
+            <img src="images/photo2.png" alt="Feature 2" />
+            <h3>Interactive Experiences</h3>
+            <h4>
+              Engage with virtual environments through interactive elements.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Applications Container -->
+    <div class="application-container" id="applications">
+      <h2>Applications</h2>
+      <div class="row">
+        <!-- First Application Block -->
+        <div class="col-md-6">
+          <div class="application-block">
+            <img src="images/photo3.png" alt="Application 1" />
+            <h2>Gaming</h2>
+            <p>
+              Virtual reality is revolutionizing the gaming industry, providing
+              gamers with immersive and realistic experiences.A virtual reality game or VR games is a video game played on virtual reality (VR) hardware. Most VR games are based on player immersion, typically through head-mounted display unit or headset with stereoscopic displays and one or more controllers.
+
+              The video game industry made early attempts at VR in the 1980s, most notably with Mattel's Power Glove and Nintendo's Virtual Boy. With the introduction of the first consumer-ready VR product, the Oculus Rift, in 2013, VR games soon followed, including existing games adapted for the VR hardware, and new games designed directly for VR. While VR hardware and games grew modestly for the remainder of the 2010s, Half-Life: Alyx, a full VR game developed by Valve and released in 2020, was considered the killer application for VR games.oooooooooooooooooooooooooooooooooooooooo
+            </p>
+          </div>
+        </div>
+        <!-- Second Application Block -->
+        <div class="col-md-6">
+          <div class="application-block">
+            <img src="images/photo7.jpg" alt="Application 2" />
+            <h2>Education and Training</h2>
+            <p>
+              VR is used in education and training to create realistic
+              simulations for enhanced learning experiences.Virtual reality, or VR, is taking off in education with an increasing number of schools adopting the technology.
+
+              VR allows students to experience destinations from across the world without ever having to leave the classroom. Imagine students being able to explore the pyramids of giza whilst sat at their desks. This is what virtual reality education allows.
+              
+              
+            </p>
+          </div>
+        </div>
+        <!-- Third Application Block -->
+        <div class="col-md-6">
+          <div class="application-block">
+            <img src="images/vr bg.jpg" alt="Application 3" />
+            <h2>Healthcare</h2>
+            <p>
+              In healthcare, VR applications range from medical training
+              simulations to therapeutic interventions.
+            </p>
+          </div>
+        </div>
+        <!-- Fourth Application Block -->
+        <div class="col-md-6">
+          <div class="application-block">
+            <img src="images/AR-Meta_2-Inline.webp" alt="Application 4" />
+            <h2>Architecture and Design</h2>
+            <p>
+              Architects and designers use VR to visualize and explore designs
+              in a virtual space before implementation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- New Section: Differences Between VR and AR -->
+    <div class="content differences-container">
+      <h4>
+        Augmented reality and virtual reality are reality technologies that
+        either enhance or replace a real-life environment with a simulated one.
+        Augmented reality (AR) augments your surroundings by adding digital
+        elements to a live view, often by using the camera on a smartphone.
+        Virtual reality (VR) is a completely immersive experience that replaces
+        a real-life environment with a simulated one. In AR, a virtual
+        environment is designed to coexist with the real environment, with the
+        goal of being informative and providing additional data about the real
+        world, which a user can access without having to do a search. For
+        example, industrial AR apps could offer instant troubleshooting
+        information when a handset is aimed at a piece of failing equipment.
+        Virtual reality encompasses a complete environmental simulation that
+        replaces the user’s world with an entirely virtual world. Because these
+        virtual environments are entirely fabricated, they are often designed to
+        be larger than life. For example, VR could let a user box with a cartoon
+        version of Mike Tyson in a virtual boxing ring.
+      </h4>
+    </div>
+
+    <!-- New Section: Differences Between VR and AR -->
+    <div class="content differences-container">
+      <h2>
+        Differences Between Virtual Reality (VR) and Augmented Reality (AR) in
+        2023
+      </h2>
+      <p>
+        In 2023, the distinctions between virtual reality (VR) and augmented
+        reality (AR) continue to shape the technological landscape:
+      </p>
+      <p>
+        While virtual reality immerses users entirely in a computer-generated
+        environment, augmented reality overlays digital content onto the real
+        world. VR often requires dedicated headsets, providing a fully immersive
+        experience, while AR can be experienced through various devices like
+        smartphones and smart glasses.
+      </p>
+
+      <!-- Three Blocks with Pictures -->
+      <div class="picture-block">
+        <img src="path-to-your-image1.jpg" alt="Block 1" />
+        <p>Description for Block 1</p>
+      </div>
+      <div class="picture-block">
+        <img src="path-to-your-image2.jpg" alt="Block 2" />
+        <p>Description for Block 2</p>
+      </div>
+      <div class="picture-block">
+        <img src="path-to-your-image3.jpg" alt="Block 3" />
+        <p>Description for Block 3</p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+          <img src="nuotraukos/img1.jpg" alt="">
+          <h4>Pirmas projektas</h4>
+          <p>In proin odio pellentesque vitae, fringilla parturient nulla dignissim turpis mauris maecenas mattis phasellus eu, bibendum viverra curabitur elementum viverra.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+          <img src="nuotraukos/img2.jpg" alt="">
+          <h4>Antras projektas</h4>
+          <p>Euismod maecenas magna purus nibh mi, sagittis ultrices orci ultrices vel tempus viverra non tempus tincidunt sed donec cursus cras.</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+          <img src="nuotraukos/img3.jpg" alt="">
+          <h4>Trečias projektas</h4>
+          <p>Nisl eget sem vestibulum, sollicitudin at tortor, nunc porttitor vestibulum, id urna, at sit a nulla eget sed aliquet amet.</p>
+      </div>
+  </div>
+```
+  </div>
+</div>
+</div>
+
+    <!-- Contact Us Container -->
+    <div class="content future is here-container" id="Future is here">
+      <h2>Future is here</h2>
+      <p>For more information, feel free to contact us at info@vrworld.com.</p>
+
+      <!-- Three Blocks with Pictures -->
+      <div class="picture-block">
+        <img src="images/photo7.jpg" alt="Block 4" />
+        <p>Description for Block 4</p>
+      </div>
+      <div class="picture-block">
+        <img src="images/photo6.jpg" alt="Block 5" />
+        <p>Description for Block 5</p>
+      </div>
+      <div class="picture-block">
+        <img src="images/photo2.png" alt="Block 6" />
+        <p>Description for Block 6</p>
+      </div>
+    </div>
+    <!-- Contact Us Container -->
+<div class="content contact-container" id="contact">
+  <h2>Contact Us</h2>
+  <p>For more information, feel free to contact us at info@vrworld.com.</p>
+
+  <!-- Three Blocks with Pictures in One Row -->
+  <div class="row">
+    <div class="col-md-4 picture-block">
+      <img src="path-to-your-image4.jpg" alt="Block 4">
+      <p>Description for Block 4</p>
+    </div>
+    <div class="col-md-4 picture-block">
+      <img src="path-to-your-image5.jpg" alt="Block 5">
+      <p>Description for Block 5</p>
+    </div>
+    <div class="col-md-4 picture-block">
+      <img src="path-to-your-image6.jpg" alt="Block 6">
+      <p>Description for Block 6</p>
+    </div>
+  </div>
+</div>
+
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>Contact Us</h4>
+              <p>Email: info@vrworld.com</p>
+              <p>Phone: +1 (555) 123-4567</p>
+            </div>
+            <div class="col-md-4">
+              <!-- Add Instagram icon using Font Awesome -->
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <!-- Add your own social media icons or links here -->
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!-- Font Awesome -->
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      />
+
+      <style>
+        /* Footer Styles */
+        .footer {
+          background-color: #333;
+          color: #fff;
+          padding: 20px 0;
+        }
+
+        .footer h4 {
+          color: #ffcc00;
+        }
+
+        .footer a {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        .footer a:hover {
+          color: #ffcc00;
+        }
+      </style>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

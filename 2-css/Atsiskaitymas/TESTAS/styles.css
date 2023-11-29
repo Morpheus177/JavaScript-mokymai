@@ -1,864 +1,357 @@
 body {
     margin: 0;
-    padding: 0;
-    background-color: white
 }
 
-/* NAV */
-    {
-    box-sizing: border-box;
-}
-
-h1 {
-    width: 674px;
-    color: var(--White, #FFF);
-    font-family: Hind Madurai;
-    font-size: 56px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 62px;
-
-    letter-spacing: -2.8px;
-}
-
-.background {
-
+.container {
     width: 1366px;
     height: 4148px;
     position: relative;
-    overflow: hidden;
-    width: 1366px;
-    height: 4148px;
+    background: white;
 }
 
-.img5 {
+.img1 {
     width: 1366px;
     height: 688px;
-    opacity: 0.7;
-    background: var(--Black, #000);
-    position: absolute;
     left: 0px;
     top: 80px;
-
+    position: absolute;
 }
 
-._3-press-start-3 {
-    opacity: 0.8999999761581421;
+.img2 {
     width: 1365px;
     height: 687px;
-
-    position: absolute;
     left: 1px;
     top: 80px;
-
+    position: absolute;
+    opacity: 0.90;
 }
 
-.rectangle-71 {
-    background: black opacity: 0.699999988079071;
+.overlay1 {
     width: 1366px;
     height: 688px;
-    opacity: 0.7;
-    background: var(--Black, #000);
-
-    position: absolute;
     left: 0px;
     top: 80px;
-
+    position: absolute;
+    opacity: 0.70;
+    background: black;
 }
 
-.main-menu {
+.header {
     width: 1366px;
     height: 80px;
-
-    position: absolute;
     left: 0px;
     top: 0px;
-
-}
-
-.rectangle-6 {
-    width: 72px;
-    height: 44px;
-    flex-shrink: 0;
-    color: rgba(0, 0, 0, 0.1);
-    color: var(--Black, #070707);
-    justify-content: left;
-
-    font-family: Hind Madurai;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 88px;
-    /* 137.5% */
-    padding: 1px;
-
-
-    background: var(--white, #ffffff);
-    opacity: 0.7;
-
-
-
-
-}
-
-.frame-1 {
-
-    display: flex;
-    flex-direction: row;
-    gap: 48px;
-    align-items: center;
-    justify-content: flex-start;
     position: absolute;
-    right: 7.32%;
-    left: 41.29%;
-    width: 51.39%;
-    bottom: 30%;
-    top: 30%;
-    height: 40%;
-
 }
 
-.frame-12 {
-
-    display: flex;
-    flex-direction: row;
-    gap: 48px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-
-}
-
-.frame-4 {
-
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-
-}
-
-.products {
-    color: black;
-    text-align: left;
-    font: 400 16px/22px 'HindMadurai-Regular', sans-serif;
-    position: relative;
-    box-sizing: border-box;
-    color: var(--text-citationand-h-2, #333333);
-    text-align: left;
-    font: var(--link, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-    position: relative;
-
-}
-
-
-
-
-
-.frame-13 {
-
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-
-}
-
-.services {
-    ccolor: var(--text-citationand-h-2, --black);
-    text-align: left;
-    font: var(--link, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-    position: relative;
-
-}
-
-.frame-5 {
-
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-
-}
-
-.industries {
-    color: var(--text-citationand-h-2, --black);
-    text-align: left;
-    font: var(--link, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-    position: relative;
-
-}
-
-.frame-2 {
-
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-
-}
-
-.news {
-    color: var(--text-citationand-h-2, --black);
-    text-align: left;
-    font: var(--link, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-    position: relative;
-
-}
-
-.frame-3 {
-    display: flex;
-    flex-direction: row;
-    gap: 4px;
-    align-items: center;
-    justify-content: flex-start;
-    flex-shrink: 0;
-    position: relative;
-
-}
-
-.about-us {
-    color: var(--text-citationand-h-2, #333333);
-    text-align: left;
-    font: var(--link, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-
-    position: relative;
-
-}
-
-.career {
-    color: var(--text-citationand-h-2, #333333);
-    text-align: left;
-    font: var(--link, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-    position: relative;
-
-}
-
-.primary-btn-m {
-    background: var(--primary-100, #1289af);
-    border-radius: 4px;
-    padding: 5px 16px 5px 16px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    position: relative;
-    box-shadow: 0px 2px 10px 0px rgba(54, 1, 103, 0.30);
-}
-
-
-
-.primary-btn-m {
-    background: var(--primary-100, #1289af);
-    border-radius: 4px;
-    padding: 5px 16px 5px 16px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
-    position: relative;
-    box-shadow: 0px 2px 10px 0px rgba(54, 1, 103, 0.30);
-}
-
-.contact-us {
-    color: var(--white, #ffffff);
-    text-align: left;
-    font: var(--button, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-    position: relative;
-
-}
-
-
-
-}
-
-
-.frame-17 {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 32px;
-
-    align-items: center;
-
-    justify-content: flex-start;
-
-
-
-    position: absolute;
-    left: 298px;
-    top: 831px;
-
-}
-
-.frame-7 {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 32px;
-
-    align-items: flex-start;
-
-    justify-content: flex-start;
-
-
-    flex-shrink: 0;
-
-    position: relative;
-
-}
-
-.frame-6 {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 16px;
-
-    align-items: flex-start;
-
-    justify-content: flex-start;
-
-
-    flex-shrink: 0;
-
-    position: relative;
-
-}
-
-.about-the-client {
-    color: var(--text-citationand-h-2, #333333);
-    text-align: left;
-    font: var(--h-2, 600 24px/40px 'HindMadurai-SemiBold', sans-serif);
-
-    position: relative;
-
-}
-
-
-
-.group-191 {
-    flex-shrink: 0;
-    width: 770px;
-    height: 424px;
-
-    position: static;
-
-}
-
-.andrea-cau-n-v-7-g-jm-sq-3-zc-unsplash-3 {
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.10));
-    width: 770px;
-    height: 424px;
-
-    position: absolute;
+.menu {
+    width: 1366px;
+    height: 80px;
     left: 0px;
-    top: 312px;
-
-}
-
-.group-176 {
-    width: 64px;
-    height: 64px;
-
+    top: 0px;
     position: absolute;
-    left: 353px;
-    top: 492px;
-
-    overflow: visible;
+    background: white;
 }
 
-.frame-15 {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 32px;
-
+.menu-items {
+    left: 564px;
+    top: 24px;
+    position: absolute;
+    justify-content: flex-start;
     align-items: center;
-
-    justify-content: flex-start;
-
-
-    flex-shrink: 0;
-
-    position: relative;
-
-}
-
-.frame-10 {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 64px;
-
-    align-items: center;
-
-    justify-content: flex-start;
-
-
-    flex-shrink: 0;
-
-    position: relative;
-
-}
-
-.frame-8 {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 16px;
-
-    align-items: flex-start;
-
-    justify-content: flex-start;
-
-
-    flex-shrink: 0;
-
-    position: relative;
-
-}
-
-.challenge {
-    color: var(--text-citationand-h-2, #333333);
-    text-align: left;
-    font: var(--h-2, 600 24px/40px 'HindMadurai-SemiBold', sans-serif);
-
-    position: relative;
-
-}
-
-.p {
-    color: var(--text-paragraph, #666666);
-    text-align: left;
-    font: var(--paragraph, 400 18px/32px 'HindMadurai-Regular', sans-serif);
-
-    position: relative;
-
-    width: 770px;
-}
-
-.group-158 {
-    flex-shrink: 0;
-    width: 402px;
-    height: 162.5px;
-
-    position: static;
-
-}
-
-.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-sit-donec-posuere-pulvinar-nibh-euismod-amet-dictum {
-    color: var(--text-citationand-h-2, #333333);
-    text-align: left;
-    font: var(--citation, 300 28px/40px 'HindMadurai-Light', sans-serif);
-    width: 378px;
-    position: absolute;
-    left: 208px;
-    top: 344px;
-    width: 378px;
-    color: var(--text-citation-and-h-2, #333);
-    font-family: Hind Madurai;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 40px;
-
-}
-
-.vector-10 {
-
-    height: 162.5px;
-    position: absolute;
-    left: 184px;
-    top: 344px;
-    overflow: visible;
-    flex-shrink: 0;
-
-
-}
-
-.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-eu-massa-et-nulla-cursus-vestibulum-euismod-diam-netus-morbi-tortor-elementum-habitant-id-aenean-mauris-consectetur-arcu-ipsum-proin-faucibus-nulla-sed-viverra-dolor-id-et-sagittis-auctor-ac-diam-tellus-dui-dictum-nam-purus-integer-sollicitudin-curabitur-imperdiet-diam-nisl-ac-egestas-euismod-nulla-aliquet-lectus-pharetra-praesent-aliquam-cursus-dignissim-ultricies-ac-risus-pharetra-cras-etiam-massa-quis-hendrerit-urna-felis-risus-consectetur-netus-urna-ut-a-volutpat-dignissim-tincidunt-cursus-quis-donec-varius-risus-integer-velit-tellus-malesuada-sed-turpis-tincidunt-bibendum-eu-lectus-vel-eget-quam-eu-sit-congue-risus-eget-at-volutpat-mauris-et-sed-fermentum-vel-lacus-vel-viverra-et-vitae-etiam-volutpat-ipsum-tincidunt-vel-enim-nisl-ullamcorper-sollicitudin-lacus-nibh-ultrices-mollis-vestibulum-ornare-velphaamet-dolor-magnis-morbi-arcu-phasellus-mattis-enim-praesent-enim-consequat-donec-id-lectus-venenatis-int-dapibus-commodo-viverra-sed-donec-adipiscing-ullamcorper-malesuada-mattis-urna-nisl-tortor {
-    color: var(--text-paragraph, #666666);
-    text-align: left;
-    font: var(--paragraph, 400 18px/32px 'HindMadurai-Regular', sans-serif);
-
-    position: relative;
-
-    width: 770px;
-}
-
-.frame-11 {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 8px;
-
-    align-items: flex-start;
-
-    justify-content: flex-start;
-
-
-    flex-shrink: 0;
-
-    position: relative;
-
-}
-
-.jorge-vasconez-eoj-sqf-k-8-jwk-unsplash-1 {
-    flex-shrink: 0;
-    width: 770px;
-    height: 433.27px;
-
-    position: relative;
-
-}
-
-.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit {
-    color: var(--text-paragraph, #666666);
-    text-align: left;
-    font: var(--photolabel, 400 12px/20px 'HindMadurai-Regular', sans-serif);
-
-    position: relative;
-
-}
-
-.frame-16 {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 32px;
-
-    align-items: flex-start;
-
-    justify-content: flex-start;
-
-
-    flex-shrink: 0;
-
-    position: relative;
-
-}
-
-.frame-122 {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 16px;
-
-    align-items: flex-start;
-
-    justify-content: flex-start;
-
-
-    flex-shrink: 0;
-
-    position: relative;
-
-}
-
-.solution {
-    color: var(--text-citationand-h-2, #333333);
-    text-align: left;
-    font: var(--h-2, 600 24px/40px 'HindMadurai-SemiBold', sans-serif);
-
-    position: relative;
-
-}
-
-.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-habitant-at-tincidunt-eget-turpis-eu-turpis-tristique-ultrices-pulvinar-fusce-turpis-auctor-enim-sit-ut-ut-eget-nulla-nunc-turpis-cursus-nullam-congue-vulputate-arcu-facilisi-tortor-arcu-sociis-tempus-donec-at-vel-aliquam-ac-non-viverra-consectetur-placerat-cursus-mi-nunc-morbi-congue-euismod-purus-nascetur-consequat-orci-quis-porttitor-dictumst-luctus-pretiumnibhenim-quisque-vestibulum-quam-nulla-eu-sit-dictumst-vitae-nisi-congue-in-libero-leo-phasellus-urna-phasellus-mi-tellus-id-phasellus-nec-malesuada-egestas-pellentesque-malesuada-eu-pharetra-eu-pharetra-faucibus-varius-sapien-in-ornare-eu-ut-urna-mi-suspendisse-molestie-ipsum-varius-amet-non-amet-posuerc-convallis-duis-risus-nisl-nunc-massa-phasellus-phasellus-gravida-lorem-lacinia {
-    color: var(--text-paragraph, #666666);
-    text-align: left;
-    font: var(--paragraph, 400 18px/32px 'HindMadurai-Regular', sans-serif);
-
-    position: relative;
-
-    width: 770px;
-}
-
-.group-192 {
-    flex-shrink: 0;
-    width: 769.97px;
-    height: 497.78px;
-
-    position: static;
-
-}
-
-.frame-19 {
-
-    color: var(--text-paragraph, #666);
-
-    /* Paragraph */
-    font-family: Hind Madurai;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    /* 177.778% */
-    width: 373px;
-
-
-    position: absolute;
-    left: 0px;
-    top: 440px;
-
-}
-
-.jorge-vasconez-eoj-sqf-k-8-jwk-unsplash-12 {
-    flex-shrink: 0;
-    width: 372.97px;
-    height: 209.54px;
-
-    position: relative;
-
-}
-
-.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-odio-sit-augue-nibh-est-ullamcorper-egestas-aenean-faucibus-sed-interdum-consequat-ipsum-in-dolor-vel-mauris-blandit-arcu-vel-amet-risus-tempus-mattis-mattis-aliquet-semper-platea-dui-quisque-fermentum-aliquam-ut-urna-mollis-adipiscing-imperdiet-a-platea-tortor-pellentesque {
-    color: var(--text-paragraph, #666666);
-    text-align: left;
-    font: var(--paragraph, 400 18px/32px 'HindMadurai-Regular', sans-serif);
-    opacity: 0.800000011920929;
-
-    position: relative;
-
-    width: 373px;
-}
-
-.frame-20 {
-
-    color: var(--text-paragraph, #666);
-
-    width: 370px;
-    font-family: Hind Madurai;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    position: absolute;
-    left: 397px;
-    top: 440.23px;
-
-}
-
-.jorge-vasconez-eoj-sqf-k-8-jwk-unsplash-2 {
-    flex-shrink: 0;
-
-    position: relative;
-    width: 770px;
-    height: 433.269px;
-
-
-}
-
-.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-odio-sit-augue-nibh-est-ullamcorper-egestas-aenean-faucibus-sed-interdum-consequat-ipsum-in-dolor-vel-mauris-blandit-arcu-vel-amet-risus-tempus-mattis-mattis-aliquet-semper-platea-dui-quisque-fermentum-aliquam-ut-urna-mollis-adipiscing-imperdiet-a-platea-tortor-pellentesque2 {
-    color: var(--text-paragraph, #666666);
-    text-align: left;
-    font: var(--paragraph, 400 18px/32px 'HindMadurai-Regular', sans-serif);
-    opacity: 0.800000011920929;
-
-    position: relative;
-
-    width: 370px;
-}
-
-.frame-14 {
-
-    display: flex;
-
-    flex-direction: column;
-
-    gap: 32px;
-
-    align-items: flex-start;
-
-    justify-content: flex-start;
-    padding: 298px, 0, 0, 298px;
-
-
-
-    position: absolute;
-    left: 100px;
-    top: 271px;
-
-}
-
-.frame-132 {
-
-    display: flex;
-
-    flex-direction: column;
-
     gap: 24px;
+    display: inline-flex;
+}
 
-    align-items: flex-start;
-
+.menu-item {
     justify-content: flex-start;
-
-
-    flex-shrink: 0;
-
-    position: relative;
-
-}
-
-.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-ipsum-dolorelit-ipsum {
-    color: var(--white, #ffffff);
-    text-align: left;
-    font: var(--h-1, 600 56px/62px 'HindMadurai-SemiBold', sans-serif);
-
-    position: relative;
-
-    width: 674px;
-}
-
-.group-156 {
-    flex-shrink: 0;
-    width: 123px;
-    height: 22px;
-
-    position: static;
-
-}
-
-.case-study {
-    color: var(--white, #ffffff);
-    text-align: left;
-    font: var(--subtitle, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-
-    position: absolute;
-    right: 81.75%;
-    left: 0%;
-    width: 18.25%;
-    bottom: 0%;
-    top: 90.52%;
-    height: 9.48%;
-
-}
-
-.primary-btn-m2 {
-    background: var(--primary-100, #1289af);
-    border-radius: 4px;
-    padding: 8px 16px 8px 16px;
-
+    align-items: center;
+    gap: 48px;
     display: flex;
+}
 
-    flex-direction: row;
-
+.menu-item div {
+    justify-content: flex-start;
+    align-items: center;
     gap: 4px;
-
-    align-items: center;
-
-    justify-content: center;
-
-
-    flex-shrink: 0;
-
-    position: relative;
-
-    box-shadow: 0px 2px 10px 0px rgba(54, 1, 103, 0.30);
-}
-
-.bx-bx-play-circle {
-    flex-shrink: 0;
-    width: 24px;
-    height: 24px;
-
-    position: relative;
-
-    overflow: visible;
-}
-
-.frame-18 {
-    padding: 1px 0px 0px 0px;
-
     display: flex;
-
-    flex-direction: row;
-
-    gap: 0px;
-
-    align-items: center;
-
-    justify-content: flex-start;
-
-
-    flex-shrink: 0;
-
-    position: relative;
-
-}
-
-.view-case {
-    color: var(--White, #FFF);
-
-    /* Button */
-    font-family: Hind Madurai;
+    color: #333333;
     font-size: 16px;
-    font-style: normal;
+    font-family: Hind Madurai;
     font-weight: 400;
     line-height: 22px;
-    /* 137.5% */
-}
-
-p {
-    color: var(--text-paragraph, #666);
-    text-align: left;
-    font: var(--button, 400 16px/22px 'HindMadurai-Regular', sans-serif);
-
-    position: relative;
-    width: 770px;
-    color: var(--text-paragraph, #666);
-    font-family: Hind Madurai;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-
+    word-wrap: break-word;
 }
 
 .logo {
+    color: black;
+    font-size: 32px;
+    font-family: Hind Madurai;
+    font-weight: 700;
+    line-height: 44px;
+    word-wrap: break-word;
+}
 
+.section1 {
+    left: 298px;
+    top: 831px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    display: inline-flex;
+}
 
-    height: 300px;
-    width: 300px;
-    color: var(--black, #0e0d0d);
-    text-align: left;
-    font: var(--logo, 700 32px/44px 'HindMadurai-Bold', sans-serif);
+.about-client {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    display: flex;
+}
 
+.about-client-title {
+    color: #333333;
+    font-size: 24px;
+    font-family: Hind Madurai;
+    font-weight: 600;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+
+.about-client-description {
+    width: 770px;
+    color: #666666;
+    font-size: 18px;
+    font-family: Hind Madurai;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+
+.client-image-container {
+    width: 770px;
+    height: 424px;
     position: relative;
+}
 
+.client-image-overlay {
+    width: 770px;
+    height: 424px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.10) 100%);
+}
+
+.client-image {
+    width: 64px;
+    height: 64px;
+    left: 353px;
+    top: 180px;
+    position: absolute;
+}
+
+.challenge {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    display: flex;
+}
+
+.challenge-title {
+    color: #333333;
+    font-size: 24px;
+    font-family: Hind Madurai;
+    font-weight: 600;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+
+.challenge-description {
+    width: 770px;
+    color: #666666;
+    font-size: 18px;
+    font-family: Hind Madurai;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+
+.challenge-highlight {
+    width: 402px;
+    height: 162.50px;
+    position: relative;
+}
+
+.challenge-highlight-text {
+    width: 378px;
+    left: 24px;
+    top: 1px;
+    position: absolute;
+    color: #333333;
+    font-size: 28px;
+    font-family: Hind Madurai;
+    font-weight: 300;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+
+.challenge-highlight-line {
+    width: 0px;
+    height: 162.50px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border: 6px #1289AF solid;
+}
+
+.solution {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    display: flex;
+}
+
+.solution-title {
+    color: #333333;
+    font-size: 24px;
+    font-family: Hind Madurai;
+    font-weight: 600;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+
+.solution-description {
+    width: 770px;
+    color: #666666;
+    font-size: 18px;
+    font-family: Hind Madurai;
+    font-weight: 400;
+    line-height: 32px;
+    word-wrap: break-word;
+}
+
+.solution-images {
+    position: relative;
+}
+
+.solution-image-group1 {
+    width: 373px;
+    height: 497.54px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    display: inline-flex;
+}
+
+.solution-image1 {
+    width: 372.97px;
+    height: 209.54px;
+}
+
+.solution-image-group2 {
+    width: 372.97px;
+    height: 497.54px;
+    left: 397px;
+    top: 0.23px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    display: inline-flex;
+}
+
+.solution-image2 {
+    width: 372.97px;
+    height: 209.54px;
+}
+
+.cta-section {
+    left: 100px;
+    top: 271px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    display: inline-flex;
+}
+
+.cta-content {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: flex;
+}
+
+.cta-title {
+    width: 674px;
+    color: white;
+    font-size: 56px;
+    font-family: Hind Madurai;
+    font-weight: 600;
+    line-height: 62px;
+    word-wrap: break-word;
+}
+
+.cta-subtitle {
+    color: white;
+    font-size: 16px;
+    font-family: Hind Madurai;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 4px;
+    word-wrap: break-word;
+}
+
+.cta-button {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #1289AF;
+    box-shadow: 0px 2px 10px rgba(54, 1, 103, 0.30);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    display: inline-flex;
+}
+
+.cta-button-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+}
+
+.cta-button-icon div {
+    width: 20px;
+    height: 20px;
+    left: 2px;
+    top: 2px;
+    position: absolute;
+    background: white;
+}
+
+.cta-button-text {
+    padding-top: 1px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 16px;
+    font-family: Hind Madurai;
+    font-weight: 400;
+    line-height: 22px;
+    word-wrap: break-word;
 }

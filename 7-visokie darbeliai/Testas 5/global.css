@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --button: "Hind Madurai";
+
+  /* font sizes */
+  --button-size: 16px;
+  --h1-size: 56px;
+  --paragraph-size: 18px;
+  --h2-size: 24px;
+  --photo-label-size: 12px;
+  --citation-size: 28px;
+  --logo-size: 32px;
+
+  /* Colors */
+  --white: #fff;
+  --primary-100: #1289af;
+  --text-paragraph: #666;
+  --text-citation-and-h2: #333;
+  --black: #000;
+
+  /* Gaps */
+  --gap-13xl: 32px;
+  --gap-5xl: 24px;
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-base: 16px;
+
+  /* Border radiuses */
+  --br-9xs: 4px;
+}

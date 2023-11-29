@@ -1,0 +1,43 @@
+/* Add your custom styles here */
+
+/* Navbar styling */
+.navbar {
+    background-color: #f8f9fa; /* Background color */
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #343a40; /* Text color */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff; /* Hover color */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #007bff; /* Navbar toggler color */
+  }
+  
+  /* Optional: Adjust padding/margin as needed */
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  /* Optional: Add padding to the navbar items */
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Optional: Change the active item background color */
+  .navbar-nav .nav-item.active {
+    background-color: #007bff; /* Active item background color */
+  }
+  
+  /* Optional: Change the active item text color */
+  .navbar-nav .nav-item.active .nav-link {
+    color: #ffffff; /* Active item text color */
+  }
+  

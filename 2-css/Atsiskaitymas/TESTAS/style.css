@@ -1,0 +1,10 @@
+.about-the-client,
+.about-the-client * {
+  box-sizing: border-box;
+}
+.about-the-client {
+  color: var(--text-citationand-h-2, #333333);
+  text-align: left;
+  font: var(--h-2, 600 24px/40px "HindMadurai-SemiBold", sans-serif);
+  position: relative;
+}

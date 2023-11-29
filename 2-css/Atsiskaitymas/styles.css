@@ -1,15 +1,132 @@
 /* NAVIGACIJA */
 
 
-body {
+* {
     margin: o;
     padding: 0;
-    background: white;
+    background-color: white;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
 }
 
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+nav{
+    background: darkturquoise;
+    height: 80px;
+    width: 100%;
     
-    .background {
+}
+
+
+
+.li,
+a,
+button {
+    color: var(--text-citation-and-h-2, #333);
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    text-decoration: none;
+
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    width: 1366px;
+    height: 80px;
+    flex-shrink: 0;
+    
+
+}
+
+.logo {
+    cursor: pointer;
+    width: 72px;
+    height: 44px;
+    flex-shrink: 0;
+    color: var(--Black, #000);
+    font-family: Hind Madurai;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+
+}
+
+
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {}
+
+
+.nav_links li a:hover {
+    color: blue;
+}
+
+
+
+
+button {
+    padding: 9px 25px;
+    background-color: beige;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: var(--White, #FFF);
+
+    /* Button */
+    font-family: Hind Madurai;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+
+}
+
+button:hover {
+    background-color: aqua;
+    display: flex;
+    padding: 5px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.p {
+    color: var(--text-paragraph, #666);
+    font-family: Hind Madurai;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 770px;
+}
+
+
+
+.background {
     width: 1366px;
     height: 80px;
     position: relative;
@@ -17,53 +134,11 @@ body {
 }
 
 
-.p {
-    background:black;
-}
-
-
-.nav ul {
-    list-style: none;
-    background: yellow;
-    margin: o;
-    padding: 0;
-
-}
-
-.nav li {
-    display: inline-block;
-
-    justify-content: space-between;
-    margin-right: auto;
-    padding-inline-end: ;
-
-}
-
-.logo {
-
-    box-sizing: border-box;
-    width: 200;
-}
-
-.logo {
-    color: var(--black, #000000);
-    text-align: left;
-    font: var(--logo, 700 32px/44px 'HindMadurai-Bold', sans-serif);
-    position: relative;
-
-}
 
 
 
-body {
-    margin: 0;
-    padding: 0;
-}
 
-body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-}
+
 
 h1,
 h2,
@@ -76,71 +151,24 @@ h6 {
 }
 
 
-nav,
-ul,
-li.p {
-    margin: 0;
-    padding: 0;
-    color: var(--text-paragraph, #666);
-    font-family: Hind Madurai;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px; /* 177.778% */
-}
 
-.general-section {
-    padding: 200px;
-}
 
-.general-section .container {
-    width: 100%;
-    max-width: 1300px;
-    margin: o auto;
-}
 
-.general-section .title-part {
-    text-align: center;
-    margin-bottom: 71px;
-}
 
-.general-section .title-part h2 {
-    color: #222;
-    text-align: center;
-    font-family: Raleway;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
 
-.general-section .title-part .red-row {
-    width: 31px;
-    height: 5px;
-    flex-shrink: 0;
-    background: #EB5757;
-    margin: 19px auto;
-}
 
-.general-section .title-part p {
-    color: #222;
-    text-align: center;
-    font-family: Open Sans;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
-}
-    .nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 120px;
-        padding: 47px 72px;
-        box-sizing: border-box;
+
+
+
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    padding: 47px 72px;
+    box-sizing: border-box;
 
 }
 
@@ -149,25 +177,10 @@ nav ul {
     margin: 0;
 }
 
-nav ul li {
-    list-style-type: none;
-    display: inline-block;
-    font-size: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    margin-left: 63px;
-    width: 1366px;
-height: 80px;
-flex-shrink: 0;
 
 
-}
 
-nav ul .active a,
-nav a:hover {
-    color: #EB5757;
-}
-.h1{
+.h1 {
     align-items: normal;
     justify-content: right;
 

@@ -1,0 +1,37 @@
+/* Style for Differences Container */
+.differences-container {
+    background-color: #e0e0e0;
+    padding: 20px;
+    margin-top: 20px; /* Add space between containers */
+  }
+  
+  /* Style for Contact Container */
+  .Future is here-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px; /* Add space between containers */
+  }
+/* Style for Picture Blocks */
+.picture-block {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .picture-block img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  /* Style for Picture Blocks */
+.picture-block {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .picture-block img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+    

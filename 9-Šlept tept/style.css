@@ -1,0 +1,11 @@
+.korteles {
+    display: flex;
+  }
+  
+  .korteles .kortele {
+    border: 1px solid black;
+  }
+  
+  .korteles .kortele.aktyvi {
+    border-color: green;
+  }

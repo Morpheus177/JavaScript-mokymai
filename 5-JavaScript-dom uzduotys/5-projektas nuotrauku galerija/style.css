@@ -1,0 +1,52 @@
+.body{
+margin: 0;
+padding: 0;
+}
+ 
+
+
+.image.div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: absolute;
+padding: 24px;
+box-sizing: border-box;
+}
+
+.outside-image-div.image.div{
+    width: 100%;
+    height: 100%;
+    background-image: url();
+    background-size: cover;
+}
+
+.image{
+    width: 112px;
+    height: 130px;
+    }
+
+    .image-selected{
+        border-radius: 8px;
+        border: 5px solid yellow;
+    }
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+.outside-image-div {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+
+.container {
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+

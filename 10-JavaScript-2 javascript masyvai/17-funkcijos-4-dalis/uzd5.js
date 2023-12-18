@@ -3,16 +3,16 @@
 
 // var vienas
 
-function arPirminis(sk) {
-    if(sk <=1) {
+function arPirminis(num) {
+    if(num <=1) {
         return false;
     }
-    for(let daliklis=2; daliklis < sk; daliklis++) {
-        if (sk % daliklis === 0) {
-             return false + 'nera pirminis';
+    for(let daliklis=2; daliklis < num; daliklis++) {
+        if (num % daliklis === 0) {
+             return false + 'ne pirminis';
         }
     }
-    return true + 'yra pirminis';
+    return true + ' pirminis';
 }
 for(let daliklis = 2; daliklis <=15; daliklis++){
     let pirminis = arPirminis(i);

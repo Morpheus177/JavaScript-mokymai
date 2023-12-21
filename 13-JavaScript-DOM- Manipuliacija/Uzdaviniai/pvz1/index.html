@@ -12,6 +12,60 @@
         <p id="pirmas-paragrafas">Pirmas paragrafas</p>
 
     </div>
+
+    <div id="antras">
+        <p id="paragrafo tekstas">
+            Si teksta turime matyti konsoleje
+
+        </p>
+    </div>
+
+    <div id="trecias">
+        <p>Turime matyti konsoleje paragafa arba tik teksta</p>
+    </div>
+
+    <div id="ketvirtas">
+        <button onclick="document.getElementById('paragrafas-pakeitimui').innerHTML = 'Pakeistas paragrafo tekstas'">Pakeisti teksta</button>
+        <p id="paragrafas-pakeitimui">Nepakeistas paragrafo tekstas</p>
+        
+    </div>
+
+    <div id="penktas">
+        <button onclick="document.getElementById('paragrafas-5').style.fontSize ='35px'">
+        Pakeisti dydi
+        </button>
+
+        <button onclick="document.getElementById('paragrafas-5').style.color ='red'">
+        Pakeisti spalva
+        </button>
+
+        <p id="paragrafas-5">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sed quas fugit asperiores architecto inventore odio perspiciatis veniam ipsum voluptas recusandae qui eligendi nulla ab non magnam voluptatibus, odit pariatur.
+            
+        </p>
+    </div>
+
+        <div id="sestas">
+            <p>
+                      <img src="pic_bulboff.gif" alt="lempute"id=lempute>
+            </p>
+            <button onclick="document.getElementById('lempute').src = 'pic_bulbon.gif'">
+              Įjungti lemputę
+            </button>
+
+            <button onclick="document.getElementById('lempute').src = 'pic_bulboff.gif'">
+               Įšjungti lemputę
+            </button>
+
+        </div>
+
+        <div id="septintas">
+            <button onclick="pakeisti()">Pakeisti tekstą</button>
+            <p id="septinto-tekstas">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur autem sapiente ab? Consequuntur laudantium ducimus laboriosam molestiae ab, vitae totam quod atque nam reprehenderit eaque nihil quia aliquid earum tempora.</p>
+            
+        </div>
+
+    
     <script src="index.js"></script>
     
 </body>

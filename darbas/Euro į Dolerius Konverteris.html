@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Euro į Dolerius Konverteris</title>
+</head>
+<body>
+
+  <label for="inputEuro">Įveskite sumą eurais:</label>
+  <input type="number" id="inputEuro" step="0.01" />
+  <button onclick="konvertuoti()">Konvertuoti</button>
+
+  <div id="rezultatas"></div>
+
+  <script>
+    function konvertuoti() {
+      const inputEuroElement = document.getElementById('inputEuro');
+      const rezultatoElementas = document.getElementById('rezultatas');
+
+      const ivestaSumaEurais = parseFloat(inputEuroElement.value);
+
+      if (isNaN(ivestaSumaEurais)) {
+        rezultatoElementas.textContent = 'Įvesta ne skaičius.';
+      } else {
+        const konversijosKursas = 1.12; // Pavyzdinė konversijos kaina (1 euras = 1.12 dolerių)
+        const sumaDoleriais = ivestaSumaEurais * konversijosKursas;
+
+        rezultatoElementas.textContent = `${ivestaSumaEurais} eurų yra ${sumaDoleriais.toFixed(2)} dolerių.`;
+      }
+    }
+  </script>
+
+</body>
+</html>

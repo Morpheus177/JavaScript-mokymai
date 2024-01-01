@@ -1,0 +1,11 @@
+function arPirminis(skaicius) {
+    let kiekDalikliu = 0;
+
+    for (let i = 1; i <= skaicius; i++) {
+        if (skaicius % i === 0) {
+            kiekDalikliu++;
+        }
+    }
+
+    return kiekDalikliu === 2;
+}

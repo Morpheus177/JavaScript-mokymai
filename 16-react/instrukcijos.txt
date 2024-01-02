@@ -1,0 +1,22 @@
+- suinstaliuoti react su:
+
+npm create vite@latest
+
+- rašyti projekto pavadinimą
+- rinktis react
+- rinktis javascript
+- pereiti į projektą:
+
+cd 1-komponentai...
+
+- sudiegti bibliotekas:
+
+npm install
+
+- paleidžiam projektą darbui:
+
+npm run dev
+
+- sustabdyti projektą terminale paspaudus
+
+ctrl + c

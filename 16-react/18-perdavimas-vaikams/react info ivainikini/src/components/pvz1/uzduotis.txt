@@ -1,0 +1,15 @@
+į aplanką Pvz1
+susikurkite komponentus "Ferma" (tėvinis)
+ir "Gyvunas" (vaikinis)
+
+App komponente iškvieskite Ferma komponentą
+
+komponente Ferma kvieskite Gyvunas kelis kartus
+duodant vis skirtingą informaciją
+
+komponente Gyvunas priimkite informaciją ir
+išveskite
+
+---
+
+padarykite tą patį, bet su "OroUostas" ir "Lektuvas"

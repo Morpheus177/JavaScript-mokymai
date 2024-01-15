@@ -1,0 +1,1111 @@
+.pagrindinis-destop,
+.pagrindinis-destop * {
+  box-sizing: border-box;
+}
+.pagrindinis-destop {
+  background: #f9f9f9;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 1920px;
+  height: 4408px;
+  position: relative;
+  overflow: hidden;
+}
+.lithuania {
+  opacity: 0.30000001192092896;
+  height: auto;
+  position: absolute;
+  left: 886.69px;
+  top: 1388px;
+  overflow: visible;
+}
+.rectangle-3 {
+  width: 1920px;
+  height: 931px;
+  position: absolute;
+  left: 0px;
+  top: 69px;
+  overflow: visible;
+}
+.frame-9 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 480px;
+  top: 411px;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.atrask-lietuv-i-naujo {
+  color: #ffffff;
+  text-align: left;
+  font: 700 90px "PlusJakartaSans-Bold", sans-serif;
+  position: relative;
+}
+.lankytinos-vietos-lietuvoje {
+  color: #ffffff;
+  text-align: left;
+  font: 300 36px "PlusJakartaSans-Light", sans-serif;
+  position: relative;
+}
+.frame-8 {
+  background: var(
+    --gradientas,
+    linear-gradient(
+      180deg,
+      rgba(0, 212, 228, 1) 0%,
+      rgba(31, 89, 238, 1) 78.125%
+    )
+  );
+  border-radius: 24px;
+  padding: 15px 34px 15px 34px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.susisiekti-su-mumis {
+  color: #ffffff;
+  text-align: left;
+  font: 700 14px "PlusJakartaSans-Bold", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.rectangle-89 {
+  width: 517.5px;
+  height: 460px;
+  position: absolute;
+  left: 1108px;
+  top: 1510px;
+  overflow: visible;
+}
+.component-1 {
+  width: 1320px;
+  height: 634px;
+  position: absolute;
+  left: 300px;
+  top: 1456px;
+}
+.frame-92 {
+  position: absolute;
+  right: 38.71%;
+  left: 0%;
+  width: 61.29%;
+  bottom: 0%;
+  top: 0%;
+  height: 100%;
+}
+.rectangle-4 {
+  width: 809px;
+  height: 634px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.rectangle-87 {
+  width: 536px;
+  height: 326px;
+  position: absolute;
+  left: 74px;
+  top: 86px;
+}
+.ypatingos-lietuvos-vietos {
+  color: #a6a6a6;
+  text-align: left;
+  font: 500 14px "Roboto-Medium", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 74px;
+  top: 70.14px;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 74px;
+  top: 184px;
+  overflow: hidden;
+}
+.frame-34 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.u-utrakio-dvaras {
+  color: #4b4b4b;
+  text-align: left;
+  font: 500 24px/136.19% "Roboto-Medium", sans-serif;
+  position: relative;
+  width: 346.78px;
+}
+.frame-35 {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.vector {
+  flex-shrink: 0;
+  width: 14px;
+  height: 17.77px;
+  position: relative;
+  overflow: visible;
+}
+.trakai {
+  color: #666666;
+  text-align: left;
+  font: 500 14px/136.19% "Roboto-Medium", sans-serif;
+  position: relative;
+  width: 167.55px;
+}
+.u-utrakio-dvaras-dvaras-stovintis-prie-galv-s-e-ero-u-utrakyje-trakai-kra-tovaizd-io-architekt-ros-draustinis-nuo-1993-m {
+  color: #888888;
+  text-align: left;
+  font: 400 14px/148.19% "Roboto-Regular", sans-serif;
+  position: relative;
+  width: 486px;
+}
+.ant-design-heart-outlined {
+  width: 38.96px;
+  height: 38.96px;
+  position: absolute;
+  left: 1168.92px;
+  top: 779.28px;
+  overflow: hidden;
+}
+.group-5 {
+  height: auto;
+  position: absolute;
+  left: 483.97px;
+  top: 575.27px;
+  overflow: visible;
+}
+.frame-383 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 74px;
+  top: 412px;
+}
+.frame-166 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-82 {
+  border-radius: 24px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: var(
+    --gradientas,
+    linear-gradient(
+      180deg,
+      rgba(0, 212, 228, 1) 0%,
+      rgba(31, 89, 238, 1) 78.125%
+    )
+  );
+  border-image-slice: 1;
+  padding: 15px 34px 15px 34px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.daugiau-apie-objekt {
+  color: var(
+    --gradientas,
+    linear-gradient(
+      180deg,
+      rgba(0, 212, 228, 1) 0%,
+      rgba(31, 89, 238, 1) 78.125%
+    )
+  );
+  text-align: left;
+  font: 700 14px "OpenSans-Bold", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-102 {
+  border-radius: 36px;
+  border-width: 2px;
+  border-style: solid;
+  border-image: var(
+    --gradientas,
+    linear-gradient(
+      180deg,
+      rgba(0, 212, 228, 1) 0%,
+      rgba(31, 89, 238, 1) 78.125%
+    )
+  );
+  border-image-slice: 1;
+  padding: 15px 30px 15px 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 183px;
+  position: relative;
+}
+.vector6 {
+  flex-shrink: 0;
+  width: 16px;
+  height: 20.31px;
+  position: relative;
+  overflow: visible;
+}
+.em-lapis {
+  color: var(
+    --gradientas,
+    linear-gradient(
+      180deg,
+      rgba(0, 212, 228, 1) 0%,
+      rgba(31, 89, 238, 1) 78.125%
+    )
+  );
+  text-align: left;
+  font: 700 14px "OpenSans-Bold", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+}
+.frame-381 {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 608.63px;
+  top: 61px;
+}
+._1-a-89-f-4-fa-38052467-bb-3-a-762390882-f-9-f-2 {
+  border-radius: 15.59px;
+  flex-shrink: 0;
+  width: 320px;
+  height: 449.29px;
+  position: relative;
+  box-shadow: -8px 8px 42px 0px rgba(0, 0, 0, 0.25);
+}
+._1-a-89-f-4-fa-38052467-bb-3-a-762390882-f-9-f-1 {
+  border-radius: 15.59px;
+  flex-shrink: 0;
+  width: 320px;
+  height: 449px;
+  position: relative;
+}
+.footers {
+  background: #11224d;
+  width: 1920px;
+  height: 373px;
+  position: absolute;
+  left: 0px;
+  top: 4035px;
+  overflow: hidden;
+}
+.company-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1228px;
+  top: 69px;
+}
+.navigacija {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: var(--h-5, 700 18px "PlusJakartaSans-Bold", sans-serif);
+  position: relative;
+}
+.pagrindinis {
+  color: var(--primary-light, #dcf2ed);
+  text-align: left;
+  font: 400 16px/150% "PlusJakartaSans-Regular", sans-serif;
+  position: relative;
+}
+.apie-mus {
+  color: var(--primary-light, #dcf2ed);
+  text-align: left;
+  font: 400 16px/150% "PlusJakartaSans-Regular", sans-serif;
+  position: relative;
+}
+.kontaktai {
+  color: var(--primary-light, #dcf2ed);
+  text-align: left;
+  font: 400 16px/150% "PlusJakartaSans-Regular", sans-serif;
+  position: relative;
+}
+.resources-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1450px;
+  top: 69px;
+}
+.kontaktai2 {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: var(--h-5, 700 18px "PlusJakartaSans-Bold", sans-serif);
+  position: relative;
+}
+.uab-keliauk-kartu {
+  color: var(--primary-light, #dcf2ed);
+  text-align: left;
+  font: var(--body-medium, 400 16px/150% "PlusJakartaSans-Regular", sans-serif);
+  position: relative;
+}
+.girinink-g-58-linkuva {
+  color: var(--primary-light, #dcf2ed);
+  text-align: left;
+  font: var(--body-medium, 400 16px/150% "PlusJakartaSans-Regular", sans-serif);
+  position: relative;
+}
+.tel-nr-861234567 {
+  color: var(--primary-light, #dcf2ed);
+  text-align: left;
+  font: var(--body-medium, 400 16px/150% "PlusJakartaSans-Regular", sans-serif);
+  position: relative;
+}
+.divider {
+  opacity: 0.20000000298023224;
+  width: 1920px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 281.5px;
+  transform: translate(0px, -0.5px);
+  overflow: visible;
+}
+.vector7 {
+  width: 244.13px;
+  height: 30px;
+  position: absolute;
+  left: 300px;
+  top: 69px;
+  overflow: visible;
+}
+.copyright-2022-keliauk-kartu {
+  color: var(--primary-light, #dcf2ed);
+  text-align: left;
+  font: var(--body-small, 400 14px/150% "PlusJakartaSans-Regular", sans-serif);
+  position: absolute;
+  left: 864px;
+  top: 317px;
+}
+.frame-169 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 300px;
+  top: 142px;
+}
+.sekite-mus {
+  color: var(--white, #ffffff);
+  text-align: left;
+  font: var(--h-5, 700 18px "PlusJakartaSans-Bold", sans-serif);
+  position: relative;
+}
+.social-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.face-book {
+  border-radius: 48px;
+  border-style: solid;
+  border-color: var(--primary-green, #b8e4da);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.mdi-facebook {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.twitter {
+  border-radius: 48px;
+  border-style: solid;
+  border-color: var(--primary-green, #b8e4da);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.mdi-twitter {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.linkedin {
+  border-radius: 48px;
+  border-style: solid;
+  border-color: var(--primary-green, #b8e4da);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.mdi-linkedin {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.instagram {
+  border-radius: 48px;
+  border-style: solid;
+  border-color: var(--primary-green, #b8e4da);
+  border-width: 1px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.mdi-instagram {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.frame-156 {
+  background: linear-gradient(
+    to left,
+    rgba(148, 160, 86, 0.83),
+    rgba(148, 160, 86, 0.83)
+  );
+  width: 1920px;
+  height: 852px;
+  position: absolute;
+  left: 0px;
+  top: 2263px;
+  overflow: hidden;
+}
+.component-3 {
+  background: var(--white, #ffffff);
+  width: 1320px;
+  height: 471px;
+  position: absolute;
+  left: 300px;
+  top: 191px;
+  overflow: hidden;
+}
+.group-146 {
+  position: absolute;
+  inset: 0;
+}
+.frame-168 {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 127px;
+  top: 121px;
+}
+.mes-dirbame-tam-kad-j-s-gerai-praleistum-te-laik-keliaudami-aplink-lietuv {
+  color: #333333;
+  text-align: left;
+  font: 700 36px "PlusJakartaSans-Bold", sans-serif;
+  position: relative;
+  width: 438px;
+}
+.t-vyn-kaip-ir-mylimoji-mogui-tik-viena-jaroslav-ha-ek {
+  color: #888888;
+  text-align: left;
+  font: 400 16px/150% "PlusJakartaSans-Regular", sans-serif;
+  position: relative;
+  width: 410px;
+  height: 48px;
+}
+.group-145 {
+  width: 482px;
+  height: 338px;
+  position: static;
+}
+.group-303 {
+  width: 482px;
+  height: 338px;
+  position: static;
+}
+.metric-1 {
+  width: 216px;
+  height: 132px;
+  position: absolute;
+  left: 711px;
+  top: 66px;
+}
+.frame-178 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._32 {
+  color: var(
+    --gradientas,
+    linear-gradient(
+      180deg,
+      rgba(0, 212, 228, 1) 0%,
+      rgba(31, 89, 238, 1) 78.125%
+    )
+  );
+  text-align: left;
+  font: 700 50px/120% "PlusJakartaSans-Bold", sans-serif;
+  position: relative;
+}
+.frame-172 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.mar-rutai-p-s-iomis {
+  color: #333333;
+  text-align: left;
+  font: var(--h-5, 700 18px "PlusJakartaSans-Bold", sans-serif);
+  position: relative;
+}
+.naujoms-patirtims {
+  color: #888888;
+  text-align: left;
+  font: var(--body-medium, 400 16px/150% "PlusJakartaSans-Regular", sans-serif);
+  position: relative;
+  width: 216px;
+}
+.metric-2 {
+  width: 216px;
+  height: 156px;
+  position: absolute;
+  left: 711px;
+  top: 248px;
+}
+.frame-176 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._5 {
+  color: var(
+    --gradientas,
+    linear-gradient(
+      180deg,
+      rgba(0, 212, 228, 1) 0%,
+      rgba(31, 89, 238, 1) 78.125%
+    )
+  );
+  text-align: left;
+  font: 700 50px/120% "PlusJakartaSans-Bold", sans-serif;
+  position: relative;
+}
+.frame-175 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.nacionaliniai-parkai {
+  color: #333333;
+  text-align: left;
+  font: var(--h-5, 700 18px "PlusJakartaSans-Bold", sans-serif);
+  position: relative;
+}
+.kiekvienam-entokult-riniam-regionui {
+  color: #888888;
+  text-align: left;
+  font: var(--body-medium, 400 16px/150% "PlusJakartaSans-Regular", sans-serif);
+  position: relative;
+  width: 216px;
+}
+.metric-3 {
+  width: 216px;
+  height: 132px;
+  position: absolute;
+  left: 977px;
+  top: 66px;
+}
+.frame-179 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._412 {
+  color: var(
+    --gradientas,
+    linear-gradient(
+      180deg,
+      rgba(0, 212, 228, 1) 0%,
+      rgba(31, 89, 238, 1) 78.125%
+    )
+  );
+  text-align: left;
+  font: 700 50px/120% "PlusJakartaSans-Bold", sans-serif;
+  position: relative;
+}
+.frame-173 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.komandos-nariai {
+  color: #333333;
+  text-align: left;
+  font: var(--h-5, 700 18px "PlusJakartaSans-Bold", sans-serif);
+  position: relative;
+}
+.dirbantys-prie-io-projekto {
+  color: #888888;
+  text-align: left;
+  font: var(--body-medium, 400 16px/150% "PlusJakartaSans-Regular", sans-serif);
+  position: relative;
+  width: 216px;
+}
+.metric-4 {
+  width: 216px;
+  height: 132px;
+  position: absolute;
+  left: 977px;
+  top: 248px;
+}
+.frame-177 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+._4-142 {
+  color: var(
+    --gradientas,
+    linear-gradient(
+      180deg,
+      rgba(0, 212, 228, 1) 0%,
+      rgba(31, 89, 238, 1) 78.125%
+    )
+  );
+  text-align: left;
+  font: 700 50px/120% "PlusJakartaSans-Bold", sans-serif;
+  position: relative;
+}
+.frame-174 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.lankytin-objekt {
+  color: #333333;
+  text-align: left;
+  font: var(--h-5, 700 18px "PlusJakartaSans-Bold", sans-serif);
+  position: relative;
+}
+.po-vis-lietuv {
+  color: #888888;
+  text-align: left;
+  font: var(--body-medium, 400 16px/150% "PlusJakartaSans-Regular", sans-serif);
+  position: relative;
+  width: 216px;
+}
+.intersect {
+  width: 746px;
+  height: 258px;
+  position: absolute;
+  left: 746px;
+  top: 258px;
+  transform: translate(-746px, -258px);
+  overflow: visible;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1320px;
+  position: absolute;
+  left: 300px;
+  top: 1167px;
+}
+.ri-double-quotes-r {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  position: relative;
+  overflow: visible;
+}
+.lankytinos-vietos-da-nai-palieka-mums-nuostabi-ir-d-iaugsming-prisiminim-aplink-po-vis-lietuv-galima-pamatyti-daugybe-pa-intini-tak-regionini-park-lietuva-da-nai-pasi-ymi-savo-nuostabiais-gamtos-viet-takais-parkais-visgi-tai-n-ra-vienintel-s-vietos-kur-kiekvienas-mogus-yra-pilnai-laukiamas-nuo-sp-ding-muziej-kauno-ar-vilniaus-miestuose-ar-dar-kuriame-i-lietuvos-kra-to-miest-iki-j-ros-pakran-i-upi-ir-e-er {
+  color: #666666;
+  text-align: left;
+  font: 400 16px/200% "PlusJakartaSans-Regular", sans-serif;
+  position: relative;
+  width: 1241px;
+}
+.intersect2 {
+  width: 639.75px;
+  height: 184.32px;
+  position: absolute;
+  left: 1280px;
+  top: 816px;
+  overflow: visible;
+}
+.frame-171 {
+  background: #ffffff;
+  width: 1920px;
+  height: 920px;
+  position: absolute;
+  left: 0px;
+  top: 3115px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+.rekomenduojamos-lankytinos-vietos {
+  color: #262020;
+  text-align: left;
+  font: 700 36px "PlusJakartaSans-Bold", sans-serif;
+  position: absolute;
+  left: 300px;
+  top: 83px;
+}
+.group-144 {
+  position: absolute;
+  inset: 0;
+}
+.frame-165 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 300px;
+  top: 519px;
+}
+.image-3 {
+  flex-shrink: 0;
+  width: 282px;
+  height: 282px;
+  position: relative;
+}
+.frame-157 {
+  background: rgba(43, 43, 43, 0.7);
+  padding: 16px 20px 16px 15px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 282px;
+  position: absolute;
+  left: 0px;
+  top: 228px;
+}
+.kry-i-kalnas {
+  color: #ffffff;
+  text-align: left;
+  font: 600 16px/136.19% "PlusJakartaSans-SemiBold", sans-serif;
+  position: relative;
+}
+.frame-159 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 646px;
+  top: 199px;
+}
+.vent-s-ragas {
+  color: #ffffff;
+  text-align: left;
+  font: 600 16px/136.19% "PlusJakartaSans-SemiBold", sans-serif;
+  position: relative;
+}
+.frame-160 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 646px;
+  top: 519px;
+}
+.bir-tono-ap-valgos-bok-tas {
+  color: #ffffff;
+  text-align: left;
+  font: 600 16px/136.19% "PlusJakartaSans-SemiBold", sans-serif;
+  position: relative;
+}
+.frame-164 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 992px;
+  top: 199px;
+}
+.velnio-akmuo {
+  color: #ffffff;
+  text-align: left;
+  font: 600 16px/136.19% "PlusJakartaSans-SemiBold", sans-serif;
+  position: relative;
+}
+.frame-163 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 992px;
+  top: 519px;
+}
+.merkin-s-piramid {
+  color: #ffffff;
+  text-align: left;
+  font: 600 16px/136.19% "PlusJakartaSans-SemiBold", sans-serif;
+  position: relative;
+}
+.frame-162 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1338px;
+  top: 199px;
+}
+.gedimino-pilis {
+  color: #ffffff;
+  text-align: left;
+  font: 600 16px/136.19% "PlusJakartaSans-SemiBold", sans-serif;
+  position: relative;
+}
+.frame-161 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 1338px;
+  top: 519px;
+}
+.kabantis-lyn-tiltas {
+  color: #ffffff;
+  text-align: left;
+  font: 600 16px/136.19% "PlusJakartaSans-SemiBold", sans-serif;
+  position: relative;
+}
+.frame-158 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 300px;
+  top: 199px;
+}
+.u-utrakio-dvaras2 {
+  color: #ffffff;
+  text-align: left;
+  font: 600 16px/136.19% "PlusJakartaSans-SemiBold", sans-serif;
+  position: relative;
+}
+.intersect3 {
+  width: 402px;
+  height: 126px;
+  position: absolute;
+  left: 402px;
+  top: 794px;
+  transform: translate(-402px, 0px);
+  overflow: visible;
+}
+.intersect4 {
+  width: 402px;
+  height: 126px;
+  position: absolute;
+  left: 1572px;
+  top: 126px;
+  transform: translate(0px, -126px);
+  overflow: visible;
+}
+.frame-2 {
+  background: #ffffff;
+  padding: 20px 300px 20px 300px;
+  width: 1920px;
+  height: 69px;
+  position: sticky;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.frame-11 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1620px;
+  position: absolute;
+  left: 300px;
+  top: 24px;
+}
+.vector13 {
+  flex-shrink: 0;
+  width: 122.07px;
+  height: 15px;
+  position: relative;
+  overflow: visible;
+}
+.frame-103 {
+  padding: 0px 300px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.pagrindinis2 {
+  color: #1b6bed;
+  text-align: left;
+  font: 700 16px "PlusJakartaSans-Bold", sans-serif;
+  text-decoration: underline;
+  position: relative;
+}
+.apie-mus2 {
+  color: #1b6bed;
+  text-align: left;
+  font: 600 16px "PlusJakartaSans-SemiBold", sans-serif;
+  position: relative;
+}
+.kontaktai3 {
+  color: #1b6bed;
+  text-align: left;
+  font: 600 16px "PlusJakartaSans-SemiBold", sans-serif;
+  position: relative;
+}

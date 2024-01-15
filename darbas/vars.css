@@ -1,0 +1,22 @@
+/* Figma Styles of your File */
+:root {
+  /* Colors */
+  --primary-100: #1289af;
+  --black: #000000;
+  --white: #ffffff;
+  --text-citationand-h-2: #333333;
+  --text-paragraph: #666666;
+
+  /* Fonts */
+  --paragraph: 400 18px/32px "HindMadurai-Regular", sans-serif;
+  --h-1: 600 56px/62px "HindMadurai-SemiBold", sans-serif;
+  --button: 400 16px/22px "HindMadurai-Regular", sans-serif;
+  --subtitle: 400 16px/22px "HindMadurai-Regular", sans-serif;
+  --h-2: 600 24px/40px "HindMadurai-SemiBold", sans-serif;
+  --photolabel: 400 12px/20px "HindMadurai-Regular", sans-serif;
+  --citation: 300 28px/40px "HindMadurai-Light", sans-serif;
+  --link: 400 16px/22px "HindMadurai-Regular", sans-serif;
+  --logo: 700 32px/44px "HindMadurai-Bold", sans-serif;
+
+  /* Effects */
+}

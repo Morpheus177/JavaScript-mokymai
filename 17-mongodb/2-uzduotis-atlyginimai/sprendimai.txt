@@ -1,0 +1,26 @@
+use tyrimas2018
+
+db.atsakymai.find()
+
+db.atsakymai.find({'Trukmė (s)': 40})
+
+1. Suraskite visus žmones iš Vilniaus.
+2. Suraskite visus žmones iš Kauno.
+3. Suraskite visus žmones, kurie yra iš Vilniaus, Kauno arba Klaipėdos.
+4. Suraskite visus žmones, kurie yra iš bet kurio kito miesto bet ne Vilniaus, Kauno ar Klaipėdos.
+5. Suraskite visus žmones, kurie yra 3-io lygio.
+6. Suraskite visus žmones, kurie yra 3-io lygio ir programuoja JavaScript.
+7. Suraskite visus žmones, kurie yra 1-o lygio, yra iš Kauno ir programuoja JavaScript.
+8. Suraskite visus žmones, kurių programavimo kalba nėra JavaScript.
+9. Suraskite visus žmones, kurių lygis yra 2 arba 3.
+10. Suraskite visus žmones, kurių atlyginimas yra iki 1000.
+11. Suraskite visus žmones, kurių atlyginimas yra virš 3000 ir yra iš Vilniaus.
+12. Suraskite visus žmones, kurie yra parašę kokį nors komentarą prie savo atsakymo.
+13. Ištraukite tik miestus, atlyginimus ir programavimo kalbą tų žmonių, kurie dirba su JavaScript ir uždirba 2000 arba daugiau.
+14. Suraskite visus žmones, kurių darbo patirtis yra 5 metai ar mažiau, surikiuokite gautus rezultatus pagal patirtį mažėjimo tvarka.
+15. Išsiaiškinkite kiek žmonių yra iš Kauno.
+16. Išsiaiškinkite kiek žmonių yra iš Vilniaus.
+17. Suraskite visus 3 lygio darbuotojus, kurie yra iš didžiųjų Lietuvos miestų (Vilnius, Kaunas, Klaipėda, ...).
+18. Surasktie visus 3 lygio darbuotojus, kurie yra iš mažųjų Lietuvos miestelių (arba nėra iš didžiųjų Lietuvos miestų).
+19. Suraskite visus 3 lygio darbuotojus, kurie yra iš užsienio.
+20. Raskite daugiausiai uždirbantį žmogų, kuris programuoja su JavaScript ir yra 1 lygio (reikės atrinkti pagal nurodytas sąlygas, surikiuoti pagal atlyginimą ir limituoti atsakymą iki 1 įrašo).

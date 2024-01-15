@@ -1,0 +1,65 @@
+GET http://localhost:3000/books
+
+###
+
+GET http://localhost:3000/books/65a10a3d3e6b2ab3fdfa03f1
+
+###
+
+GET http://localhost:3000/books/neegzistuojanti
+
+###
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "Knyga ABC",
+    "author": "Autorius Jonas",
+    "description": "kokia nors knygute",
+    "publishedYear": 2023,
+    "price": 21.49
+}
+
+###
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "title": "Knyga DEF",
+    "author": "Petras",
+    "price": 120.99
+}
+
+###
+
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+    "author": "Petras",
+    "price": 120.99
+}
+
+###
+
+DELETE http://localhost:3000/books/65a10a3d3e6b2ab3fdfa03f1
+
+###
+
+PATCH http://localhost:3000/books/65a10bb23e6b2ab3fdfa03f2
+Content-Type: application/json
+
+{
+    "price": 15
+}
+
+###
+
+PATCH http://localhost:3000/books/65a10bb23e6b2ab3fdfa03f2
+Content-Type: application/json
+
+{
+    "publishedYear": 2025
+}

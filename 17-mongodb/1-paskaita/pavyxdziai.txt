@@ -1,0 +1,111 @@
+naudojam duomenų bazę:
+    use companies_db
+
+imam viską iš employees kolekcijos:
+    db.employees.find()
+
+db.employees.find({age: 25})
+
+db.employees.find({country: 'Lithuania'})
+
+db.employees.find({email: /epa.gov/})
+
+db.employees.find({job_title: 'Tax Accountant'})
+
+db.employees.find({gender:'Genderqueer'})
+
+db.employees.find({age: 30, gender: 'Female'})
+
+db.employees.find({job_title: 'Information Systems Manager'})
+
+db.employees.find({job_title: 'Information Systems Manager', gender: 'Male'})
+
+db.employees.find({job_title: /.*Programmer.*/i})
+
+db.employees.find({age: {$lt: 35}})
+
+db.employees.find({age: {$lte: 20}})
+
+gte lte gt lt
+
+// amžius daugiau nei 60
+db.employees.find({ age: {$gt: 60} })
+
+// amžius mažiau nei 20
+db.employees.find({ age: {$lt: 20} })
+
+// amžius daugiau arba lygu 63
+db.employees.find({ age: {$gte: 63} })
+
+// amžius mažiau arba lygu 19
+db.employees.find({ age: {$lte: 19} })
+
+db.employees.find({age: {$gte: 22, $lte: 28}})
+
+db.employees.find({age: {$gte: 22, $lte: 28}, gender: 'Female'})
+
+db.employees.find({job_title: "Research Associate"})
+db.employees.find({job_title: {$eq: "Research Associate"}})
+
+db.employees.find({job_title: {$ne: "Research Associate"}})
+
+db.employees.find({gender: {$ne: "Female"}})
+
+db.employees.find({_id: ObjectId("659e5ebf766768c54ec70e44")})
+
+db.employees.find({ job_title: 'Sales Associate', age: {$gte: 30, $lte: 40} })
+
+db.employees.find({country: {$in: ['Lithuania', 'Latvia', 'Estonia']}})
+
+db.employees.find({gender: {$in: ['Male', 'Female']}})
+
+db.employees.find({gender: {$nin: ['Male', 'Female']}})
+
+db.employees.distinct('gender')
+
+db.employees.find({ job_title: {$regex: 'Designer'} })
+
+db.employees.find({ job_title: /Designer/ })
+
+db.employees.find({start_date: /-09-/})
+
+// pabandyti rasti žmones kurie naudoja gov paštą
+// pabandyti rasti žmones kurie naudoja gmail (jei yra tokių)
+// pabandyti rasti žmones kurie įsidarbino 2020 metais
+// ...
+
+db.employees.find({start_date: /2020-/})
+
+db.employees.find({email: /gov/})
+
+db.employees.find({}, {first_name: 1, last_name: 1, email: 1})
+
+db.employees.find({}, {first_name: 1, last_name: 1, _id: 0})
+
+db.employees.find({age: 20}, {first_name: 1, last_name: 1, age: 1})
+
+db.employees.find({country: 'Lithuania'}, {_id: 0, first_name: 1, last_name: 1})
+
+db.employees.find({age:{$gte:20,$lte:32}},{first_name:1,last_name:1,age:1})
+
+db.employees.find({age: {$lte: 20}}, {first_name: 1, last_name: 1, age: 1, _id: 0})
+
+db.employees.find({age: {$lte: 20}}, {first_name: true, last_name: true, age: true, _id: false})
+
+db.employees.find().limit(5)
+
+db.employees.find().skip(5).limit(5)
+
+db.employees.find().sort({age: -1})
+
+db.employees.find().sort({age: 1})
+
+db.employees.find({age: {$ne: null}}).sort({age: 1})
+
+db.employees.find().sort({age: -1, last_name: 1})
+
+db.employees.find().sort({salary: -1}).limit(1)
+
+db.employees.find({}, {salary: 1, _id: 0}).sort({salary: -1}).limit(1)
+
+db.employees.aggregate({ $group : { _id: null, max: { $max : "$salary" }}})

@@ -1,0 +1,78 @@
+use todo-app
+
+db.todos.insertOne({title: 'nauja uzduotele', completed: false})
+
+db.todos.findOne({_id: ObjectId("659f9640a52adc380eaa9db0")})
+
+db.todos.insertOne({title: 'papildoma uzduotis', completed: false, location: 'Kaunas'})
+
+db.todos.insertMany([ {title: 'pirma', completed: true}, {title: 'antra', completed: true}, {title: 'trecia', completed: false} ])
+
+db.todos.insertOne({title: 'su papildomom uzduotim', completed: false, subTasks: ['sub 1', 'sub 2']})
+
+db.todos.findOne({_id:  ObjectId("659f9b16a52adc380eaa9db5")})
+
+db.todos.find()
+
+db.todos.find({subTasks: {$exists: true}})
+
+db.todos.find({subTasks: {$exists: false}})
+
+db.todos.find({location: {$exists: true}})
+
+db.todos.insertOne({title: 'su location', completed: false, location: null})
+
+db.todos.find({location: {$exists: true}})
+
+db.todos.insertOne({title: 'pirkiniai', completed: false, subTasks: ['batonas', 'sviestas', 'desra']})
+
+db.todos.find({_id: ObjectId("659fa139a52adc380eaa9db7")})
+
+db.todos.find({subTasks: {$exists: true}})
+
+db.todos.find({subTasks: 'batonas'})
+
+db.todos.insertMany([
+    {
+        title: 'vienas',
+        completed: false,
+        subTasks: [{title: 'vidine 1'}, {title: 'vidine 2'}]
+    },
+    {
+        title: 'du',
+        completed: true,
+        subTasks: [{title: 'vidine 3'}, {title: 'pomidorai'}, {title: 'kecupas'}]
+    }
+])
+
+db.todos.find({'subTasks.title': 'pomidorai'})
+
+db.todos.find({'subTasks.title': 'pomidorai'}, {subTasks: 1})
+
+db.todos.find({completed: false})
+
+db.todos.countDocuments({completed: false})
+
+db.todos.insertOne({title: 'susitvarkyti kambari', completed: false})
+
+db.todos.updateOne({title: 'susitvarkyti kambari'}, {$set: {title: 'susitvarkyti namus'}})
+
+db.todos.find({_id: ObjectId("659faeaba52adc380eaa9dba")})
+
+db.todos.updateOne({title: 'susitvarkyti namus'}, {$set: {completed: true}})
+
+db.todos.find({_id: ObjectId("659faeaba52adc380eaa9dba")})
+
+db.todos.find({subTasks: {$exists: true}})
+
+db.todos.find({_id: ObjectId("659f9b16a52adc380eaa9db5")})
+
+db.todos.updateOne({_id: ObjectId("659f9b16a52adc380eaa9db5")}, {$push: {subTasks: 'naujas naujas'}})
+
+db.todos.find({_id: ObjectId("659f9b16a52adc380eaa9db5")})
+
+db.todos.updateOne({_id: ObjectId("659f9b16a52adc380eaa9db5")}, {$pull: {subTasks: 'sub 1'}})
+
+db.todos.find({_id: ObjectId("659f9b16a52adc380eaa9db5")})
+
+db.todos.deleteOne({_id: ObjectId("659e504c766768c54ec70e3e")})

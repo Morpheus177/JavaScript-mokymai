@@ -14,8 +14,12 @@ const MemoryGame = () => {
   const handleCompare = () => {
     const [firstCard, secondCard] = flippedCards;
   
+    console.log('firstCard:', firstCard);
+    console.log('secondCard:', secondCard);
+  
     if (firstCard && secondCard && firstCard.id === secondCard.id) {
-      // Nustatome, kad abi vienodos kortelės yra atitiktos
+      console.log('Matching cards:', firstCard, secondCard);
+  
       setCards((prevCards) =>
         prevCards.map((card) =>
           card === firstCard
@@ -26,7 +30,8 @@ const MemoryGame = () => {
         )
       );
     } else {
-      // Jei kortelės nesutampa, užverčiame atgal atvertas kortes po laiko
+      console.log('Non-matching cards. Flipping back...');
+  
       setTimeout(() => {
         setCards((prevCards) =>
           prevCards.map((card) =>
@@ -35,41 +40,48 @@ const MemoryGame = () => {
               : card
           )
         );
+        setFlippedCards([]);
+        setAttempts(attempts + 1);
       }, 1000);
     }
-  
-    setFlippedCards([]);
-    setAttempts(attempts + 1);
   };
+  
+  
+
+  
   // ...
 
-const handleCardClick = (clickedCard) => {
-  if (
-    flippedCards.length < 2 &&
-    !flippedCards.includes(clickedCard) &&
-    !matchedCards.includes(clickedCard)
-  ) {
-    const updatedCards = cards.map((card) =>
-      card.id === clickedCard.id ? { ...card, flipped: true } : card
-    );
-    setFlippedCards([...flippedCards, clickedCard]);
-    setCards(updatedCards);
-    if (flippedCards.length === 1) {
-      setIsComparing(true);
-      setTimeout(() => {
-        handleCompare();
-        setIsComparing(false);
-      }, 1000);
+  const handleCardClick = (clickedCard) => {
+    if (
+      flippedCards.length < 2 &&
+      !flippedCards.some((card) => card.id === clickedCard.id) &&
+      !matchedCards.some((card) => card.id === clickedCard.id)
+    ) {
+      const updatedCards = cards.map((card) =>
+        card.id === clickedCard.id ? { ...card, flipped: true } : card
+      );
+      setFlippedCards([...flippedCards, clickedCard]);
+      setCards(updatedCards);
+  
+      if (flippedCards.length === 1) {
+        setIsComparing(true);
+        setTimeout(() => {
+          handleCompare();
+          setIsComparing(false);
+        }, 1000);
+      }
+    } else {
+      // Užverčiame atgal atvertas kortes, kurios nesutampa su nauja kortele
+      const updatedCards = cards.map((card) =>
+        !matchedCards.some((matchedCard) => matchedCard.id === card.id) && card.flipped
+          ? { ...card, flipped: false }
+          : card
+      );
+      setCards(updatedCards);
+      setFlippedCards([clickedCard]);
     }
-  } else {
-    // Užverčiame atgal atvertas kortes, kurios nesutampa su nauja kortele
-    const updatedCards = cards.map((card) =>
-      !matchedCards.includes(card) && card.flipped ? { ...card, flipped: false } : card
-    );
-    setCards(updatedCards);
-    setFlippedCards([clickedCard]);
-  }
-};
+  };
+  
 
 // ...
 
@@ -105,7 +117,7 @@ const handleCardClick = (clickedCard) => {
   }, []);
 
   const generateCards = () => {
-    const symbols = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'Y', 'J', 'K'];
+    const symbols = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
 
     const initialCards = [
       { id: 1, symbol: symbols[0], flipped: false, isMatched: false },
@@ -126,8 +138,9 @@ const handleCardClick = (clickedCard) => {
 
     // Sukurkime poras kortelių
     for (let i = 0; i < initialCards.length; i++) {
-      const card1 = { ...initialCards[i], id: i * 2, imageUrl: `/photo/photo${i + 1}.jpg` };
-      const card2 = { ...initialCards[i], id: i * 2 + 1, imageUrl: `/photo/photo${i + 1}.jpg` };
+      const card1 = { ...initialCards[i], id: i * 2, symbol: symbols[i], imageUrl: `/photo/photo${i + 1}.jpg` };
+const card2 = { ...initialCards[i], id: i * 2 + 1, symbol: symbols[i], imageUrl: `/photo/photo${i + 1}.jpg` };
+
       generatedCards.push(card1, card2);
     }
 

@@ -1,0 +1,61 @@
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Užtikrina, kad konteineris užimtų viso lango aukštį */
+}
+
+
+
+
+.card {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: transform 0.3s;
+  margin: 5px;
+}
+
+.card.flipped {
+  transform: rotateY(180deg);
+}
+h1 {
+  text-align: center;
+  margin: auto;
+}
+.img-container {
+  max-width: 122px;
+  max-height: 122px;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Arba "contain", priklausomai nuo to, kaip norite, kad nuotrauka būtų surenkama į konteinerį */
+}
+.card-image {
+  width: 90px; /* Pakeiskite dydį pagal savo poreikius */
+
+  height: 90px; /* Pakeiskite dydį pagal savo poreikius */
+
+}
+
+
+
+
+

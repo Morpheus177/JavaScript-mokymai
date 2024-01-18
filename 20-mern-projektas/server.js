@@ -19,7 +19,7 @@ connection.once('open', () => {
 });
 
 // Routes
-const uzrasaiRouter = require('./routes/uzrasai');
+
 
 app.use('/uzrasai', uzrasaiRouter);
 

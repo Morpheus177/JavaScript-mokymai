@@ -79,9 +79,6 @@ const MemoryGame = () => {
   };
   
 
-// ...
-
-
   useEffect(() => {
   if (flippedCards.length === 2) {
     const [firstCard, secondCard] = flippedCards;
@@ -92,16 +89,16 @@ const MemoryGame = () => {
     setTimeout(() => {
       setFlippedCards([]);
       setAttempts(attempts + 1);
-    }, 1000);  //  sekundžių laukimo laikas
+    }, 1000);  
   }
 }, [flippedCards, matchedCards, attempts]);
 
   useEffect(() => {
     if (isGameFinished) {
-      // Priklausomai nuo to, kaip jūsų vartotojo sąsaja yra organizuota, galbūt čia gali būti iškviesta funkcija, kuri rodo pranešimą žaidėjui.
+      
       showGameFinishedMessage();
     }
-  }, [isGameFinished, attempts, /* ir kiti būsenos kintamieji */]);
+  }, [isGameFinished, attempts, ]);
   
   const showGameFinishedMessage = () => {
     alert(`Sveikiname! Jūs laimėjote žaidimą per ${attempts === 0 ? 1 : attempts} bandymus!`);
@@ -112,17 +109,17 @@ const MemoryGame = () => {
   };
   
   
-  
-  
-  
   useEffect(() => {
     const allPairsMatched = cards.every((card) => card.isMatched);
+  
+    console.log("Matched cards:", matchedCards); 
+    console.log("All pairs matched:", allPairsMatched);
   
     if (allPairsMatched) {
       setIsGameFinished(true);
     }
-  }, [cards]);
-
+  }, [cards, matchedCards]);
+  
   const generateCards = () => {
     const symbols = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L'];
 
@@ -143,7 +140,7 @@ const MemoryGame = () => {
 
     const generatedCards = [];
 
-    // Sukurkime poras kortelių
+    
     for (let i = 0; i < initialCards.length; i++) {
       const card1 = { ...initialCards[i], id: i * 2, symbol: symbols[i], imageUrl: `/photo/photo${i + 1}.jpg` };
 const card2 = { ...initialCards[i], id: i * 2 + 1, symbol: symbols[i], imageUrl: `/photo/photo${i + 1}.jpg` };
@@ -151,10 +148,10 @@ const card2 = { ...initialCards[i], id: i * 2 + 1, symbol: symbols[i], imageUrl:
       generatedCards.push(card1, card2);
     }
 
-    // Permaišykime kortelių masyvą
+    
     const shuffledCards = shuffleArray(generatedCards);
 
-    // Nustatykime kortelių masyvą naudojant setCards
+    
     setCards(shuffledCards);
   };
 

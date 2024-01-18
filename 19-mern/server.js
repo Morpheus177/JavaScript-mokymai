@@ -7,6 +7,16 @@ const PORT = process.env.PORT || 3001;
 
 app.use(cors());
 app.use(express.json());
+app.get('/api/uzrasai', async (req, res) => {
+  try {
+    const uzrasai = await Uzras.find();
+    res.json(uzrasai);
+  } catch (error) {
+    console.error(error);
+    res.status(500).send('Serverio klaida.');
+  }
+});
+
 
 mongoose.connect('mongodb://localhost:27017/mern-project', {
   useNewUrlParser: true,
@@ -19,6 +29,13 @@ const uzrasSchema = new mongoose.Schema({
 });
 
 const Uzras = mongoose.model('Uzras', uzrasSchema);
+const uzrasaiArray = Object.values(uzrasai);
+
+// Dabar galite naudoti .map() metoda
+uzrasaiArray.map((item) => {
+  // jūsų kodas čia
+});
+
 
 // Pridėti užrašą
 app.post('/api/uzrasai', async (req, res) => {
